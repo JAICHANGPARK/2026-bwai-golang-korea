@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f3f7f2"/>
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#14532d" stroke-width="4"/>
+  <text x="130" y="170" font-family="Arial, sans-serif" font-size="40" fill="#111827">Sample Problem 3</text>
+  <text x="130" y="250" font-family="Arial, sans-serif" font-size="34" fill="#111827">Choose the correct answer.</text>
+  <text x="130" y="340" font-family="Arial, sans-serif" font-size="46" fill="#0f172a">The roots of x^2 - 5x + 6 = 0 are:</text>
+  <text x="160" y="430" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">1) 1 and 6</text>
+  <text x="160" y="490" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">2) 2 and 3</text>
+  <text x="160" y="550" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">3) -2 and -3</text>
+  <text x="160" y="610" font-family="Arial, sans-serif" font-size="32" fill="#1f2937">4) 5 and 6</text>
+</svg>

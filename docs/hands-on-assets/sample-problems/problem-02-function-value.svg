@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#eef6ff"/>
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+  <text x="130" y="170" font-family="Arial, sans-serif" font-size="40" fill="#111827">Sample Problem 2</text>
+  <text x="130" y="250" font-family="Arial, sans-serif" font-size="34" fill="#111827">Find the function value.</text>
+  <text x="130" y="350" font-family="Arial, sans-serif" font-size="50" fill="#0f172a">If f(x) = x^2 - 4x + 3, find f(5).</text>
+  <text x="130" y="470" font-family="Arial, sans-serif" font-size="28" fill="#475569">Show the substitution step clearly.</text>
+</svg>

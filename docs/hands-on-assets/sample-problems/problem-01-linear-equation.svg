@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f7f4ea"/>
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <text x="130" y="170" font-family="Arial, sans-serif" font-size="40" fill="#111827">Sample Problem 1</text>
+  <text x="130" y="250" font-family="Arial, sans-serif" font-size="34" fill="#111827">Solve for x.</text>
+  <text x="130" y="350" font-family="Arial, sans-serif" font-size="54" fill="#0f172a">2x + 5 = 17</text>
+  <text x="130" y="470" font-family="Arial, sans-serif" font-size="28" fill="#475569">Write the answer and explain each step.</text>
+</svg>
