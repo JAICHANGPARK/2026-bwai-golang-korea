@@ -7,6 +7,8 @@ source_docs:
   - docs/math-agent-system-spec.md
   - docs/math-agent-knowledge-plan.md
   - docs/internal-knowledge-base-build.md
+  - docs/math-curriculum-research/README.md
+  - docs/math-concept-encyclopedia/README.md
 tags:
   - product
   - architecture
@@ -27,6 +29,7 @@ tags:
   - 교육과정 원문
   - 성취기준
   - 개념 카드
+  - 학년 허브와 개념 그래프
   - 오답 패턴
   - 복습 추천
 - 데이터 계층은 세 층으로 나뉜다.
@@ -40,6 +43,7 @@ tags:
 - 데이터 수집 방향은 [../source-notes/math-agent-knowledge-plan.md](../source-notes/math-agent-knowledge-plan.md)에서 본다.
 - 내부 지식 설계는 [../components/internal-knowledge-base.md](../components/internal-knowledge-base.md)에 정리되어 있다.
 - 구축 순서는 [../syntheses/knowledge-roadmap.md](../syntheses/knowledge-roadmap.md)로 연결된다.
+- 개념 문서 구조는 [../syntheses/concept-card-model.md](../syntheses/concept-card-model.md)에서 본다.
 
 ## Open Questions
 
@@ -52,3 +56,5 @@ tags:
 - `docs/math-agent-system-spec.md`
 - `docs/math-agent-knowledge-plan.md`
 - `docs/internal-knowledge-base-build.md`
+- `docs/math-curriculum-research/README.md`
+- `docs/math-concept-encyclopedia/README.md`

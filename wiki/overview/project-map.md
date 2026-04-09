@@ -9,6 +9,8 @@ source_docs:
   - docs/math-agent-system-spec.md
   - docs/math-agent-knowledge-plan.md
   - docs/internal-knowledge-base-build.md
+  - docs/math-curriculum-research/README.md
+  - docs/math-concept-encyclopedia/README.md
 tags:
   - overview
   - project-map
@@ -34,6 +36,7 @@ tags:
   - OCR 및 구조화
   - 내부 지식베이스
   - 교육과정 매핑
+  - 개념 그래프와 개념 카드
   - 복습 추천
   - File Search 또는 외부 검색 계층
 
@@ -43,6 +46,7 @@ tags:
 - 제품형 범위는 [../profiles/product-expansion-profile.md](../profiles/product-expansion-profile.md)에서 본다.
 - 에이전트 역할은 [../components/solver-explainer-agent.md](../components/solver-explainer-agent.md), [../components/expert-verifier-agent.md](../components/expert-verifier-agent.md)에 정리되어 있다.
 - 지식 인프라는 [../components/internal-knowledge-base.md](../components/internal-knowledge-base.md)와 [../syntheses/knowledge-roadmap.md](../syntheses/knowledge-roadmap.md)에 연결된다.
+- 개념 카드 구조는 [../syntheses/concept-card-model.md](../syntheses/concept-card-model.md)에서 본다.
 - 프롬프트 운영은 [../components/prompt-pack.md](../components/prompt-pack.md)에서 본다.
 
 ## Open Questions
@@ -58,3 +62,5 @@ tags:
 - `docs/math-agent-system-spec.md`
 - `docs/math-agent-knowledge-plan.md`
 - `docs/internal-knowledge-base-build.md`
+- `docs/math-curriculum-research/README.md`
+- `docs/math-concept-encyclopedia/README.md`

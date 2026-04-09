@@ -2,10 +2,12 @@
 title: Internal Knowledge Base
 type: component
 status: active
-updated: 2026-04-06
+updated: 2026-04-09
 source_docs:
   - docs/internal-knowledge-base-build.md
   - docs/math-agent-knowledge-plan.md
+  - docs/math-curriculum-research/README.md
+  - docs/math-concept-encyclopedia/README.md
 tags:
   - knowledge-base
   - rag
@@ -32,10 +34,18 @@ tags:
   - 원천 데이터
   - 정규화 데이터
   - 검색용 청크
+- 현재의 유력한 raw source 패밀리
+  - `docs/math-curriculum-research/`
+  - `docs/math-concept-encyclopedia/`
+- 위키에서는 `개념 카드`와 `과목·경로 카드`를 사람 읽기용 정규화 레이어로 둘 수 있다.
+  - 개념 카드는 학년 허브만으로 표현되지 않는 선수 관계와 재등장 관계를 모은다.
+  - 과목·경로 카드는 `공통수학1`, `Algebra I`, `Integrated Mathematics`처럼 실제 수업 단위의 묶음을 보존한다.
+  - 필요하면 이후 검색용 카드와 DB 엔터티로 더 분해한다.
 - 핵심 지식 타입 예시
   - `CurriculumDocument`
   - `AchievementStandard`
   - `ConceptCard`
+  - `CourseCard`
   - `StrategyCard`
   - `ErrorPatternCard`
 
@@ -44,6 +54,7 @@ tags:
 - 왜 이런 데이터가 필요한지는 [../syntheses/knowledge-roadmap.md](../syntheses/knowledge-roadmap.md)에서 이어진다.
 - 제품형 시스템의 상위 맥락은 [../profiles/product-expansion-profile.md](../profiles/product-expansion-profile.md)에 있다.
 - 원문 요약은 [../source-notes/internal-knowledge-base-build.md](../source-notes/internal-knowledge-base-build.md)를 본다.
+- 개념 문서 구조안은 [../syntheses/concept-card-model.md](../syntheses/concept-card-model.md)에 있다.
 
 ## Open Questions
 
@@ -54,3 +65,5 @@ tags:
 
 - `docs/internal-knowledge-base-build.md`
 - `docs/math-agent-knowledge-plan.md`
+- `docs/math-curriculum-research/README.md`
+- `docs/math-concept-encyclopedia/README.md`
