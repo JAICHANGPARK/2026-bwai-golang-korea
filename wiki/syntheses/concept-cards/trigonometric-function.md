@@ -75,15 +75,15 @@ tags:
 
 ## Connections
 
-- 선수 개념은 [trigonometric-ratio.md](./trigonometric-ratio.md), `단위원`, `좌표평면`이다.
-- 다음 개념으로는 `미분`, `파동`, `벡터`, `극좌표`가 이어진다.
+- 선수 개념은 [trigonometric-ratio.md](./trigonometric-ratio.md), [radians.md](./radians.md), [function-foundations.md](./function-foundations.md)다.
+- 같은 축의 인접 개념으로는 [trigonometric-identities.md](./trigonometric-identities.md), [trigonometric-graphs.md](./trigonometric-graphs.md), [polar-ideas.md](./polar-ideas.md)가 있다.
+- 다음 개념으로는 [derivative.md](./derivative.md), [vectors.md](./vectors.md), [precalculus.md](./precalculus.md)가 이어진다.
 - 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
 - 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)와 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/geometry-strand.md)를 함께 본다.
 
 ## Open Questions
 
-- `단위원`과 `라디안`을 삼각함수 카드의 하위 설명으로 둘지 독립 카드로 뺄지 기준이 필요하다.
-- `삼각함수의 그래프`를 별도 시각화 카드로 만들지 검토가 필요하다.
+- `단위원`을 [radians.md](./radians.md), [trigonometric-function.md](./trigonometric-function.md), [polar-ideas.md](./polar-ideas.md) 중 어디의 중심 브리지로 둘지 기준이 더 필요하다.
 
 ## Sources
 

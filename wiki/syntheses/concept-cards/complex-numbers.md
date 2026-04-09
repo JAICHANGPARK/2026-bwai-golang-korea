@@ -56,11 +56,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [quadratic-equation.md](./quadratic-equation.md), [square-roots-and-real-numbers.md](./square-roots-and-real-numbers.md)다.
-- 다음 개념으로는 [complex-plane.md](./complex-plane.md), [vectors.md](./vectors.md), [algebra-2.md](./algebra-2.md)가 이어진다.
+- 같은 축의 인접 개념으로는 [complex-number-operations.md](./complex-number-operations.md), [algebra-2.md](./algebra-2.md)가 있다.
+- 다음 개념으로는 [complex-number-operations.md](./complex-number-operations.md), [complex-plane.md](./complex-plane.md), [vectors.md](./vectors.md)가 이어진다.
 
 ## Open Questions
 
-- 복소수의 연산 규칙을 이 카드 안에 유지할지, 별도 하위 카드로 더 분리할지 기준이 필요하다.
+- `복소수의 나눗셈`과 `켤레복소수의 활용`을 이 카드 계열 안에서 어디까지 확장할지 기준이 더 필요하다.
 
 ## Sources
 

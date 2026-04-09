@@ -47,10 +47,25 @@ tags:
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
+- [../syntheses/concept-cards/japan-middle-1.md](../syntheses/concept-cards/japan-middle-1.md)
+- [../syntheses/concept-cards/japan-middle-2.md](../syntheses/concept-cards/japan-middle-2.md)
+- [../syntheses/concept-cards/japan-middle-3.md](../syntheses/concept-cards/japan-middle-3.md)
+- [../syntheses/concept-cards/japan-math-1.md](../syntheses/concept-cards/japan-math-1.md)
+- [../syntheses/concept-cards/japan-math-a.md](../syntheses/concept-cards/japan-math-a.md)
+- [../syntheses/concept-cards/japan-math-2.md](../syntheses/concept-cards/japan-math-2.md)
+- [../syntheses/concept-cards/japan-math-b.md](../syntheses/concept-cards/japan-math-b.md)
+- [../syntheses/concept-cards/japan-math-3.md](../syntheses/concept-cards/japan-math-3.md)
+- [../syntheses/concept-cards/japan-math-c.md](../syntheses/concept-cards/japan-math-c.md)
+- [../syntheses/japan-curriculum-hub.md](../syntheses/japan-curriculum-hub.md)
+- [../syntheses/course-track-hub.md](../syntheses/course-track-hub.md)
+- [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
+- [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
+- [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/assessment-systems-comparison.md](../syntheses/assessment-systems-comparison.md)
 
 ## Open Questions
 
-- 일본 `수학I/A/B`의 개념을 평가 레이어와 함께 따로 정리할지 후속 synthesis가 필요하다.
+- 일본 `공통테스트`와 대학별 시험의 과목별 체감 차이를 별도 평가 wrapper로 더 나눌지 기준이 필요하다.
 
 ## Raw Source
 

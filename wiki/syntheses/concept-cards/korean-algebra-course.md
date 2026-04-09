@@ -43,12 +43,12 @@ tags:
 
 ## Connections
 
-- 핵심 카드로는 [exponential-and-logarithmic-functions.md](./exponential-and-logarithmic-functions.md), [trigonometric-function.md](./trigonometric-function.md), [sequences.md](./sequences.md), [mathematical-induction.md](./mathematical-induction.md)가 있다.
+- 핵심 카드로는 [exponential-and-logarithmic-functions.md](./exponential-and-logarithmic-functions.md), [trigonometric-function.md](./trigonometric-function.md), [radians.md](./radians.md), [trigonometric-identities.md](./trigonometric-identities.md), [sequences.md](./sequences.md), [mathematical-induction.md](./mathematical-induction.md)가 있다.
 - 다음 과목 카드로는 [calculus-1.md](./calculus-1.md), [calculus-2.md](./calculus-2.md)와 연결된다.
 
 ## Open Questions
 
-- `라디안`, `삼각함수 항등식`, `수열의 합 공식` 같은 세부 하위 개념을 `대수` 카드에서 언제 분리할지 검토가 필요하다.
+- `수열의 합 공식`과 `삼각함수의 그래프`를 `대수` 카드에서 언제 별도 하위 카드로 분리할지 검토가 필요하다.
 
 ## Sources
 

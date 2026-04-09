@@ -34,6 +34,7 @@ tags:
 - [../syntheses/concept-cards/quadratic-function.md](../syntheses/concept-cards/quadratic-function.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
+- [../syntheses/concept-cards/trigonometric-graphs.md](../syntheses/concept-cards/trigonometric-graphs.md)
 - [../syntheses/concept-cards/counting-principles.md](../syntheses/concept-cards/counting-principles.md)
 - [../syntheses/concept-cards/conditional-probability.md](../syntheses/concept-cards/conditional-probability.md)
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
@@ -41,10 +42,15 @@ tags:
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
 - [../syntheses/concept-cards/complex-plane.md](../syntheses/concept-cards/complex-plane.md)
+- [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
+- [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
+- [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/example-pattern-library.md](../syntheses/example-pattern-library.md)
+- [../syntheses/assessment-patterns.md](../syntheses/assessment-patterns.md)
 
 ## Open Questions
 
-- 나라별 문제 감각 비교를 concept card에 직접 넣을지, 별도 comparative synthesis로 분리할지 판단이 필요하다.
+- 나라별 문제 감각 비교를 concept card에 직접 넣을지, 별도 comparative synthesis와 assessment layer로 더 분리할지 판단이 필요하다.
 
 ## Raw Source
 

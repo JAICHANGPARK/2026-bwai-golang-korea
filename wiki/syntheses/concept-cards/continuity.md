@@ -53,11 +53,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [limits.md](./limits.md), [function-foundations.md](./function-foundations.md)다.
-- 다음 개념으로는 [differentiation.md](./differentiation.md), [calculus-1.md](./calculus-1.md), [calculus-course.md](./calculus-course.md)가 이어진다.
+- 같은 축의 인접 개념으로는 [continuity-properties.md](./continuity-properties.md), [differentiation.md](./differentiation.md)가 있다.
+- 다음 개념으로는 [continuity-properties.md](./continuity-properties.md), [differentiation.md](./differentiation.md), [calculus-course.md](./calculus-course.md)가 이어진다.
 
 ## Open Questions
 
-- `연속함수의 성질`을 별도 하위 카드로 더 분리할지 후속 설계가 필요하다.
+- `중간값정리`와 `최대최소정리`를 별도 심화 카드로 더 뺄지 후속 설계가 필요하다.
 
 ## Sources
 

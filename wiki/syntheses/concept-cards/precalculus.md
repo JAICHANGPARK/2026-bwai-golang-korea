@@ -43,12 +43,12 @@ Precalculus는 미적분 직전 단계에서 함수 세계를 정리하는 미�
 
 ## Connections
 
-- 핵심 카드로는 [trigonometric-function.md](./trigonometric-function.md), [exponential-and-logarithmic-functions.md](./exponential-and-logarithmic-functions.md), [sequences.md](./sequences.md), [sequences-and-series.md](./sequences-and-series.md), [polar-ideas.md](./polar-ideas.md), [algebra-2.md](./algebra-2.md)가 있다.
+- 핵심 카드로는 [trigonometric-function.md](./trigonometric-function.md), [radians.md](./radians.md), [trigonometric-identities.md](./trigonometric-identities.md), [exponential-and-logarithmic-functions.md](./exponential-and-logarithmic-functions.md), [sequences.md](./sequences.md), [sequences-and-series.md](./sequences-and-series.md), [polar-ideas.md](./polar-ideas.md), [algebra-2.md](./algebra-2.md)가 있다.
 - 다음 과목 카드로는 [calculus-course.md](./calculus-course.md), [advanced-tracks.md](./advanced-tracks.md)가 이어진다.
 
 ## Open Questions
 
-- `radians`와 `identities`를 별도 하위 카드로 더 분리할지 후속 설계가 필요하다.
+- `삼각함수 그래프`와 `복소수-극형식 연결`을 Precalculus 하위 카드로 더 분리할지 후속 설계가 필요하다.
 
 ## Sources
 

@@ -54,11 +54,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [limits.md](./limits.md), [linear-function.md](./linear-function.md), [quadratic-function.md](./quadratic-function.md)다.
-- 다음 개념으로는 [integration.md](./integration.md), `최적화`, `운동 해석`이 이어진다.
+- 같은 축의 인접 개념으로는 [derivative.md](./derivative.md), [continuity.md](./continuity.md)가 있다.
+- 다음 개념으로는 [derivative.md](./derivative.md), [integration.md](./integration.md), [calculus-course.md](./calculus-course.md)가 이어진다.
 
 ## Open Questions
 
-- `도함수`를 미분 카드 내부 개념으로 둘지 별도 카드로 분리할지 검토가 필요하다.
+- `미분법의 계산 규칙`과 `도함수의 그래프 해석`을 별도 세부 카드로 더 분리할지 검토가 필요하다.
 
 ## Sources
 

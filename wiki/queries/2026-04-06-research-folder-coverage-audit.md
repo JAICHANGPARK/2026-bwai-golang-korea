@@ -29,14 +29,15 @@ tags:
 
 ## Summary
 
-이번 턴 기준으로 `docs/math-curriculum-research/`와 `docs/math-concept-encyclopedia/`의 문서군은 모두 `source-note` 계층에 직접 반영되었고, concept card layer도 75개까지 확장되었다. 이전 감사 노트에서 남겨 두었던 `세부 하위 개념 카드`와 `과목 wrapper 카드` 배치도 persistent layer로 승격되었고, 최근 배치에서 `복소수`, `복소수평면`, `수학적 모델링·수학 탐구`, `Polar Ideas`, `Sequences and Series`, `AP Statistics`까지 추가되었다. 이제 남은 과제는 `나라 비교 synthesis`, `course-track hub`, `예제·오개념·평가 레이어` 확장과 일부 세부 하위 카드 보강이다.
+이번 턴 기준으로 `docs/math-curriculum-research/`와 `docs/math-concept-encyclopedia/`의 문서군은 모두 `source-note` 계층에 반영되었고, concept card layer도 `107개`까지 확장되었다. 이전 감사 노트에서 남겨 두었던 `세부 하위 개념 카드`, `나라별 wrapper 카드`, `나라별 curriculum hub`, `course-track hub`, `나라 비교 synthesis`, `예제·오개념·평가 패턴 synthesis`도 모두 persistent layer로 승격되었다. 이제 남은 과제는 `새 docs 기반 필수 반영`이 아니라 카드 밀도와 메타데이터를 다듬는 선택형 심화 작업이다.
 
 ## Key Points
 
 - 전체 상태
   - `math-curriculum-research/`: source-note 계층 반영 완료
   - `math-concept-encyclopedia/`: source-note 계층 반영 완료
-  - `persistent concept layer`: 75개 카드에 국가별 배치 또는 course-track 정보 반영
+  - `persistent concept layer`: 107개 카드에 국가별 배치 또는 course-track 정보 반영
+  - `persistent synthesis layer`: 국가 허브, 비교 synthesis, support synthesis 반영 완료
 - 현재 직접 반영된 문서
   - `docs/math-curriculum-research/README.md`
   - `docs/math-curriculum-research/korea.md`
@@ -57,11 +58,12 @@ tags:
   - 세부 하위 개념: `행렬`, `수학적 귀납법`, `연속성`, `상관계수`, `도형의 이동`
   - 한국 과목 wrapper: `공통수학1`, `공통수학2`, `대수`, `미적분I`, `확률과 통계`, `미적분II`, `기하`, `기본수학1·2`
   - 미국 과목·경로 wrapper: `Algebra I`, `Geometry`, `Algebra II`, `Precalculus`, `Calculus`, `Statistics and Data Analysis`, `Advanced Tracks`
-  - 최근 추가 카드: `복소수`, `복소수평면`, `수학적 모델링·수학 탐구`, `Polar Ideas`, `Sequences and Series`, `AP Statistics`
-- 현재 남은 확장 후보
+  - 최근 추가 카드: `복소수`, `복소수평면`, `수학적 모델링·수학 탐구`, `Polar Ideas`, `Sequences and Series`, `AP Statistics`, `복소수의 연산`, `행렬의 연산`, `라디안`, `삼각함수 항등식`, `도함수`
+- 이번 배치에서 닫힌 확장 후보
   - synthesis 확장: `나라별 curriculum hub`, `course-track hub`, `cross-country comparison synthesis`
-  - support cards: `예제 카드`, `오개념 카드`, `평가 패턴 synthesis`
-  - 추가 하위 개념: `복소수의 연산`, `행렬의 연산`, `연속함수의 성질`, `라디안`, `삼각함수 항등식`, `AP Calculus`, `IB Mathematics`
+  - support synthesis: `example pattern`, `misconception map`, `assessment pattern`
+  - 추가 하위 개념: `연속함수의 성질`, `삼각함수의 그래프`, `복소수의 나눗셈`, `도함수의 그래프 해석`, `AP Calculus`, `IB Mathematics`
+  - 미국 중학교 wrapper: `Grade 6`, `Grade 7`, `Grade 8`
 
 ### Folder Status Details
 
@@ -75,21 +77,14 @@ tags:
 ### Recommended Next Expansion Order
 
 - 1차
-  - `나라별 curriculum hub`
-  - `course-track hub`
-  - `cross-country comparison synthesis`
+  - `proof-rich anchor cards` 보강
+  - `persistent grade hub` 승격 판단
 - 2차
-  - `예제 카드`
-  - `오개념 카드`
-  - `평가 패턴 synthesis`
+  - alias/frontmatter 표준화
+  - finer theorem subcards
 - 3차
-  - `복소수의 연산`
-  - `행렬의 연산`
-  - `연속함수의 성질`
-  - `라디안`
-  - `삼각함수 항등식`
-  - `AP Calculus`
-  - `IB Mathematics`
+  - 학습자 레벨별 뷰 분기
+  - 검색·추천용 메타데이터 추가
 
 ## Connections
 
@@ -100,8 +95,8 @@ tags:
 
 ## Open Questions
 
-- 다음 우선순위를 `개념 카드 수 늘리기`와 `나라 비교 synthesis 만들기` 중 어디에 둘지 결정이 필요하다.
-- 미국처럼 `경로형` 교육과정을 별도 허브로 뺄지, 개념 카드 안의 `국가별 배치 스냅샷`으로 계속 처리할지 기준이 필요하다.
+- 다음 우선순위를 `proof density 보강`과 `새 세부 카드 추가` 중 어디에 둘지 결정이 필요하다.
+- 미국처럼 `경로형` 교육과정을 별도 허브로 뺀 현재 구조를 더 세분할지 기준이 필요하다.
 - `formula-examples.md`, `unit-practice-book.md`, `comparative-problem-book.md`를 검색 카드 단위로 더 쪼갤지 문서형 자산으로 유지할지 후속 설계가 필요하다.
 
 ## Sources

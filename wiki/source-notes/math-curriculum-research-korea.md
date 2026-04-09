@@ -42,6 +42,7 @@ tags:
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
 - [../syntheses/concept-cards/matrix.md](../syntheses/concept-cards/matrix.md)
+- [../syntheses/concept-cards/matrix-operations.md](../syntheses/concept-cards/matrix-operations.md)
 - [../syntheses/concept-cards/mathematical-induction.md](../syntheses/concept-cards/mathematical-induction.md)
 - [../syntheses/concept-cards/continuity.md](../syntheses/concept-cards/continuity.md)
 - [../syntheses/concept-cards/counting-principles.md](../syntheses/concept-cards/counting-principles.md)
@@ -58,10 +59,16 @@ tags:
 - [../syntheses/concept-cards/korean-geometry-course.md](../syntheses/concept-cards/korean-geometry-course.md)
 - [../syntheses/concept-cards/basic-math-1-and-2.md](../syntheses/concept-cards/basic-math-1-and-2.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
+- [../syntheses/korea-curriculum-hub.md](../syntheses/korea-curriculum-hub.md)
+- [../syntheses/course-track-hub.md](../syntheses/course-track-hub.md)
+- [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
+- [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
+- [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/assessment-systems-comparison.md](../syntheses/assessment-systems-comparison.md)
 
 ## Open Questions
 
-- 한국 문서를 `교육과정 구조`, `학습 문화`, `입시 구조`로 다시 쪼개 별도 synthesis로 확장할 수 있다.
+- 한국 문서를 `교육과정 구조`, `학습 문화`, `입시 구조`로 다시 더 세분할지 기준이 필요하다.
 
 ## Raw Source
 

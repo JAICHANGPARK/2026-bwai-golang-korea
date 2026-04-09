@@ -30,14 +30,19 @@ tags:
 - [../syntheses/concept-cards/quadratic-equation.md](../syntheses/concept-cards/quadratic-equation.md)
 - [../syntheses/concept-cards/quadratic-function.md](../syntheses/concept-cards/quadratic-function.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
+- [../syntheses/concept-cards/trigonometric-graphs.md](../syntheses/concept-cards/trigonometric-graphs.md)
+- [../syntheses/concept-cards/trigonometric-identities.md](../syntheses/concept-cards/trigonometric-identities.md)
+- [../syntheses/concept-cards/derivative.md](../syntheses/concept-cards/derivative.md)
+- [../syntheses/concept-cards/derivative-graph-interpretation.md](../syntheses/concept-cards/derivative-graph-interpretation.md)
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
 - [../syntheses/concept-cards/normal-distribution.md](../syntheses/concept-cards/normal-distribution.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
+- [../syntheses/example-pattern-library.md](../syntheses/example-pattern-library.md)
 
 ## Open Questions
 
-- 예제 문단을 concept card 안에 직접 넣을지, 별도 example card로 분리할지 기준이 필요하다.
+- 예제 문단을 concept card 안에 직접 넣을지, 별도 example library와 하위 example card로 나눌지 기준이 필요하다.
 
 ## Raw Source
 

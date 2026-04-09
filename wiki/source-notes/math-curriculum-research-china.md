@@ -45,10 +45,25 @@ tags:
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
 - [../syntheses/concept-cards/mathematical-modeling-and-inquiry.md](../syntheses/concept-cards/mathematical-modeling-and-inquiry.md)
+- [../syntheses/concept-cards/china-grade-7-semester-1.md](../syntheses/concept-cards/china-grade-7-semester-1.md)
+- [../syntheses/concept-cards/china-grade-7-semester-2.md](../syntheses/concept-cards/china-grade-7-semester-2.md)
+- [../syntheses/concept-cards/china-grade-8-semester-1.md](../syntheses/concept-cards/china-grade-8-semester-1.md)
+- [../syntheses/concept-cards/china-grade-8-semester-2.md](../syntheses/concept-cards/china-grade-8-semester-2.md)
+- [../syntheses/concept-cards/china-grade-9-semester-1.md](../syntheses/concept-cards/china-grade-9-semester-1.md)
+- [../syntheses/concept-cards/china-grade-9-semester-2.md](../syntheses/concept-cards/china-grade-9-semester-2.md)
+- [../syntheses/concept-cards/china-required-curriculum.md](../syntheses/concept-cards/china-required-curriculum.md)
+- [../syntheses/concept-cards/china-elective-required-curriculum.md](../syntheses/concept-cards/china-elective-required-curriculum.md)
+- [../syntheses/concept-cards/china-elective-concept-clusters.md](../syntheses/concept-cards/china-elective-concept-clusters.md)
+- [../syntheses/china-curriculum-hub.md](../syntheses/china-curriculum-hub.md)
+- [../syntheses/course-track-hub.md](../syntheses/course-track-hub.md)
+- [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
+- [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
+- [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/assessment-systems-comparison.md](../syntheses/assessment-systems-comparison.md)
 
 ## Open Questions
 
-- 중국 `필수`와 `선택필수`를 개념 카드 난이도 레이어와 어떻게 연결할지 기준이 더 필요하다.
+- 중국 `필수`, `선택필수`, `선택`의 난이도 차이를 카드 메타데이터에 얼마나 직접 반영할지 기준이 더 필요하다.
 
 ## Raw Source
 

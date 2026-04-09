@@ -54,7 +54,19 @@ tags:
 
 - [syntheses/profile-boundary.md](./syntheses/profile-boundary.md) - 핸즈온 프로파일과 제품 확장 프로파일의 경계를 비교한다. Sources: 5
 - [syntheses/knowledge-roadmap.md](./syntheses/knowledge-roadmap.md) - 수집, 정규화, 검색, 설명까지의 지식 구축 로드맵을 요약한다. Sources: 5
-- [syntheses/concept-card-model.md](./syntheses/concept-card-model.md) - 학년 허브와 별도로 `개념 카드`를 지속 위키 자산으로 두는 구조를 정리한다.
+- [syntheses/concept-card-model.md](./syntheses/concept-card-model.md) - 학년 허브와 별도로 `개념 카드`를 지속 위키 자산으로 두는 구조와 `정석형 서술 + 그래프 연결` 기준을 정리한다.
+- [syntheses/korea-curriculum-hub.md](./syntheses/korea-curriculum-hub.md) - 한국의 학년형 중학 구조와 과목형 고교 구조를 묶는 허브다.
+- [syntheses/japan-curriculum-hub.md](./syntheses/japan-curriculum-hub.md) - 일본의 학년형 중학과 `수학I/A/II/B/III/C` 고교 구조를 묶는 허브다.
+- [syntheses/china-curriculum-hub.md](./syntheses/china-curriculum-hub.md) - 중국의 학기형 중학과 `필수/선택필수` 고교 구조를 묶는 허브다.
+- [syntheses/us-curriculum-hub.md](./syntheses/us-curriculum-hub.md) - 미국의 Grade 6~8과 course-track 고교 구조를 묶는 허브다.
+- [syntheses/course-track-hub.md](./syntheses/course-track-hub.md) - 네 나라의 과목·경로 구조를 비교하는 메타 허브다.
+- [syntheses/cross-country-function-progression.md](./syntheses/cross-country-function-progression.md) - 함수 위계의 국가별 전이 방식을 비교한다.
+- [syntheses/cross-country-geometry-and-proof.md](./syntheses/cross-country-geometry-and-proof.md) - 기하와 증명 전면화 시점을 국가별로 비교한다.
+- [syntheses/cross-country-statistics-and-data.md](./syntheses/cross-country-statistics-and-data.md) - 자료 읽기에서 추정·회귀까지의 국가별 전개를 비교한다.
+- [syntheses/assessment-systems-comparison.md](./syntheses/assessment-systems-comparison.md) - 수능, 공통테스트, 가오카오, SAT/holistic admissions의 차이를 비교한다.
+- [syntheses/example-pattern-library.md](./syntheses/example-pattern-library.md) - 개념 카드에 재사용할 예제 패턴의 유형을 정리한다.
+- [syntheses/misconception-pattern-map.md](./syntheses/misconception-pattern-map.md) - 반복되는 수학 오개념 패턴을 축별로 정리한다.
+- [syntheses/assessment-patterns.md](./syntheses/assessment-patterns.md) - 나라별 문항 감각과 평가 패턴을 비교한다.
 
 ## Concept Syntheses
 
@@ -68,10 +80,13 @@ tags:
 - [syntheses/concept-cards/linear-inequality.md](./syntheses/concept-cards/linear-inequality.md) - `일차부등식`을 해의 범위와 부등호 반전 규칙 중심으로 정리한다.
 - [syntheses/concept-cards/simultaneous-equations.md](./syntheses/concept-cards/simultaneous-equations.md) - `연립방정식`을 소거법, 교점 해석, 선형 관계 브리지 중심으로 정리한다.
 - [syntheses/concept-cards/matrix.md](./syntheses/concept-cards/matrix.md) - `행렬`을 배열 표현과 선형 관계 브리지 중심으로 정리한다.
+- [syntheses/concept-cards/matrix-operations.md](./syntheses/concept-cards/matrix-operations.md) - `행렬의 연산`을 성분별 덧셈과 행렬곱의 구조 중심으로 정리한다.
 - [syntheses/concept-cards/square-roots-and-real-numbers.md](./syntheses/concept-cards/square-roots-and-real-numbers.md) - `제곱근과 실수`를 무리수와 실수 체계 확장 중심으로 정리한다.
 - [syntheses/concept-cards/polynomials-and-factorization.md](./syntheses/concept-cards/polynomials-and-factorization.md) - `다항식과 인수분해`를 전개와 구조 인식 중심으로 정리한다.
 - [syntheses/concept-cards/quadratic-equation.md](./syntheses/concept-cards/quadratic-equation.md) - `이차방정식`을 근의 공식, 판별식, x절편 연결 중심으로 정리한다.
 - [syntheses/concept-cards/complex-numbers.md](./syntheses/concept-cards/complex-numbers.md) - `복소수`를 허수단위, 해의 확장, 복소평면 브리지 중심으로 정리한다.
+- [syntheses/concept-cards/complex-number-operations.md](./syntheses/concept-cards/complex-number-operations.md) - `복소수의 연산`을 $i^2=-1$ 규칙과 켤레복소수 감각 중심으로 정리한다.
+- [syntheses/concept-cards/complex-division.md](./syntheses/concept-cards/complex-division.md) - `복소수의 나눗셈`을 켤레복소수를 이용한 분모 유리화 중심으로 정리한다.
 - [syntheses/concept-cards/mathematical-induction.md](./syntheses/concept-cards/mathematical-induction.md) - `수학적 귀납법`을 자연수 명제 증명 방법 중심으로 정리한다.
 
 ### Functions And Calculus
@@ -86,10 +101,16 @@ tags:
 - [syntheses/concept-cards/sequences-and-series.md](./syntheses/concept-cards/sequences-and-series.md) - `Sequences and Series`를 수열과 급수의 누적 관점 중심으로 정리한다.
 - [syntheses/concept-cards/limits.md](./syntheses/concept-cards/limits.md) - `극한`을 무한 과정과 연속성의 언어로 정리한다.
 - [syntheses/concept-cards/continuity.md](./syntheses/concept-cards/continuity.md) - `연속성`을 극한과 함수값의 연결 규칙 중심으로 정리한다.
+- [syntheses/concept-cards/continuity-properties.md](./syntheses/concept-cards/continuity-properties.md) - `연속함수의 성질`을 중간값과 최댓값·최솟값 감각 중심으로 정리한다.
 - [syntheses/concept-cards/differentiation.md](./syntheses/concept-cards/differentiation.md) - `미분`을 순간변화율과 접선 기울기 중심으로 정리한다.
+- [syntheses/concept-cards/derivative.md](./syntheses/concept-cards/derivative.md) - `도함수`를 미분의 결과 함수와 증가·감소 해석 중심으로 정리한다.
+- [syntheses/concept-cards/derivative-graph-interpretation.md](./syntheses/concept-cards/derivative-graph-interpretation.md) - `도함수의 그래프 해석`을 증가·감소, 극값, 볼록성 감각 중심으로 정리한다.
 - [syntheses/concept-cards/integration.md](./syntheses/concept-cards/integration.md) - `적분`을 넓이와 누적량의 언어로 정리한다.
 - [syntheses/concept-cards/trigonometric-ratio.md](./syntheses/concept-cards/trigonometric-ratio.md) - `삼각비`를 닮음 기반 증명 스케치와 함께 정리한다.
 - [syntheses/concept-cards/trigonometric-function.md](./syntheses/concept-cards/trigonometric-function.md) - `삼각함수`를 단위원, 주기성, 항등식, 국가별 배치와 함께 정리한다.
+- [syntheses/concept-cards/trigonometric-graphs.md](./syntheses/concept-cards/trigonometric-graphs.md) - `삼각함수의 그래프`를 진폭, 주기, 위상이동 해석 중심으로 정리한다.
+- [syntheses/concept-cards/radians.md](./syntheses/concept-cards/radians.md) - `라디안`을 호의 길이와 미적분 전단계 브리지 중심으로 정리한다.
+- [syntheses/concept-cards/trigonometric-identities.md](./syntheses/concept-cards/trigonometric-identities.md) - `삼각함수 항등식`을 피타고라스 관계와 함수 변환 문법 중심으로 정리한다.
 - [syntheses/concept-cards/polar-ideas.md](./syntheses/concept-cards/polar-ideas.md) - `Polar Ideas`를 거리와 각의 표현 전환, Precalculus 브리지 중심으로 정리한다.
 
 ### Geometry And Coordinates
@@ -133,13 +154,36 @@ tags:
 - [syntheses/concept-cards/calculus-2.md](./syntheses/concept-cards/calculus-2.md) - 한국 `미적분II`를 고급 미적분 허브로 정리한다.
 - [syntheses/concept-cards/korean-geometry-course.md](./syntheses/concept-cards/korean-geometry-course.md) - 한국 `기하`를 이차곡선·공간좌표·벡터 허브로 정리한다.
 - [syntheses/concept-cards/basic-math-1-and-2.md](./syntheses/concept-cards/basic-math-1-and-2.md) - 한국 `기본수학1·2`를 기초 공통 경로로 정리한다.
+- [syntheses/concept-cards/japan-middle-1.md](./syntheses/concept-cards/japan-middle-1.md) - 일본 `중1`을 정수, 비례·반비례, 작도, 자료 읽기 허브로 정리한다.
+- [syntheses/concept-cards/japan-middle-2.md](./syntheses/concept-cards/japan-middle-2.md) - 일본 `중2`를 연립방정식, 일차함수, 합동과 증명 허브로 정리한다.
+- [syntheses/concept-cards/japan-middle-3.md](./syntheses/concept-cards/japan-middle-3.md) - 일본 `중3`을 이차, 닮음, 표본조사 허브로 정리한다.
+- [syntheses/concept-cards/japan-math-1.md](./syntheses/concept-cards/japan-math-1.md) - 일본 `수학I`를 중등-고등 브리지 과목으로 정리한다.
+- [syntheses/concept-cards/japan-math-a.md](./syntheses/concept-cards/japan-math-a.md) - 일본 `수학A`를 경우의 수와 확률 허브로 정리한다.
+- [syntheses/concept-cards/japan-math-2.md](./syntheses/concept-cards/japan-math-2.md) - 일본 `수학II`를 함수와 미적분 전개 허브로 정리한다.
+- [syntheses/concept-cards/japan-math-b.md](./syntheses/concept-cards/japan-math-b.md) - 일본 `수학B`를 수열과 통계적 추측 허브로 정리한다.
+- [syntheses/concept-cards/japan-math-3.md](./syntheses/concept-cards/japan-math-3.md) - 일본 `수학III`를 고급 미적분 허브로 정리한다.
+- [syntheses/concept-cards/japan-math-c.md](./syntheses/concept-cards/japan-math-c.md) - 일본 `수학C`를 벡터·복소수평면 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-7-semester-1.md](./syntheses/concept-cards/china-grade-7-semester-1.md) - 중국 `7학년 1학기`를 유리수·일차방정식 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-7-semester-2.md](./syntheses/concept-cards/china-grade-7-semester-2.md) - 중국 `7학년 2학기`를 좌표, 연립방정식, 부등식 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-8-semester-1.md](./syntheses/concept-cards/china-grade-8-semester-1.md) - 중국 `8학년 1학기`를 합동, 축대칭, 인수분해 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-8-semester-2.md](./syntheses/concept-cards/china-grade-8-semester-2.md) - 중국 `8학년 2학기`를 일차함수와 데이터 분석 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-9-semester-1.md](./syntheses/concept-cards/china-grade-9-semester-1.md) - 중국 `9학년 1학기`를 이차와 원, 확률 기초 허브로 정리한다.
+- [syntheses/concept-cards/china-grade-9-semester-2.md](./syntheses/concept-cards/china-grade-9-semester-2.md) - 중국 `9학년 2학기`를 닮음과 예각 삼각함수 허브로 정리한다.
+- [syntheses/concept-cards/china-required-curriculum.md](./syntheses/concept-cards/china-required-curriculum.md) - 중국 `필수 과정`을 함수·기하와 대수·확통 허브로 정리한다.
+- [syntheses/concept-cards/china-elective-required-curriculum.md](./syntheses/concept-cards/china-elective-required-curriculum.md) - 중국 `선택필수 과정`을 도함수·해석기하·확률변수 허브로 정리한다.
+- [syntheses/concept-cards/china-elective-concept-clusters.md](./syntheses/concept-cards/china-elective-concept-clusters.md) - 중국 `선택 과정의 개념군`을 메타 허브로 정리한다.
+- [syntheses/concept-cards/us-grade-6.md](./syntheses/concept-cards/us-grade-6.md) - 미국 `Grade 6`을 비율, 유리수, 식과 기초 통계 허브로 정리한다.
+- [syntheses/concept-cards/us-grade-7.md](./syntheses/concept-cards/us-grade-7.md) - 미국 `Grade 7`을 비례, 일차식, 표본·확률 허브로 정리한다.
+- [syntheses/concept-cards/us-grade-8.md](./syntheses/concept-cards/us-grade-8.md) - 미국 `Grade 8`을 함수, 닮음, 이변량 데이터 허브로 정리한다.
 - [syntheses/concept-cards/algebra-1.md](./syntheses/concept-cards/algebra-1.md) - 미국 `Algebra I`를 선형·이차 대수 입문 허브로 정리한다.
 - [syntheses/concept-cards/geometry-course.md](./syntheses/concept-cards/geometry-course.md) - 미국 `Geometry`를 증명·변환·삼각비 허브로 정리한다.
 - [syntheses/concept-cards/algebra-2.md](./syntheses/concept-cards/algebra-2.md) - 미국 `Algebra II`를 고급 함수와 수열 허브로 정리한다.
 - [syntheses/concept-cards/precalculus.md](./syntheses/concept-cards/precalculus.md) - 미국 `Precalculus`를 미적분 직전 함수 통합 허브로 정리한다.
 - [syntheses/concept-cards/calculus-course.md](./syntheses/concept-cards/calculus-course.md) - 미국 `Calculus`를 상위 미적분 course-track 허브로 정리한다.
+- [syntheses/concept-cards/ap-calculus.md](./syntheses/concept-cards/ap-calculus.md) - 미국 `AP Calculus`를 외부평가 연동 미적분 wrapper로 정리한다.
 - [syntheses/concept-cards/statistics-and-data-analysis.md](./syntheses/concept-cards/statistics-and-data-analysis.md) - 미국 `Statistics and Data Analysis`를 데이터 해석 허브로 정리한다.
 - [syntheses/concept-cards/ap-statistics.md](./syntheses/concept-cards/ap-statistics.md) - 미국 `AP Statistics`를 고급 통계 이수와 외부 평가 wrapper로 정리한다.
+- [syntheses/concept-cards/ib-mathematics.md](./syntheses/concept-cards/ib-mathematics.md) - 미국 맥락의 `IB Mathematics`를 국제과정 wrapper로 정리한다.
 - [syntheses/concept-cards/advanced-tracks.md](./syntheses/concept-cards/advanced-tracks.md) - 미국 `Advanced Tracks`를 Honors/AP/IB 메타 경로로 정리한다.
 - [syntheses/concept-cards/mathematical-modeling-and-inquiry.md](./syntheses/concept-cards/mathematical-modeling-and-inquiry.md) - `수학적 모델링·수학 탐구`를 현실 문제 번역과 해석 활동 중심으로 정리한다.
 - [syntheses/concept-cards/economics-math.md](./syntheses/concept-cards/economics-math.md) - `경제 수학`을 이자, 현재가치, 경제 모델링 중심으로 정리한다.
@@ -188,8 +232,8 @@ tags:
 - [queries/math-curriculum-graph/trigonometric-ratio.md](./queries/math-curriculum-graph/trigonometric-ratio.md) - `삼각비` 개념 카드를 중등-고등 브리지 노드로 다루는 샘플 페이지
 - [queries/math-curriculum-graph/probability-and-statistics-course.md](./queries/math-curriculum-graph/probability-and-statistics-course.md) - `확률과 통계` 과목 노드를 다루는 샘플 페이지
 - [queries/math-curriculum-graph/csat-2028.md](./queries/math-curriculum-graph/csat-2028.md) - `2028학년도 수능`을 평가 레이어 노드로 다루는 샘플 페이지
-- [queries/2026-04-06-research-folder-coverage-audit.md](./queries/2026-04-06-research-folder-coverage-audit.md) - 두 개의 리서치 폴더 ingest 완료 상태와 다음 확장 우선순위를 점검한 감사 노트
-- [queries/2026-04-09-remaining-curriculum-backlog.md](./queries/2026-04-09-remaining-curriculum-backlog.md) - 예전 대표 개념 backlog는 완료되었고, 지금 실제로 남은 wrapper·hub·비교 synthesis와 세부 하위 backlog를 다시 정리한 노트
+- [queries/2026-04-06-research-folder-coverage-audit.md](./queries/2026-04-06-research-folder-coverage-audit.md) - 두 개의 리서치 폴더가 persistent layer에 얼마나 반영되었는지와 남은 선택형 심화 작업을 점검한 감사 노트
+- [queries/2026-04-09-remaining-curriculum-backlog.md](./queries/2026-04-09-remaining-curriculum-backlog.md) - docs 기반 대표 backlog가 사실상 닫힌 뒤, 남은 선택형 심화 후보를 다시 정리한 노트
 
 ## Query And Lint Destinations
 

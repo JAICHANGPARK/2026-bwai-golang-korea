@@ -50,11 +50,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [simultaneous-equations.md](./simultaneous-equations.md), [variables-and-expressions.md](./variables-and-expressions.md)다.
-- 같이 읽을 카드로는 [common-math-1.md](./common-math-1.md), [vectors.md](./vectors.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 있다.
+- 같은 축의 인접 개념으로는 [matrix-operations.md](./matrix-operations.md), [common-math-1.md](./common-math-1.md)가 있다.
+- 같이 읽을 카드로는 [matrix-operations.md](./matrix-operations.md), [vectors.md](./vectors.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 있다.
 
 ## Open Questions
 
-- 학교 수준에서 `행렬의 연산`까지 확장할지, 현재처럼 `표현과 구조` 중심 카드로 둘지 기준이 더 필요하다.
+- `역행렬`과 `행렬식`까지 학교 수준 확장 카드로 둘지 기준이 더 필요하다.
 
 ## Sources
 

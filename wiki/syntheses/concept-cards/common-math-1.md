@@ -43,7 +43,7 @@ tags:
 
 ## Connections
 
-- 핵심 카드로는 [polynomials-and-factorization.md](./polynomials-and-factorization.md), [linear-inequality.md](./linear-inequality.md), [counting-principles.md](./counting-principles.md), [matrix.md](./matrix.md)가 있다.
+- 핵심 카드로는 [polynomials-and-factorization.md](./polynomials-and-factorization.md), [linear-inequality.md](./linear-inequality.md), [counting-principles.md](./counting-principles.md), [matrix.md](./matrix.md), [matrix-operations.md](./matrix-operations.md)가 있다.
 - 다음 과목 카드로는 [common-math-2.md](./common-math-2.md), [korean-algebra-course.md](./korean-algebra-course.md), [probability-and-statistics-course.md](./probability-and-statistics-course.md)가 이어진다.
 
 ## Open Questions

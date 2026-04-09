@@ -40,6 +40,7 @@ tags:
 - [../syntheses/concept-cards/linear-inequality.md](../syntheses/concept-cards/linear-inequality.md)
 - [../syntheses/concept-cards/simultaneous-equations.md](../syntheses/concept-cards/simultaneous-equations.md)
 - [../syntheses/concept-cards/matrix.md](../syntheses/concept-cards/matrix.md)
+- [../syntheses/concept-cards/matrix-operations.md](../syntheses/concept-cards/matrix-operations.md)
 - [../syntheses/concept-cards/proportion.md](../syntheses/concept-cards/proportion.md)
 - [../syntheses/concept-cards/inverse-proportion.md](../syntheses/concept-cards/inverse-proportion.md)
 - [../syntheses/concept-cards/function-foundations.md](../syntheses/concept-cards/function-foundations.md)
@@ -61,11 +62,17 @@ tags:
 - [../syntheses/concept-cards/spatial-coordinates.md](../syntheses/concept-cards/spatial-coordinates.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
+- [../syntheses/concept-cards/trigonometric-graphs.md](../syntheses/concept-cards/trigonometric-graphs.md)
+- [../syntheses/concept-cards/radians.md](../syntheses/concept-cards/radians.md)
+- [../syntheses/concept-cards/trigonometric-identities.md](../syntheses/concept-cards/trigonometric-identities.md)
 - [../syntheses/concept-cards/exponential-and-logarithmic-functions.md](../syntheses/concept-cards/exponential-and-logarithmic-functions.md)
 - [../syntheses/concept-cards/sequences.md](../syntheses/concept-cards/sequences.md)
 - [../syntheses/concept-cards/limits.md](../syntheses/concept-cards/limits.md)
 - [../syntheses/concept-cards/continuity.md](../syntheses/concept-cards/continuity.md)
+- [../syntheses/concept-cards/continuity-properties.md](../syntheses/concept-cards/continuity-properties.md)
 - [../syntheses/concept-cards/differentiation.md](../syntheses/concept-cards/differentiation.md)
+- [../syntheses/concept-cards/derivative.md](../syntheses/concept-cards/derivative.md)
+- [../syntheses/concept-cards/derivative-graph-interpretation.md](../syntheses/concept-cards/derivative-graph-interpretation.md)
 - [../syntheses/concept-cards/integration.md](../syntheses/concept-cards/integration.md)
 - [../syntheses/concept-cards/mathematical-induction.md](../syntheses/concept-cards/mathematical-induction.md)
 - [../syntheses/concept-cards/data-organization.md](../syntheses/concept-cards/data-organization.md)
@@ -91,6 +98,7 @@ tags:
 - [../syntheses/concept-cards/mathematics-for-ai.md](../syntheses/concept-cards/mathematics-for-ai.md)
 - [../syntheses/concept-cards/workplace-math.md](../syntheses/concept-cards/workplace-math.md)
 - [../syntheses/concept-cards/mathematics-and-culture.md](../syntheses/concept-cards/mathematics-and-culture.md)
+- [../syntheses/korea-curriculum-hub.md](../syntheses/korea-curriculum-hub.md)
 
 ## Open Questions
 

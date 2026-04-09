@@ -41,11 +41,11 @@ Advanced Tracks는 미국 수학 교육에서 Honors, AP, IB, Dual Enrollment처
 
 ## Connections
 
-- 관련 과목 카드로는 [algebra-1.md](./algebra-1.md), [geometry-course.md](./geometry-course.md), [algebra-2.md](./algebra-2.md), [precalculus.md](./precalculus.md), [calculus-course.md](./calculus-course.md), [statistics-and-data-analysis.md](./statistics-and-data-analysis.md), [ap-statistics.md](./ap-statistics.md), [integrated-mathematics.md](./integrated-mathematics.md)가 있다.
+- 관련 과목 카드로는 [algebra-1.md](./algebra-1.md), [geometry-course.md](./geometry-course.md), [algebra-2.md](./algebra-2.md), [precalculus.md](./precalculus.md), [calculus-course.md](./calculus-course.md), [ap-calculus.md](./ap-calculus.md), [ib-mathematics.md](./ib-mathematics.md), [statistics-and-data-analysis.md](./statistics-and-data-analysis.md), [ap-statistics.md](./ap-statistics.md), [integrated-mathematics.md](./integrated-mathematics.md)가 있다.
 
 ## Open Questions
 
-- `AP Calculus`와 `IB Mathematics`를 독립 wrapper로 더 세분화할지 후속 설계가 필요하다.
+- Honors와 Dual Enrollment까지 세부 wrapper로 더 쪼갤지 후속 설계가 필요하다.
 
 ## Sources
 

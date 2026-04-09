@@ -2,7 +2,7 @@
 title: Source Note - Math Curriculum Research Comparison
 type: source-note
 status: active
-updated: 2026-04-06
+updated: 2026-04-09
 source_docs:
   - docs/math-curriculum-research/comparison.md
 tags:
@@ -28,10 +28,17 @@ tags:
 
 - [../queries/math-curriculum-graph/csat-2028.md](../queries/math-curriculum-graph/csat-2028.md)
 - [../queries/2026-04-06-research-folder-coverage-audit.md](../queries/2026-04-06-research-folder-coverage-audit.md)
+- [../queries/2026-04-09-remaining-curriculum-backlog.md](../queries/2026-04-09-remaining-curriculum-backlog.md)
+- [../syntheses/course-track-hub.md](../syntheses/course-track-hub.md)
+- [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
+- [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
+- [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/assessment-systems-comparison.md](../syntheses/assessment-systems-comparison.md)
+- [../syntheses/assessment-patterns.md](../syntheses/assessment-patterns.md)
 
 ## Open Questions
 
-- 네 나라 비교를 `함수`, `기하`, `통계`, `입시` 축으로 재구성한 별도 synthesis가 필요하다.
+- `대수와 함수`, `기하와 논증`, `통계와 데이터` 외에 별도 `수학 문화/응용 과목` 비교축을 만들지 기준이 더 필요하다.
 
 ## Raw Source
 
