@@ -2,7 +2,8 @@
 title: 도함수
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/us.md
@@ -131,8 +132,8 @@ tags:
 - 선수 개념은 [limits.md](./limits.md), [continuity.md](./continuity.md), [differentiation.md](./differentiation.md)다.
 - 같은 축의 인접 개념으로는 [derivative-graph-interpretation.md](./derivative-graph-interpretation.md), [integration.md](./integration.md), [trigonometric-identities.md](./trigonometric-identities.md)가 있다.
 - 다음 개념으로는 [derivative-graph-interpretation.md](./derivative-graph-interpretation.md), [integration.md](./integration.md), [calculus-course.md](./calculus-course.md)가 이어진다.
-- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
-- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)를 본다.
+- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-3-hub.md)와 연결된다.
+- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/functions-strand.md)를 본다.
 
 ## Open Questions
 

@@ -2,7 +2,8 @@
 title: 일본 중1 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 중1 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `중1`은 수 체계 확장, 문자식, 비례·반비례, 기초 작도와 데이터 읽기를 한 해에 묶는 시작 허브다. 중학교 3년 구조가 분명한 일본 커리큘럼의 첫 계단으로, 이후 [japan-middle-2.md](./japan-middle-2.md)와 [japan-middle-3.md](./japan-middle-3.md)로 올라가는 기반을 만든다.
 

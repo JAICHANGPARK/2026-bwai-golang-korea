@@ -2,7 +2,8 @@
 title: Algebra I
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Algebra I
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Algebra I는 미국 고등 수학 경로의 본격적인 대수 입문 과목이다. 선형관계와 이차식의 기초를 식, 표, 그래프를 오가며 읽는 능력을 중심에 둔다.
 

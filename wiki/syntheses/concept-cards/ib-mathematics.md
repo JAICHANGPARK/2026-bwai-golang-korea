@@ -2,7 +2,8 @@
 title: IB Mathematics
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/us.md
   - docs/math-curriculum-research/comparison.md
@@ -17,6 +18,9 @@ tags:
 # IB Mathematics
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 IB Mathematics는 미국 고교의 advanced track 문맥에서 자주 보이는 국제형 심화 수학 경로다. [advanced-tracks.md](./advanced-tracks.md)가 AP, IB, Honors를 함께 묶는 메타 카드라면, 이 카드는 `IB`가 대학 준비에서 어떤 신호로 읽히는지와 폭넓은 수학 이수 맥락을 더 분리해 보여 준다.
 

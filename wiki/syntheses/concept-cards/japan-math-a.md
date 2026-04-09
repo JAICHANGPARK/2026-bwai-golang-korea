@@ -2,7 +2,8 @@
 title: 일본 수학A
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 수학A
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `수학A`는 도형의 성질, 경우의 수와 확률, 수학과 인간 활동을 묶는 선택형 과목이다. 일본 고교 수학에서 `기하적 성질`과 `조합·확률`을 함께 세우는 특징적인 카드다.
 

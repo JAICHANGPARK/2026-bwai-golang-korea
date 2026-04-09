@@ -2,7 +2,8 @@
 title: 일본 수학C
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 수학C
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `수학C`는 벡터, 평면 위의 곡선과 복소수평면, 수학적 표현의 고안을 묶는 고급 좌표·대수 브리지 과목이다. 일본 고교 선택 과목 가운데 기하와 대수를 가장 세련되게 묶는 카드라고 볼 수 있다.
 

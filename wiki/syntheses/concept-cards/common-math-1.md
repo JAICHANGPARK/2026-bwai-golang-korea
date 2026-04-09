@@ -2,7 +2,8 @@
 title: 공통수학1
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 공통수학1
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 공통수학1은 한국 고등학교 수학의 첫 공통 과목으로, 다항식과 방정식, 경우의 수, 행렬을 한 코스 안에 묶는다. 중학교 대수 감각을 고등학교식 구조로 재조립하는 압축 코스라고 볼 수 있다.
 

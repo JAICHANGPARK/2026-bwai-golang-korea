@@ -2,7 +2,8 @@
 title: 문자와 식
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -25,6 +26,7 @@ tags:
 
 - 정의
   - 수 대신 문자를 사용해 관계나 규칙을 나타낸 표현을 식이라 한다.
+  - 문자에는 값이 바뀔 수 있는 변수와 일정한 값을 나타내는 상수가 있다.
 - 핵심 개념
   - 변수
   - 상수
@@ -32,15 +34,30 @@ tags:
   - 계수
   - 식의 값
   - 동류항
+  - 전개
+  - 치환
+- 대표 성질
+  - 동류항은 문자와 차수가 같은 항끼리만 합칠 수 있다.
+  - 분배법칙 $a(b+c)=ab+ac$는 식의 전개와 축약의 핵심이다.
+  - 같은 식에 같은 값을 대입하면 같은 값이 나온다.
 - 대표 수식
   - $2x+3x=5x$
   - $ab+ac=a(b+c)$
+  - $3(x-2)=3x-6$
 - 증명 스케치
   - `증명 스케치 (추론)`:
   - $2x$는 `x가 두 개`, $3x$는 `x가 세 개`라는 뜻이므로 합치면 `x가 다섯 개`가 된다.
   - 그래서 $2x+3x=5x$는 동류항 결합의 가장 기본 원리다.
-- 대표 예제
-  - $x=2$일 때 $3x+1=7$이다.
+  - 분배법칙은 `묶어서 생각한 뒤 다시 펼치기`와 `펼친 뒤 다시 묶기`가 같은 뜻이라는 것을 보여 준다.
+## Worked Examples
+  - 예제 1: $x=2$일 때 $3x+1=7$이다.
+  - 예제 2: $a=4$, $b=-1$일 때 $ab+ac=a(b+c)$처럼 공통인수 $a$를 묶을 수 있다.
+  - 예제 3: $5y-2y+7=3y+7$처럼 동류항을 먼저 정리한다.
+## Common Pitfalls
+  - 문자 하나를 항상 같은 특정 수로만 보면 변수의 의미를 놓친다.
+  - $x^2$와 $2x$를 동류항으로 보면 안 된다.
+  - $3(x+2)$를 $3x+2$로 잘못 전개하면 안 된다.
+  - 식의 값은 변수에 숫자를 넣어야 정해진다.
 - 교육과정 배치
   - 한국 대표 배치에서는 `중1`의 핵심 대수 입문 단원이다.
 - 국가별 배치 스냅샷
@@ -55,7 +72,9 @@ tags:
 ## Connections
 
 - 선수 개념은 [integers-and-rational-numbers.md](./integers-and-rational-numbers.md)다.
-- 다음 개념으로는 [algebraic-manipulation.md](./algebraic-manipulation.md), [linear-equation.md](./linear-equation.md), [function-foundations.md](./function-foundations.md)가 이어진다.
+- 같은 축의 인접 개념으로는 [algebraic-manipulation.md](./algebraic-manipulation.md), [linear-equation.md](./linear-equation.md)가 있다.
+- 다음 개념으로는 [function-foundations.md](./function-foundations.md), [polynomials-and-factorization.md](./polynomials-and-factorization.md), [linear-inequality.md](./linear-inequality.md)가 이어진다.
+- 중1 허브와 중2 허브는 [middle-1-hub.md](../middle-1-hub.md), [middle-2-hub.md](../middle-2-hub.md)에서 다시 본다.
 
 ## Open Questions
 

@@ -2,7 +2,7 @@
 title: Assessment Systems Comparison
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/comparison.md
   - docs/math-curriculum-research/korea.md
@@ -25,7 +25,7 @@ tags:
 
 - 한국
   - 수학 과목 선택과 내신, 수능 준비의 결합이 강하다.
-  - 관련 카드: [korea-curriculum-hub.md](./korea-curriculum-hub.md), [../queries/math-curriculum-graph/csat-2028.md](../queries/math-curriculum-graph/csat-2028.md)
+  - 관련 카드: [korea-curriculum-hub.md](./korea-curriculum-hub.md), [csat-2028.md](./csat-2028.md)
 - 일본
   - 공통테스트의 넓이와 대학별 시험의 깊이가 동시에 작동한다.
   - 관련 카드: [japan-curriculum-hub.md](./japan-curriculum-hub.md)

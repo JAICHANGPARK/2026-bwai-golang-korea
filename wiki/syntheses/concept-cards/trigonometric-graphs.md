@@ -2,7 +2,8 @@
 title: 삼각함수의 그래프
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-concept-encyclopedia/unit-practice-book.md

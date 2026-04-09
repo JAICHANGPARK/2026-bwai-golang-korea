@@ -2,7 +2,8 @@
 title: Integrated Mathematics
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Integrated Mathematics
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Integrated Mathematics는 대수, 기하, 통계를 학년별로 섞어서 반복 학습하는 미국형 course-track 노드다. 학년마다 단원을 분리하지 않고 개념을 순환 노출시키는 구조라서, 미국 교육과정을 읽을 때 중요한 허브가 된다.
 

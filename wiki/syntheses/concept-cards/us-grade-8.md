@@ -2,7 +2,8 @@
 title: 미국 Grade 8 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/us.md
   - docs/math-concept-encyclopedia/us.md
@@ -15,6 +16,9 @@ tags:
 # 미국 Grade 8 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 미국 `Grade 8`은 선형방정식과 연립, 함수와 선형모형, 닮음과 피타고라스 정리, 이변량 데이터를 묶는 강한 전이 카드다. 많은 학생에게 [algebra-1.md](./algebra-1.md)와 [geometry-course.md](./geometry-course.md)로 갈 준비 단계이자, 일부에게는 Algebra I 선행 분기의 직전 단계다.
 

@@ -2,7 +2,7 @@
 title: Concept Card Model
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-agent-knowledge-plan.md
   - docs/internal-knowledge-base-build.md
@@ -59,6 +59,10 @@ tags:
   - `개념 카드`: 그 개념이 정확히 무엇인가
   - `과목·경로 카드`: 어떤 과목이나 course-track 안에서 그 개념군이 어떻게 묶이는가
   - `평가 노드`: 시험에서 어떻게 읽히는가
+- 시각적 분리 규칙
+  - concept card file에는 frontmatter에 `card_role: concept`를 넣는다.
+  - wrapper card file에는 frontmatter에 `card_role: wrapper`를 넣고, Summary 바로 아래에 `Course Wrapper` callout을 둔다.
+  - 현재 persistent concept-card layer는 `concept 67장`, `wrapper 40장`으로 분리되어 있다.
 - 과목·경로 카드 운영 원칙
   - `공통수학1`, `미적분I`, `Algebra I`, `Precalculus`처럼 실제 수업 단위가 개념 묶음을 설명할 때는 별도 wrapper 카드를 둔다.
   - 개념 카드가 `무엇인가`를 설명한다면, 과목·경로 카드는 `어떻게 묶여 배우는가`를 설명한다.
@@ -85,7 +89,8 @@ tags:
 
 - 지식 엔터티 설계는 [../components/internal-knowledge-base.md](../components/internal-knowledge-base.md)에 있다.
 - 지식 구축 순서는 [./knowledge-roadmap.md](./knowledge-roadmap.md)와 연결된다.
-- 학년 허브와 계통 허브의 샘플은 [../queries/2026-04-06-math-curriculum-graph.md](../queries/2026-04-06-math-curriculum-graph.md) 및 하위 샘플 페이지에 있다.
+- persistent 허브는 [functions-strand.md](./functions-strand.md), [geometry-strand.md](./geometry-strand.md), [statistics-and-probability-strand.md](./statistics-and-probability-strand.md), [middle-1-hub.md](./middle-1-hub.md), [middle-2-hub.md](./middle-2-hub.md), [middle-3-hub.md](./middle-3-hub.md), [high-1-hub.md](./high-1-hub.md), [high-2-hub.md](./high-2-hub.md), [high-3-hub.md](./high-3-hub.md), [csat-2028.md](./csat-2028.md)로 읽는다.
+- 초기 그래프 설계 메모는 archived query note로만 남겨 두고, 현재 그래프 연결은 persistent hub를 기준으로 유지한다.
 - 개념 백과사전 폴더의 성격은 [../source-notes/math-concept-encyclopedia-readme.md](../source-notes/math-concept-encyclopedia-readme.md)를 본다.
 
 ## Open Questions

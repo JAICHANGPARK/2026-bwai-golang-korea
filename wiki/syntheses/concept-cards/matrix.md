@@ -2,7 +2,8 @@
 title: 행렬
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/multilingual-glossary.md
@@ -36,8 +37,19 @@ tags:
   - `증명 스케치 (추론)`:
   - 두 행렬이 같으려면 같은 위치의 성분이 모두 같아야 한다.
   - 그래서 행렬의 비교는 모양과 각 위치의 값을 함께 보는 규칙으로 이해할 수 있다.
-- 대표 예제
-  - $\begin{bmatrix}1&2\\3&4\end{bmatrix}$는 2행 2열 행렬이고, 첫째 행은 `(1,2)`다.
+## Worked Examples
+  - 예제 1: $\begin{bmatrix}1&2\\3&4\end{bmatrix}$는 2행 2열 행렬이고, 첫째 행은 `(1,2)`다.
+  - 예제 2: $\begin{bmatrix}1&0\\0&1\end{bmatrix}$는 같은 크기의 모든 행렬 중 기본적인 단위 행렬의 예다.
+  - 예제 3: $\begin{bmatrix}1&2\end{bmatrix}$와 $\begin{bmatrix}1\\2\end{bmatrix}$는 같은 숫자를 써도 크기가 달라 다른 행렬이다.
+## Deep Dive
+  - 행렬은 단순한 숫자 모음이 아니라 `같은 위치의 성분`을 기준으로 읽는 구조다.
+  - 두 행렬이 같으려면 크기가 같고 대응하는 모든 성분이 같아야 한다.
+  - 행렬은 연립방정식, 벡터, 데이터 표를 한 형식으로 묶어 주기 때문에 고등 수학에서 정보 표현의 공통 언어가 된다.
+## Common Pitfalls
+  - 크기가 다른 행렬은 비교할 수 없다.
+  - 같은 숫자라도 행과 열 배치가 다르면 다른 행렬이다.
+  - 행렬을 단순한 표로만 보고 구조를 놓치면 이후 연산을 이해하기 어렵다.
+  - 성분의 위치를 바꾸어 읽으면 다른 행렬이 된다.
 - 교육과정 배치
   - 한국 대표 배치에서는 `공통수학1`의 구성 요소다.
 - 국가별 배치 스냅샷
@@ -52,6 +64,7 @@ tags:
 - 선수 개념은 [simultaneous-equations.md](./simultaneous-equations.md), [variables-and-expressions.md](./variables-and-expressions.md)다.
 - 같은 축의 인접 개념으로는 [matrix-operations.md](./matrix-operations.md), [common-math-1.md](./common-math-1.md)가 있다.
 - 같이 읽을 카드로는 [matrix-operations.md](./matrix-operations.md), [vectors.md](./vectors.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 있다.
+- 고교 공통 축은 [high-1-hub.md](../high-1-hub.md), [korea-curriculum-hub.md](../korea-curriculum-hub.md)에서 다시 본다.
 
 ## Open Questions
 

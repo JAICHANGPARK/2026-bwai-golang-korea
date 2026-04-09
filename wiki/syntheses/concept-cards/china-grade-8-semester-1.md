@@ -2,7 +2,8 @@
 title: 중국 8학년 1학기 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 8학년 1학기 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 `8학년 1학기`는 합동삼각형, 축대칭, 정식의 곱셈과 인수분해, 분식이 모이는 기하-대수 결합 학기다. 도형 변환과 식의 구조 읽기가 함께 깊어지는 것이 특징이다.
 

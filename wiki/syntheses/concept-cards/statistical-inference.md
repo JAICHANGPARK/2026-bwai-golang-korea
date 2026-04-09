@@ -2,7 +2,8 @@
 title: 통계적 추정
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -41,14 +42,52 @@ tags:
 - 대표 수식
   - $\bar x=\frac{x_1+\cdots+x_n}{n}$
   - $\hat p=\frac{\text{성공 횟수}}{n}$
+- 성질 1
+  - 같은 모집단에서 뽑은 표본이라도 추출 방식이 다르면 추정의 안정성은 달라진다.
+- 성질 2
+  - 표본이 모집단을 잘 대표할수록 표본평균과 표본비율은 모집단의 성질을 더 잘 반영한다.
 - 증명 스케치
   - `증명 스케치 (추론)`:
   - 표본이 모집단을 잘 대표한다면, 표본에서 계산한 평균이나 비율은 모집단의 값과 가까운 경향을 보인다.
   - 표본이 너무 작거나 치우쳐 있으면 우연한 흔들림이 커져 추정이 불안정해진다.
   - 그래서 통계적 추정은 계산식 하나만이 아니라 `표본을 어떻게 뽑았는가`를 함께 따져야 한다.
+  - 이 카드의 범위에서는 `신뢰구간`이나 `가설검정`의 엄밀한 증명보다 `대표성`과 `편향`의 감각을 먼저 익히는 것이 핵심이다.
 - 대표 예제
   - 100명의 학생을 표본으로 조사했더니 평균 키가 `170cm`였다면, 이 값은 모집단 평균을 추정하는 출발점이 된다.
   - 다만 표본이 한 반에만 치우쳐 있거나 표본 수가 너무 적으면 추정의 신뢰도는 낮아질 수 있다.
+  - 200명 중 120명이 특정 간식을 선호했다면 표본비율은
+    $$
+    \hat p=\frac{120}{200}=0.6
+    $$
+    이고, 이는 모집단 비율을 추정하는 첫 단계가 된다.
+  - 같은 평균이라도 무작위 표본과 자발적 응답 표본은 대표성이 다를 수 있다.
+## Deep Dive
+  - `추정값`은 표본에서 얻은 수치이고, 모집단의 참값과 완전히 같다고 단정할 수는 없다.
+  - 좋은 추정은 보통 `무작위성`, `표본 크기`, `대표성`을 함께 본다.
+  - 그래서 통계적 추정은 계산보다 `설계와 해석`이 더 중요하다.
+## Worked Examples
+
+### 예제 1: 평균으로 추정하기
+
+- 30명 표본의 평균 점수가 `72점`이라면, 전체 집단의 평균도 그 근처일 것이라고 추정할 수 있다.
+- 다만 표본이 성적 우수반에만 치우쳐 있다면 이 추정은 전체를 대표하지 못할 수 있다.
+
+### 예제 2: 비율로 추정하기
+
+- 200명 중 120명이 특정 간식을 선호했다면 표본비율은
+  $$
+  \hat p=\frac{120}{200}=0.6
+  $$
+  이다.
+- 이 값은 전체 학생의 선호 비율을 추정하는 출발점이지만, 표본이 무작위로 뽑혔는지 확인해야 한다.
+
+## Common Pitfalls
+
+- 표본값을 모집단의 참값과 바로 같다고 말하면 안 된다.
+- 표본이 크기만 크고 편향되어 있으면 좋은 추정이 되지 않는다.
+- 평균만 보고 분포의 모양이나 흩어짐을 무시하면 해석이 부실해진다.
+- 추정과 예측을 같은 말처럼 쓰면 통계의 역할이 흐려진다.
+## Curriculum Context
 - 교육과정 배치
   - 한국 대표 배치에서는 고등학교 `확률과 통계`의 `통계적 추정과 해석` 축에 놓인다.
   - 이후 `실용 통계`, [regression.md](./regression.md), `데이터과학`, `인공지능 수학`으로 이어진다.
@@ -63,10 +102,10 @@ tags:
 
 ## Connections
 
-- 선수 개념은 `표본조사`, [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md), [probability-distribution.md](./probability-distribution.md)다.
-- 다음 개념으로는 [regression.md](./regression.md), `실용 통계`, `데이터과학`, `인공지능 수학`이 이어진다.
-- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
-- 계통 허브에서는 [statistics-and-probability-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/statistics-and-probability-strand.md)와 [probability-and-statistics-course.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/probability-and-statistics-course.md)를 본다.
+- 선수 개념은 [sampling.md](./sampling.md), [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md), [probability-distribution.md](./probability-distribution.md)다.
+- 다음 개념으로는 [regression.md](./regression.md), [practical-statistics.md](./practical-statistics.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
+- 학년 허브에서는 [../high-2-hub.md](../high-2-hub.md), [../high-3-hub.md](../high-3-hub.md)와 연결된다.
+- 계통 허브에서는 [../statistics-and-probability-strand.md](../statistics-and-probability-strand.md)와 [probability-and-statistics-course.md](./probability-and-statistics-course.md)를 본다.
 
 ## Open Questions
 

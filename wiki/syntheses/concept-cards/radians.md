@@ -2,7 +2,8 @@
 title: 라디안
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-concept-encyclopedia/unit-practice-book.md
@@ -128,8 +129,8 @@ tags:
 - 선수 개념은 [circle.md](./circle.md), [trigonometric-ratio.md](./trigonometric-ratio.md), [function-foundations.md](./function-foundations.md)다.
 - 같은 축의 인접 개념으로는 [trigonometric-function.md](./trigonometric-function.md), [polar-ideas.md](./polar-ideas.md)가 있다.
 - 다음 개념으로는 [trigonometric-identities.md](./trigonometric-identities.md), [derivative.md](./derivative.md), [precalculus.md](./precalculus.md)가 이어진다.
-- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
-- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md), [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/geometry-strand.md)를 함께 본다.
+- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-3-hub.md)와 연결된다.
+- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/functions-strand.md), [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/geometry-strand.md)를 함께 본다.
 
 ## Open Questions
 

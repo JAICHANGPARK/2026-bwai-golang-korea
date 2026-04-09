@@ -2,7 +2,8 @@
 title: 일차함수
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -26,12 +27,13 @@ tags:
 
 ## Summary
 
-일차함수는 `y=ax+b` 꼴로 표현되는 가장 기본적인 함수 개념이다. 중학교에서는 일정한 변화율을 식과 그래프로 읽는 첫 본격 함수이고, 고등학교에서는 함수와 그래프 일반론의 출발점이 된다.
+일차함수는 중학교 문맥에서는 보통 `a\neq 0`인 `y=ax+b` 꼴로 표현되는 가장 기본적인 함수 개념이다. 일정한 변화율을 식과 그래프로 읽는 첫 본격 함수이고, 고등학교에서는 함수와 그래프 일반론의 출발점이 된다.
 
 ## Key Points
 
 - 정의
-  - `y=ax+b` 꼴의 함수를 일차함수라 한다. 여기서 `a`는 기울기, `b`는 y절편이다.
+  - 학교 수학에서는 보통 `a,b`가 상수이고 `a\neq 0`인 `y=ax+b` 꼴의 함수를 일차함수라 한다.
+  - 여기서 `a`는 기울기, `b`는 y절편이다.
 - 핵심 개념
   - 함수
   - 독립변수와 종속변수
@@ -85,30 +87,32 @@ tags:
 - 정리
   - 어떤 함수의 변화율이 항상 일정한 값 `a`라면 그 함수는 $y=ax+b$ 꼴로 표현된다.
 - 증명 스케치
-  - 그래프 위의 한 점을 $(0,b)$라고 두자.
+  - 그래프 위의 한 점을 $(x_0,y_0)$라고 두자.
   - 변화율이 항상 `a`라는 것은 임의의 점 $(x,y)$에 대해
     $$
-    \frac{y-b}{x-0}=a
+    \frac{y-y_0}{x-x_0}=a
     $$
     로 읽힌다는 뜻이다.
   - 이를 정리하면
     $$
-    y-b=ax
+    y-y_0=a(x-x_0)
     $$
-    이고, 결국
+    이다.
+  - 따라서
     $$
-    y=ax+b
+    y=ax+(y_0-ax_0)
     $$
-    가 된다.
+    로 쓸 수 있다.
+  - $b=y_0-ax_0$라고 두면 결국 $y=ax+b$ 꼴이 된다.
   - 그래서 `일정한 변화율`과 `일차함수`는 서로 같은 구조를 다른 말로 표현한 것이다.
 
 ### 그래프에서 읽어야 할 것
 
 - $a>0$이면 오른쪽으로 갈수록 올라가는 직선이다.
 - $a<0$이면 오른쪽으로 갈수록 내려가는 직선이다.
-- $a=0$이면 $y=b$인 수평선이 된다.
+- 참고로 $a=0$이면 $y=b$인 상수함수가 되며, 중학교 문맥에서는 보통 이를 `일차함수`와 구분한다.
 - $b=0$이면 그래프가 원점을 지나므로 [proportion.md](./proportion.md)의 `정비례`와 연결된다.
-- x절편은 $0=ax+b$를 풀어 $x=-\frac{b}{a}$로 구한다.
+- $a\neq 0$일 때 x절편은 $0=ax+b$를 풀어 $x=-\frac{b}{a}$로 구한다.
 
 ## Worked Examples
 
@@ -153,8 +157,8 @@ tags:
 - 선수 개념은 [proportion.md](./proportion.md), [linear-equation.md](./linear-equation.md), [function-foundations.md](./function-foundations.md)이다.
 - 같은 축의 인접 개념으로는 [simultaneous-equations.md](./simultaneous-equations.md), [quadratic-function.md](./quadratic-function.md)가 있다.
 - 다음 개념으로는 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [differentiation.md](./differentiation.md)가 이어진다.
-- 학년 허브에서는 [middle-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/middle-2-hub.md), [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-1-hub.md)와 연결된다.
-- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)를 본다.
+- 학년 허브에서는 [middle-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/middle-2-hub.md), [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-1-hub.md)와 연결된다.
+- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/functions-strand.md)를 본다.
 
 ## Open Questions
 

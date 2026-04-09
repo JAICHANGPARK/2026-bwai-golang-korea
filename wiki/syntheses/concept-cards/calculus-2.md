@@ -2,7 +2,8 @@
 title: 미적분II
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 미적분II
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 미적분II는 수열의 극한과 고급 미분법, 고급 적분법을 묶는 한국 진로 선택 과목이다. 미적분I의 기초를 더 깊은 함수 해석과 응용으로 밀어 올리는 상위 허브다.
 

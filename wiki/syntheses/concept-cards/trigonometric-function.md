@@ -2,7 +2,8 @@
 title: 삼각함수
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -41,6 +42,10 @@ tags:
   - $\sin^2 x+\cos^2 x=1$
   - $\sin(x+2\pi)=\sin x$
   - $\cos(x+2\pi)=\cos x$
+- 성질 1
+  - $\sin x$와 $\cos x$는 각각 주기 $2\pi$를 가진다.
+- 성질 2
+  - $\sin x$는 홀함수이고 $\cos x$는 짝함수다.
 - 증명 스케치
   - `증명 스케치 (추론)`:
   - 단위원 위의 점을 $(\cos x,\sin x)$로 두면, 그 점은 항상 원의 방정식
@@ -61,6 +66,43 @@ tags:
     $$
     이다.
   - 예를 들어 $x=\frac{\pi}{3}$이면 $\sin x=\frac{\sqrt3}{2}$, $\cos x=\frac12$이므로 두 제곱의 합은 1이다.
+  - $\sin\left(\frac{7\pi}{6}\right)=-\frac12$이고 $\cos\left(\frac{7\pi}{6}\right)=-\frac{\sqrt3}{2}$이다.
+  - $\sin(-x)=-\sin x$이므로 $\sin\left(-\frac{\pi}{4}\right)=-\frac{\sqrt2}{2}$이다.
+
+## Deep Dive
+
+  - 삼각함수는 단위원 위의 회전을 실수 전체로 확장한 함수라고 볼 수 있다.
+  - $x$가 한 바퀴 $2\pi$만큼 늘어나면 같은 점으로 돌아오므로 주기성이 생긴다.
+  - 따라서 삼각함수의 그래프는 반복되는 파동 모양을 갖는다.
+
+## Worked Examples
+
+### 예제 1: 값 계산하기
+
+- $\sin\left(\frac{5\pi}{6}\right)$은 단위원에서 두 번째 사분면의 사인값이므로
+  $$
+  \sin\left(\frac{5\pi}{6}\right)=\frac12
+  $$
+  이다.
+
+### 예제 2: 주기성 이용하기
+
+- $\cos\left(\frac{13\pi}{6}\right)$은
+  $$
+  \cos\left(\frac{13\pi}{6}\right)=\cos\left(\frac{\pi}{6}\right)=\frac{\sqrt3}{2}
+  $$
+  이다.
+- $\tan\left(-\frac{\pi}{3}\right)=-\sqrt3$이다.
+
+## Common Pitfalls
+
+- 도 단위와 라디안을 섞어 쓰면 값이 틀어진다.
+- $\sin^2 x+\cos^2 x=1$을 $\sin x+\cos x=1$로 잘못 읽기 쉽다.
+- 삼각함수는 예각에서만 정의된다고 생각하면 안 된다.
+- 주기성을 쓸 때는 `얼마나` 더했는지 정확히 확인해야 한다.
+
+## Curriculum Context
+
 - 교육과정 배치
   - 한국 대표 배치에서는 고등학교 `대수`에서 배우는 핵심 함수 단원이다.
   - 이후 `미적분`, `기하`, `파동 해석`, `벡터`로 이어진다.
@@ -78,8 +120,8 @@ tags:
 - 선수 개념은 [trigonometric-ratio.md](./trigonometric-ratio.md), [radians.md](./radians.md), [function-foundations.md](./function-foundations.md)다.
 - 같은 축의 인접 개념으로는 [trigonometric-identities.md](./trigonometric-identities.md), [trigonometric-graphs.md](./trigonometric-graphs.md), [polar-ideas.md](./polar-ideas.md)가 있다.
 - 다음 개념으로는 [derivative.md](./derivative.md), [vectors.md](./vectors.md), [precalculus.md](./precalculus.md)가 이어진다.
-- 학년 허브에서는 [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
-- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)와 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/geometry-strand.md)를 함께 본다.
+- 학년 허브에서는 [../high-2-hub.md](../high-2-hub.md), [../high-3-hub.md](../high-3-hub.md)와 연결된다.
+- 계통 허브에서는 [../functions-strand.md](../functions-strand.md)와 [../geometry-strand.md](../geometry-strand.md)를 함께 본다.
 
 ## Open Questions
 

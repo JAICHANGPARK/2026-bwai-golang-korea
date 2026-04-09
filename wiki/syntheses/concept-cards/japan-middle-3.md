@@ -2,7 +2,8 @@
 title: 일본 중3 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 중3 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `중3`은 제곱근, 인수분해, 이차방정식, 이차함수, 닮음, 원주각, 피타고라스 정리, 표본조사가 모이는 전이 허브다. 중학교 마지막 해답게 고등학교 `수학I/II`로 넘어갈 재료를 거의 모두 모아 둔다.
 

@@ -2,7 +2,8 @@
 title: 공통수학2
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 공통수학2
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 공통수학2는 좌표기하, 집합과 명제, 함수 그래프 해석을 한 과목에 묶는 한국 고교 공통 코스다. 식과 도형, 논리와 그래프를 한 언어로 이어 주는 허브 과목이다.
 

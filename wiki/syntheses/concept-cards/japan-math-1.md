@@ -2,7 +2,8 @@
 title: 일본 수학I
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 수학I
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `수학I`는 중학교와 고등학교를 잇는 브리지 과목이다. 수와 식, 도형과 계량, 이차함수, 데이터 분석이 함께 들어 있어 일본 고교 수학의 공통 기초를 형성한다.
 

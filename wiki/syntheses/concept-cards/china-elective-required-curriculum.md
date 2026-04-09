@@ -2,7 +2,8 @@
 title: 중국 선택필수 과정 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 선택필수 과정 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 고교 `선택필수 과정`은 수열과 도함수, 공간벡터와 해석기하, 확률변수·정규분포·회귀, 프로젝트형 탐구를 포함하는 진학 중심 심화 경로다. 실제 가오카오 연결성이 가장 직접적으로 느껴지는 고교 심화 층이다.
 

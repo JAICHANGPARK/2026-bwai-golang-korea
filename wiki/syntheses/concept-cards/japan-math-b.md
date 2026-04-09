@@ -2,7 +2,8 @@
 title: 일본 수학B
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 수학B
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `수학B`는 수열, 통계적 추측, 수학과 사회생활을 묶는 과목이다. 일본 고교 수학에서 `확률분포 이전의 추정 감각`과 `수열의 함수적 표현`이 함께 자라는 대표 카드다.
 

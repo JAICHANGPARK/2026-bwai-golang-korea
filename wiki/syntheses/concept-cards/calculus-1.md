@@ -2,7 +2,8 @@
 title: 미적분I
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 미적분I
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 미적분I은 극한과 연속, 미분, 적분을 한 흐름으로 묶는 한국 고등 수학의 첫 미적분 과목이다. 함수 해석을 `변화율`과 `누적량`의 언어로 바꾸는 전환점이다.
 

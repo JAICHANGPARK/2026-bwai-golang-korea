@@ -2,7 +2,7 @@
 title: Wiki Index
 type: overview
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
@@ -54,21 +54,33 @@ tags:
 
 - [syntheses/profile-boundary.md](./syntheses/profile-boundary.md) - 핸즈온 프로파일과 제품 확장 프로파일의 경계를 비교한다. Sources: 5
 - [syntheses/knowledge-roadmap.md](./syntheses/knowledge-roadmap.md) - 수집, 정규화, 검색, 설명까지의 지식 구축 로드맵을 요약한다. Sources: 5
-- [syntheses/concept-card-model.md](./syntheses/concept-card-model.md) - 학년 허브와 별도로 `개념 카드`를 지속 위키 자산으로 두는 구조와 `정석형 서술 + 그래프 연결` 기준을 정리한다.
+- [syntheses/concept-card-model.md](./syntheses/concept-card-model.md) - 학년 허브와 별도로 `개념 카드`를 지속 위키 자산으로 두는 구조, `정석형 서술 + 그래프 연결` 기준, `card_role: concept|wrapper` 분리 규칙을 정리한다.
 - [syntheses/korea-curriculum-hub.md](./syntheses/korea-curriculum-hub.md) - 한국의 학년형 중학 구조와 과목형 고교 구조를 묶는 허브다.
+- [syntheses/middle-1-hub.md](./syntheses/middle-1-hub.md) - 한국 `중1`의 시작 개념군을 묶는 persistent 학년 허브다.
+- [syntheses/middle-2-hub.md](./syntheses/middle-2-hub.md) - 한국 `중2`의 선형 관계·논증·확률 입문을 묶는 persistent 학년 허브다.
+- [syntheses/middle-3-hub.md](./syntheses/middle-3-hub.md) - 한국 `중3`의 이차·닮음·삼각비·상관을 묶는 persistent 학년 허브다.
+- [syntheses/high-1-hub.md](./syntheses/high-1-hub.md) - 한국 `고1` 공통 기반을 묶는 persistent 학년 허브다.
+- [syntheses/high-2-hub.md](./syntheses/high-2-hub.md) - 한국 `고2` 선택 과목 분기를 묶는 persistent 학년 허브다.
+- [syntheses/high-3-hub.md](./syntheses/high-3-hub.md) - 한국 `고3` 심화·응용 경로를 묶는 persistent 학년 허브다.
 - [syntheses/japan-curriculum-hub.md](./syntheses/japan-curriculum-hub.md) - 일본의 학년형 중학과 `수학I/A/II/B/III/C` 고교 구조를 묶는 허브다.
 - [syntheses/china-curriculum-hub.md](./syntheses/china-curriculum-hub.md) - 중국의 학기형 중학과 `필수/선택필수` 고교 구조를 묶는 허브다.
 - [syntheses/us-curriculum-hub.md](./syntheses/us-curriculum-hub.md) - 미국의 Grade 6~8과 course-track 고교 구조를 묶는 허브다.
 - [syntheses/course-track-hub.md](./syntheses/course-track-hub.md) - 네 나라의 과목·경로 구조를 비교하는 메타 허브다.
+- [syntheses/functions-strand.md](./syntheses/functions-strand.md) - 한국 수학의 함수 성장선을 비례에서 미적분까지 이어 보는 persistent 계통 허브다.
+- [syntheses/geometry-strand.md](./syntheses/geometry-strand.md) - 작도에서 벡터까지 이어지는 기하 성장선을 묶는 persistent 계통 허브다.
+- [syntheses/statistics-and-probability-strand.md](./syntheses/statistics-and-probability-strand.md) - 자료 읽기에서 분포와 추정까지 이어지는 확통 성장선을 묶는 persistent 계통 허브다.
 - [syntheses/cross-country-function-progression.md](./syntheses/cross-country-function-progression.md) - 함수 위계의 국가별 전이 방식을 비교한다.
 - [syntheses/cross-country-geometry-and-proof.md](./syntheses/cross-country-geometry-and-proof.md) - 기하와 증명 전면화 시점을 국가별로 비교한다.
 - [syntheses/cross-country-statistics-and-data.md](./syntheses/cross-country-statistics-and-data.md) - 자료 읽기에서 추정·회귀까지의 국가별 전개를 비교한다.
+- [syntheses/csat-2028.md](./syntheses/csat-2028.md) - 한국 `2028학년도 수능`을 교육과정 축과 분리된 평가 맥락 노드로 정리한다.
 - [syntheses/assessment-systems-comparison.md](./syntheses/assessment-systems-comparison.md) - 수능, 공통테스트, 가오카오, SAT/holistic admissions의 차이를 비교한다.
 - [syntheses/example-pattern-library.md](./syntheses/example-pattern-library.md) - 개념 카드에 재사용할 예제 패턴의 유형을 정리한다.
 - [syntheses/misconception-pattern-map.md](./syntheses/misconception-pattern-map.md) - 반복되는 수학 오개념 패턴을 축별로 정리한다.
 - [syntheses/assessment-patterns.md](./syntheses/assessment-patterns.md) - 나라별 문항 감각과 평가 패턴을 비교한다.
 
 ## Concept Syntheses
+
+현재 `wiki/syntheses/concept-cards/`는 `card_role: concept 67장`, `card_role: wrapper 40장`으로 나뉘며, wrapper 카드는 Summary 아래 `Course Wrapper` callout으로 구분한다. 2026-04-10 기준으로 함수·기하·확통·미적분의 핵심 앵커 카드뿐 아니라 남아 있던 concept 카드 전반에도 `Deep Dive`, `Worked Examples`, `Common Pitfalls`, `증명 스케치` 축의 보강이 들어가, 모든 concept 카드가 최소 두 가지 이상의 교재형 서술 요소를 갖도록 정리되어 있다.
 
 ### Number And Algebra
 

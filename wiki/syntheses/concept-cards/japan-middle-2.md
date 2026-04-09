@@ -2,7 +2,8 @@
 title: 일본 중2 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/japan.md
   - docs/math-concept-encyclopedia/japan.md
@@ -15,6 +16,9 @@ tags:
 # 일본 중2 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 일본 `중2`는 식의 변형, 연립방정식, 일차함수, 합동과 증명이 한 번에 또렷해지는 학년이다. 특히 `증명`이 제도적으로 강하게 등장하는 지점이라서 일본 수학의 서술형 성격을 이해하는 데 핵심이다.
 

@@ -2,7 +2,8 @@
 title: AP Calculus
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/us.md
   - docs/math-concept-encyclopedia/us.md
@@ -17,6 +18,9 @@ tags:
 # AP Calculus
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 AP Calculus는 미국 심화 경로에서 대학 수준 미적분을 고등학교 안으로 끌어오는 과목 wrapper다. [calculus-course.md](./calculus-course.md)가 일반 Calculus 경로라면, 이 카드는 `심화 난도`, `외부 시험`, `course rigor` 맥락을 더 분명히 보여 준다.
 

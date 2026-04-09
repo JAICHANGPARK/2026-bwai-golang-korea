@@ -2,7 +2,8 @@
 title: 중국 선택 과정의 개념군
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 선택 과정의 개념군
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 `선택 과정의 개념군`은 미적분, 응용통계, 수학모형, 사회조사와 데이터분석, 예술·체육 연계 수학, 생활수학 등 진로 확장형 묶음을 가리킨다. 필수/선택필수보다 유연한 확장 층으로 읽는 것이 적절하다.
 

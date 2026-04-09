@@ -2,7 +2,8 @@
 title: 닮음
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -35,7 +36,7 @@ tags:
 - 확대와 축소
   - 닮음은 도형을 일정한 배율로 키우거나 줄인 것이다.
 - 길이, 둘레, 넓이
-  - 길이와 둘레는 닮음비 $k$에 비례하고, 넓이는 $k^2$에 비례한다.
+  - 닮음비가 $k$이면 대응하는 길이와 둘레는 $k$배, 넓이는 $k^2$배가 된다.
 
 ## Theorems and Properties
 
@@ -44,11 +45,11 @@ tags:
 - 비례 관계
   - 닮은 도형의 대응변은 모두 같은 비를 가진다.
 - 스케일 법칙
-  - 닮음비가 $k$이면 둘레는 $k$, 넓이는 $k^2$, 부피는 $k^3$로 스케일된다.
+  - 닮음비가 $k$이면 둘레는 $k$배, 넓이는 $k^2$배, 부피는 $k^3$배로 스케일된다.
 
 ## Proof Sketch
 
-삼각형에서 두 각이 같으면 세 번째 각도 같아져서, 두 삼각형은 같은 모양을 가진다. 같은 모양의 도형은 한 변을 기준으로 나머지 변의 길이도 같은 배율로 정해진다. 따라서 대응변의 비가 모두 같아지고, 이 비가 닮음비가 된다. 넓이의 경우는 밑변과 높이가 각각 $k$배가 되므로 전체 넓이는 $k^2$배가 된다.
+삼각형에서는 `AA 닮음`처럼 닮음 판정을 직접 쓸 수 있다. 예를 들어 두 각이 같으면 세 번째 각도 같아지므로 두 삼각형은 같은 모양을 가진다. 이때 한 변의 길이비를 $k$라고 두면 대응하는 나머지 변들도 모두 같은 비 $k$를 가진다. 넓이는 밑변과 높이가 각각 $k$배가 되므로 전체가 $k^2$배가 된다. 일반 도형의 닮음은 이런 삼각형 닮음과 확대·축소 변환의 관점으로 이해하는 것이 안전하다.
 
 ## Worked Examples
 
@@ -75,7 +76,9 @@ tags:
 
 - 선수 개념은 [congruence.md](./congruence.md), [proportion.md](./proportion.md), [pythagorean-theorem.md](./pythagorean-theorem.md)이다.
 - 다음 개념으로는 [trigonometric-ratio.md](./trigonometric-ratio.md), [circle.md](./circle.md), [equations-of-geometric-figures.md](./equations-of-geometric-figures.md)가 이어진다.
-- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
+- 학년 허브로는 [../middle-3-hub.md](../middle-3-hub.md)를 함께 본다.
+- 계통 허브로는 [../geometry-strand.md](../geometry-strand.md)를 함께 본다.
+- 나라·경로 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 

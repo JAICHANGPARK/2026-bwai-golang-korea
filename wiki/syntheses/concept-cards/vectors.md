@@ -2,7 +2,8 @@
 title: 벡터
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -23,8 +24,9 @@ tags:
 
 ## Definition
 
-- 벡터는 크기와 방향을 함께 가지는 양이다.
+- 벡터는 보통 `크기와 방향을 함께 가지는 양`으로 소개되며, 좌표 계산에서는 성분으로 나타내는 이동량으로 다룬다.
 - 평면에서 벡터는 보통 성분쌍 $(a_1,a_2)$로 나타낸다.
+- $0$벡터처럼 크기만 있고 방향을 정할 필요가 없는 경우도 함께 포함한다.
 - 점은 위치를, 벡터는 이동과 방향을 나타낸다고 구분해서 읽는 것이 좋다.
 
 ## Key Ideas
@@ -46,7 +48,8 @@ tags:
   - $(a_1,a_2)+(b_1,b_2)=(a_1+b_1,a_2+b_2)$
   - $k(a_1,a_2)=(ka_1,ka_2)$
 - 내적 공식
-  - $\vec a\cdot\vec b=a_1b_1+a_2b_2=|\vec a||\vec b|\cos\theta$
+  - $\vec a\cdot\vec b=a_1b_1+a_2b_2$
+  - 두 벡터가 모두 0벡터가 아닐 때는 $\vec a\cdot\vec b=|\vec a||\vec b|\cos\theta$로도 쓸 수 있다.
 - 직교 판정
   - 두 벡터가 모두 0벡터가 아닐 때, $\vec a\cdot\vec b=0$이면 서로 수직이고, 서로 수직이면 내적은 0이다.
 - 자기 자신과의 내적
@@ -90,7 +93,9 @@ $$
 
 - 선수 개념은 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [pythagorean-theorem.md](./pythagorean-theorem.md), [similarity.md](./similarity.md)다.
 - 다음 개념으로는 [complex-plane.md](./complex-plane.md), [spatial-coordinates.md](./spatial-coordinates.md), [conic-sections.md](./conic-sections.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
-- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
+- 학년 허브로는 [../high-3-hub.md](../high-3-hub.md)를 함께 본다.
+- 계통 허브로는 [../geometry-strand.md](../geometry-strand.md)와 [../functions-strand.md](../functions-strand.md)를 함께 본다.
+- 나라·경로 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 

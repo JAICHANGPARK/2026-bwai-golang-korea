@@ -2,7 +2,8 @@
 title: 미국 Grade 6 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/us.md
   - docs/math-concept-encyclopedia/us.md
@@ -15,6 +16,9 @@ tags:
 # 미국 Grade 6 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 미국 `Grade 6`은 비율 감각, 유리수 체계 확장, 식과 방정식의 초입, 기초 통계를 함께 여는 카드다. 이후 [us-grade-7.md](./us-grade-7.md), [us-grade-8.md](./us-grade-8.md), 그리고 [algebra-1.md](./algebra-1.md)로 넘어가기 전의 공통 토대를 만든다.
 

@@ -2,7 +2,8 @@
 title: AP Statistics
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # AP Statistics
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 AP Statistics는 미국 advanced track에서 통계와 데이터 분석을 대학 입문 수준으로 끌어올린 과목이다. 일반 `Statistics and Data Analysis`보다 추론과 해석, course rigor 신호가 더 강하게 작동하는 wrapper다.
 

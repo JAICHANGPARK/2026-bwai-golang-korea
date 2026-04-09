@@ -2,7 +2,8 @@
 title: 기본수학1·2
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 기본수학1·2
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 기본수학1·2는 공통수학의 핵심 내용을 더 기초적으로 다루는 한국의 대체 공통과목이다. 개념 이해와 계산 안정성을 우선해 후속 과목 진입을 돕는 기반 허브로 보는 편이 맞다.
 

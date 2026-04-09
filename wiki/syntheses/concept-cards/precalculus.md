@@ -2,7 +2,8 @@
 title: Precalculus
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Precalculus
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Precalculus는 미적분 직전 단계에서 함수 세계를 정리하는 미국 과목이다. 삼각함수, 수열, 지수·로그를 하나의 함수 언어로 묶는 중간 허브 역할을 한다.
 

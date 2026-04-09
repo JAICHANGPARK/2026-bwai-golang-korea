@@ -2,7 +2,8 @@
 title: 이차함수
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -40,7 +41,7 @@ tags:
 - 꼭짓점형
   - $y=a(x-p)^2+q$
   - 꼭짓점은 $(p,q)$이다.
-- 축의 방정식
+- 축의 방정식과 꼭짓점의 x좌표
   - $x=-\frac{b}{2a}$
 - 최대·최소
   - $a>0$이면 꼭짓점에서 최소값, $a<0$이면 최대값을 갖는다.
@@ -96,7 +97,9 @@ $$
 
 - 선수 개념은 [linear-function.md](./linear-function.md), [polynomials-and-factorization.md](./polynomials-and-factorization.md), [quadratic-equation.md](./quadratic-equation.md)다.
 - 다음 개념으로는 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [derivative.md](./derivative.md), [continuity.md](./continuity.md)로 이어진다.
-- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
+- 학년 허브로는 [../middle-3-hub.md](../middle-3-hub.md), [../high-1-hub.md](../high-1-hub.md)를 함께 본다.
+- 계통 허브로는 [../functions-strand.md](../functions-strand.md)를 함께 본다.
+- 나라·경로 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 

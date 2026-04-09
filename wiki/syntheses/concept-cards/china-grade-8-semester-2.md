@@ -2,7 +2,8 @@
 title: 중국 8학년 2학기 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 8학년 2학기 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 `8학년 2학기`는 이차근식, 피타고라스 정리, 평행사변형, 일차함수, 데이터 분석이 함께 놓인다. 대수 계산, 기하 성질, 함수 모델링이 동시에 중층화되는 학기다.
 

@@ -2,7 +2,8 @@
 title: 연립방정식
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -44,9 +45,19 @@ tags:
   - 점 $(x,y)$가 두 직선의 그래프 위에 동시에 있으면 첫째 식과 둘째 식을 모두 만족한다.
   - 반대로 $(x,y)$가 두 식을 동시에 만족하면, 그 점은 각 식이 나타내는 두 직선 위에 모두 놓인다.
   - 따라서 연립일차방정식의 해는 두 직선의 교점으로 읽을 수 있다.
-- 대표 예제
-  - $\begin{cases}x+y=7\\x-y=1\end{cases}$에서 두 식을 더하면 $2x=8$이므로 $x=4$이다.
-  - 이를 첫째 식에 대입하면 $y=3$이므로 해는 $(4,3)$이다.
+## Worked Examples
+  - 예제 1: $\begin{cases}x+y=7\\x-y=1\end{cases}$에서 두 식을 더하면 $2x=8$이므로 $x=4$이다. 이를 첫째 식에 대입하면 $y=3$이므로 해는 $(4,3)$이다.
+  - 예제 2: $\begin{cases}2x+3y=12\\x-y=1\end{cases}$는 대입법으로 풀면 $x=3$, $y=2$가 된다.
+## Deep Dive
+  - 연립방정식은 `두 조건을 동시에 만족하는 공통 해`를 찾는 문제다.
+  - 두 일차식은 그래프에서 두 직선을 이루므로, 해의 개수는 보통 교점의 개수와 같다.
+  - 교점이 하나면 해가 하나, 평행하면 해가 없고, 같은 직선이면 해가 무한히 많다.
+  - 소거법과 대입법은 이 교점 문제를 식의 계산으로 옮겨 푸는 두 가지 방식이다.
+## Common Pitfalls
+  - 한 식만 만족하는 값을 해로 끝내면 안 된다.
+  - 소거 과정에서 부호를 잘못 바꾸면 교점이 달라진다.
+  - 두 직선이 평행하거나 일치하는 경우를 반드시 확인해야 한다.
+  - 연립방정식의 해는 보통 순서쌍으로 쓴다.
 - 교육과정 배치
   - 한국 대표 배치에서는 `중2`의 핵심 선형 관계 단원이다.
   - 이후 `일차함수의 교점`, `행렬`, `선형대수의 기초 발상`으로 이어진다.
@@ -64,7 +75,8 @@ tags:
 - 선수 개념은 [linear-equation.md](./linear-equation.md)와 `좌표평면`이다.
 - 같이 읽을 개념은 [linear-function.md](./linear-function.md)다.
 - 다음 개념으로는 [matrix.md](./matrix.md), [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), `선형대수`가 이어진다.
-- 학년 허브에서는 [middle-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/middle-2-hub.md)와 연결된다.
+- 학년 허브에서는 [middle-2-hub.md](../middle-2-hub.md)와 연결된다.
+- 함수 계통은 [functions-strand.md](../functions-strand.md)에서 함께 본다.
 
 ## Open Questions
 

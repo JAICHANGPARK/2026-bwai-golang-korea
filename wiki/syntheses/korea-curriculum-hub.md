@@ -2,7 +2,7 @@
 title: Korea Curriculum Hub
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/korea.md
   - docs/math-concept-encyclopedia/korea.md
@@ -24,12 +24,14 @@ tags:
   - 중1: 수와 식, 비례, 기초 도형, 자료 정리
   - 중2: 식의 계산, 일차부등식, 연립방정식, 일차함수, 논증
   - 중3: 제곱근, 인수분해, 이차방정식, 이차함수, 닮음·원·삼각비, 산점도
+  - 학년 허브는 [middle-1-hub.md](./middle-1-hub.md), [middle-2-hub.md](./middle-2-hub.md), [middle-3-hub.md](./middle-3-hub.md)로 분리해 둔다.
 - 고등학교 핵심 흐름
   - [common-math-1.md](./concept-cards/common-math-1.md), [common-math-2.md](./concept-cards/common-math-2.md)에서 공통 기반을 다진다.
   - 이후 [korean-algebra-course.md](./concept-cards/korean-algebra-course.md), [calculus-1.md](./concept-cards/calculus-1.md), [probability-and-statistics-course.md](./concept-cards/probability-and-statistics-course.md), [korean-geometry-course.md](./concept-cards/korean-geometry-course.md)로 분기한다.
   - 심화·응용 축으로는 [calculus-2.md](./concept-cards/calculus-2.md), [economics-math.md](./concept-cards/economics-math.md), [mathematics-for-ai.md](./concept-cards/mathematics-for-ai.md), [practical-statistics.md](./concept-cards/practical-statistics.md), [workplace-math.md](./concept-cards/workplace-math.md), [mathematics-and-culture.md](./concept-cards/mathematics-and-culture.md)가 있다.
+  - 학년 허브는 [high-1-hub.md](./high-1-hub.md), [high-2-hub.md](./high-2-hub.md), [high-3-hub.md](./high-3-hub.md)로 분리해 둔다.
 - 평가 메모
-  - 교육과정과 평가를 분리해서 보는 것이 중요하며, 수능 변화는 [../queries/math-curriculum-graph/csat-2028.md](../queries/math-curriculum-graph/csat-2028.md)와 [assessment-systems-comparison.md](./assessment-systems-comparison.md)에서 함께 본다.
+  - 교육과정과 평가는 분리해서 봐야 하며, 수능 변화는 [csat-2028.md](./csat-2028.md)와 [assessment-systems-comparison.md](./assessment-systems-comparison.md)에서 함께 본다.
 
 ## Connections
 
@@ -38,7 +40,7 @@ tags:
 
 ## Open Questions
 
-- 한국 `학년 허브 샘플`을 query note에서 persistent synthesis로 승격할지 기준이 더 필요하다.
+- `중학 허브`와 `고교 허브`를 나라 허브 안의 섹션으로 더 합칠지, 지금처럼 독립 허브로 둘지 후속 판단이 필요하다.
 
 ## Sources
 

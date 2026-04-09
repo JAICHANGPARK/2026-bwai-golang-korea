@@ -2,7 +2,8 @@
 title: Algebra II
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Algebra II
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Algebra II는 선형과 이차를 넘어 다항식, 지수·로그, 수열, 복소수로 확장하는 미국 상위 대수 과목이다. 미국 course-track에서 `고급 함수의 관문` 역할을 한다.
 

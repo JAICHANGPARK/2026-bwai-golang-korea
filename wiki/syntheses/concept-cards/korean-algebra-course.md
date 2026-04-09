@@ -2,7 +2,8 @@
 title: 대수
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 대수
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 한국 교육과정의 `대수` 과목은 지수·로그, 삼각함수, 수열, 수학적 귀납법을 한 코스 안에 묶는다. 함수 세계를 넓히면서도 증명과 일반화 감각을 동시에 밀어 올리는 과목이다.
 

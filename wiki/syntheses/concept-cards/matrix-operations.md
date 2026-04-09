@@ -2,7 +2,8 @@
 title: 행렬의 연산
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -144,7 +145,7 @@ tags:
 - 선수 개념은 [matrix.md](./matrix.md), [algebraic-manipulation.md](./algebraic-manipulation.md), [simultaneous-equations.md](./simultaneous-equations.md)다.
 - 같은 축의 인접 개념으로는 [common-math-1.md](./common-math-1.md), [vectors.md](./vectors.md)가 있다.
 - 다음 개념으로는 [vectors.md](./vectors.md), [mathematics-for-ai.md](./mathematics-for-ai.md), [common-math-1.md](./common-math-1.md)가 이어진다.
-- 학년 허브에서는 [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-1-hub.md), [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-2-hub.md)와 연결된다.
+- 학년 허브에서는 [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-1-hub.md), [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-2-hub.md)와 연결된다.
 
 ## Open Questions
 

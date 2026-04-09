@@ -2,7 +2,8 @@
 title: 일차방정식
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -25,11 +26,11 @@ tags:
 
 ## Summary
 
-일차방정식은 미지수가 1차로만 나타나는 방정식이며, 등식의 성질을 이용해 해를 구하는 가장 기본적인 대수 개념이다. 문자와 식에서 시작해 연립방정식, 함수, 비례 문제로 이어지는 관문 역할을 한다.
+이 카드에서 다루는 것은 `일원일차방정식`이다. 미지수가 하나이고 그 미지수가 1차로만 나타나는 방정식이며, 등식의 성질을 이용해 해를 구하는 가장 기본적인 대수 개념이다. 문자와 식에서 시작해 연립방정식, 함수, 비례 문제로 이어지는 관문 역할을 한다.
 
 ## Definition
 
-- 일차방정식은 미지수의 차수가 1인 방정식이다.
+- 이 카드의 대상은 미지수가 하나인 일차방정식이다.
 - 가장 일반적인 한 변수 일차방정식은 $ax+b=c\;(a\neq 0)$로 정리할 수 있다.
 - 표준형으로 쓰면 $ax+b=0$이며, 이때 해는 $x=-\frac{b}{a}$이다.
 
@@ -95,6 +96,7 @@ $$
 
 - 선수 개념은 [algebraic-manipulation.md](./algebraic-manipulation.md), [proportion.md](./proportion.md), [variables-and-expressions.md](./variables-and-expressions.md)다.
 - 다음 개념으로는 [simultaneous-equations.md](./simultaneous-equations.md), [linear-function.md](./linear-function.md), [linear-inequality.md](./linear-inequality.md)가 이어진다.
+- 학년 허브로는 [middle-1-hub.md](../middle-1-hub.md), [middle-2-hub.md](../middle-2-hub.md)를 함께 본다.
 - 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources

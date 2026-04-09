@@ -2,7 +2,8 @@
 title: 기하
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-curriculum-research/korea.md
@@ -15,6 +16,9 @@ tags:
 # 기하
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 한국의 `기하` 과목은 이차곡선, 공간도형과 공간좌표, 벡터를 묶는 고등 심화 코스다. 평면기하에서 끝나지 않고, 좌표와 공간, 벡터적 사고를 본격적으로 밀어 올린다.
 

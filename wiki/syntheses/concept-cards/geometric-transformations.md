@@ -2,7 +2,8 @@
 title: 도형의 이동
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/japan.md
   - docs/math-concept-encyclopedia/us.md
@@ -31,12 +32,51 @@ tags:
   - 변환 관점
 - 대표 수식
   - 평행이동의 예: $(x,y)\mapsto (x+a,y+b)$
+- 성질 1
+  - 평행이동, 회전, 대칭이동은 길이와 각의 크기를 보존한다.
+- 성질 2
+  - 확대·축소는 길이를 일정한 비율로 바꾸고 넓이는 그 제곱 비율로 바꾼다.
+- 성질 3
+  - 합성 변환은 순서에 따라 결과가 달라질 수 있다.
 - 증명 스케치
   - `증명 스케치 (추론)`:
   - 평행이동, 회전, 대칭이동은 길이와 각의 크기를 보존한다.
   - 그래서 이런 변환으로 서로 겹쳐지는 도형은 합동으로 읽을 수 있다.
+  - 확대·축소는 길이 비를 보존하지 않지만 같은 비율로 늘이므로 닮음을 설명한다.
 - 대표 예제
   - 점 $(1,2)$를 $(3,-1)$만큼 평행이동하면 $(4,1)$이 된다.
+  - 점 $(2,1)$을 x축 대칭하면 $(2,-1)$이 된다.
+
+## Deep Dive
+
+- 도형의 이동은 합동과 닮음을 설명하는 변환 언어다.
+- 평행이동·회전·대칭은 강체이동이고, 확대·축소는 닮음 변환이다.
+- 변환을 연속적으로 합성하면 결과가 달라질 수 있으므로 순서가 중요하다.
+- 좌표식으로 쓰면 변환의 효과를 계산적으로 확인할 수 있다.
+
+## Worked Examples
+
+### 예제 1: 평행이동
+
+- 점 $(1,2)$를 $(3,-1)$만큼 평행이동하면 $(4,1)$이 된다.
+
+### 예제 2: 대칭이동
+
+- 점 $(2,1)$을 x축 대칭하면 $(2,-1)$이 된다.
+
+### 예제 3: 확대
+
+- 원점 중심, 확대비 $2$의 확대는 점 $(1,-3)$을 $(2,-6)$으로 보낸다.
+
+## Common Pitfalls
+
+- 평행이동의 벡터를 좌우/상하 순서 없이 섞어 쓰면 안 된다.
+- 회전과 대칭을 같은 변환으로 취급하면 안 된다.
+- 확대·축소는 길이를 보존하지 않으므로 합동 변환과 구분해야 한다.
+- 합성 변환에서는 순서가 바뀌면 결과도 달라질 수 있다.
+
+## Curriculum Context
+
 - 교육과정 배치
   - 일본 문서에서는 `작도와 도형의 이동`이 중학교 초반 기하 입문의 한 축이다.
 - 국가별 배치 스냅샷
@@ -49,7 +89,8 @@ tags:
 ## Connections
 
 - 선수 개념은 [basic-geometry-and-construction.md](./basic-geometry-and-construction.md)다.
-- 다음 개념으로는 [congruence.md](./congruence.md), [similarity.md](./similarity.md), [geometry-course.md](./geometry-course.md)가 이어진다.
+- 다음 개념으로는 [congruence.md](./congruence.md), [similarity.md](./similarity.md), [polar-ideas.md](./polar-ideas.md), [korean-geometry-course.md](./korean-geometry-course.md)가 이어진다.
+- 계통 허브에서는 [geometry-strand.md](../geometry-strand.md), [korea-curriculum-hub.md](../korea-curriculum-hub.md)를 함께 본다.
 
 ## Open Questions
 

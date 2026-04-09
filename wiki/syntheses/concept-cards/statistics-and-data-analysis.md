@@ -2,7 +2,8 @@
 title: Statistics and Data Analysis
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Statistics and Data Analysis
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Statistics and Data Analysis는 미국 course-track에서 자료의 생성, 요약, 추정, 해석을 다루는 과목이다. 분포, 표본조사, 추정, 회귀를 함께 묶어 `읽는 통계`의 중심 허브가 된다.
 

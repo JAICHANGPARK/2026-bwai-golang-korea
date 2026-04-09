@@ -2,7 +2,8 @@
 title: Calculus
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Calculus
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Calculus는 변화율과 누적량을 다루는 미국 상위 course-track 과목이다. limits, derivatives, integrals를 대학 준비 맥락과 연결하는 핵심 관문이다.
 

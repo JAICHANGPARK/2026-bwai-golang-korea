@@ -2,7 +2,8 @@
 title: 삼각비
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -148,8 +149,8 @@ tags:
 - 선수 개념은 [similarity.md](./similarity.md), [pythagorean-theorem.md](./pythagorean-theorem.md), [circle.md](./circle.md)다.
 - 같은 축의 인접 개념으로는 [trigonometric-function.md](./trigonometric-function.md), [vectors.md](./vectors.md)가 있다.
 - 다음 개념으로는 [korean-geometry-course.md](./korean-geometry-course.md), [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [trigonometric-function.md](./trigonometric-function.md)가 이어진다.
-- 학년 허브에서는 [middle-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/middle-3-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-3-hub.md)와 연결된다.
-- 계통 허브에서는 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/geometry-strand.md)와 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)를 함께 본다.
+- 학년 허브에서는 [middle-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/middle-3-hub.md), [high-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-3-hub.md)와 연결된다.
+- 계통 허브에서는 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/geometry-strand.md)와 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/functions-strand.md)를 함께 본다.
 
 ## Open Questions
 

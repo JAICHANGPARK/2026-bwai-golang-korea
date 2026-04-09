@@ -2,7 +2,8 @@
 title: Advanced Tracks
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-concept-encyclopedia/us.md
   - docs/math-curriculum-research/us.md
@@ -15,6 +16,9 @@ tags:
 # Advanced Tracks
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 Advanced Tracks는 미국 수학 교육에서 Honors, AP, IB, Dual Enrollment처럼 더 빠르거나 더 깊게 배우는 경로를 묶는 메타 카드다. 개념 자체보다 `같은 과목명 안에서도 깊이가 달라진다`는 사실을 설명하는 데 중요하다.
 

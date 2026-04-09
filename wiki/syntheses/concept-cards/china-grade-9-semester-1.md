@@ -2,7 +2,8 @@
 title: 중국 9학년 1학기 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 9학년 1학기 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 `9학년 1학기`는 이차방정식, 이차함수, 회전, 원, 확률의 기초가 들어오며 중학교 최상위 난도의 대표 학기다. 함수와 기하, 확률이 동시에 고등학교 방향으로 열린다.
 

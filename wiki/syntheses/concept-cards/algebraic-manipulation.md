@@ -2,7 +2,8 @@
 title: 식의 계산
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: concept
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
   - docs/math-concept-encyclopedia/japan.md
@@ -55,7 +56,7 @@ tags:
 
 ## Proof Sketch
 
-분배법칙은 `a와 b의 합을 c번 반복한다`는 뜻에서 나온다. 예를 들어 $(a+b)c$는 $(a+b)$를 $c$번 더한 것이므로, 결국 $ac$와 $bc$를 각각 $c$번 더한 뒤 합친 것과 같다. 동류항 결합도 같은 원리다. $x+x+x$는 $3x$로 쓸 수 있고, $ax+bx$는 `x`가 반복된 양이므로 $(a+b)x$로 정리된다.
+분배법칙 $(a+b)c=ac+bc$는 `전체를 두 부분으로 나눈 넓이`로 생각하면 직관적으로 이해할 수 있다. 가로 길이가 $(a+b)$이고 세로 길이가 $c$인 직사각형의 넓이는 전체로 보면 $(a+b)c$이고, 세로를 그대로 둔 채 가로를 $a$와 $b$로 나누면 넓이의 합은 $ac+bc$가 된다. 문자 계산에서는 이 구조를 일반적인 대수 규칙으로 사용한다. 동류항 결합 $ax+bx=(a+b)x$도 같은 분배법칙을 거꾸로 읽은 것이다.
 
 ## Worked Examples
 

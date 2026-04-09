@@ -2,7 +2,8 @@
 title: 중국 필수 과정 수학
 type: synthesis
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
+card_role: wrapper
 source_docs:
   - docs/math-curriculum-research/china.md
   - docs/math-concept-encyclopedia/china.md
@@ -15,6 +16,9 @@ tags:
 # 중국 필수 과정 수학
 
 ## Summary
+
+> [!info] Course Wrapper
+> 이 카드는 개념 자체를 정의하는 페이지가 아니라, 과목이나 경로 안에서 개념들이 어떻게 묶여 배우는지를 안내하는 허브다.
 
 중국 고교 `필수 과정`은 예비지식, 함수, 기하와 대수, 확률과 통계, 수학적 모델링·수학 탐구를 묶는 핵심 공통 경로다. 대학 진학용 수학에서 사실상 공통 바닥을 이루는 허브다.
 
