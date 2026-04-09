@@ -1,0 +1,123 @@
+---
+title: Research Folder Coverage Audit
+type: query-note
+status: active
+updated: 2026-04-09
+source_docs:
+  - docs/math-curriculum-research/README.md
+  - docs/math-curriculum-research/korea.md
+  - docs/math-curriculum-research/comparison.md
+  - docs/math-curriculum-research/japan.md
+  - docs/math-curriculum-research/china.md
+  - docs/math-curriculum-research/us.md
+  - docs/math-concept-encyclopedia/README.md
+  - docs/math-concept-encyclopedia/korea.md
+  - docs/math-concept-encyclopedia/japan.md
+  - docs/math-concept-encyclopedia/china.md
+  - docs/math-concept-encyclopedia/us.md
+  - docs/math-concept-encyclopedia/multilingual-glossary.md
+  - docs/math-concept-encyclopedia/formula-examples.md
+  - docs/math-concept-encyclopedia/unit-practice-book.md
+  - docs/math-concept-encyclopedia/comparative-problem-book.md
+tags:
+  - query
+  - audit
+  - coverage
+---
+
+# Research Folder Coverage Audit
+
+## Summary
+
+이번 턴 기준으로 `docs/math-curriculum-research/`와 `docs/math-concept-encyclopedia/`의 문서군은 모두 `source-note` 계층에 직접 반영되었고, concept card layer도 75개까지 확장되었다. 이전 감사 노트에서 남겨 두었던 `세부 하위 개념 카드`와 `과목 wrapper 카드` 배치도 persistent layer로 승격되었고, 최근 배치에서 `복소수`, `복소수평면`, `수학적 모델링·수학 탐구`, `Polar Ideas`, `Sequences and Series`, `AP Statistics`까지 추가되었다. 이제 남은 과제는 `나라 비교 synthesis`, `course-track hub`, `예제·오개념·평가 레이어` 확장과 일부 세부 하위 카드 보강이다.
+
+## Key Points
+
+- 전체 상태
+  - `math-curriculum-research/`: source-note 계층 반영 완료
+  - `math-concept-encyclopedia/`: source-note 계층 반영 완료
+  - `persistent concept layer`: 75개 카드에 국가별 배치 또는 course-track 정보 반영
+- 현재 직접 반영된 문서
+  - `docs/math-curriculum-research/README.md`
+  - `docs/math-curriculum-research/korea.md`
+  - `docs/math-curriculum-research/comparison.md`
+  - `docs/math-curriculum-research/japan.md`
+  - `docs/math-curriculum-research/china.md`
+  - `docs/math-curriculum-research/us.md`
+  - `docs/math-concept-encyclopedia/README.md`
+  - `docs/math-concept-encyclopedia/korea.md`
+  - `docs/math-concept-encyclopedia/japan.md`
+  - `docs/math-concept-encyclopedia/china.md`
+  - `docs/math-concept-encyclopedia/us.md`
+  - `docs/math-concept-encyclopedia/multilingual-glossary.md`
+  - `docs/math-concept-encyclopedia/formula-examples.md`
+  - `docs/math-concept-encyclopedia/unit-practice-book.md`
+  - `docs/math-concept-encyclopedia/comparative-problem-book.md`
+- 이번 배치에서 추가된 카드군
+  - 세부 하위 개념: `행렬`, `수학적 귀납법`, `연속성`, `상관계수`, `도형의 이동`
+  - 한국 과목 wrapper: `공통수학1`, `공통수학2`, `대수`, `미적분I`, `확률과 통계`, `미적분II`, `기하`, `기본수학1·2`
+  - 미국 과목·경로 wrapper: `Algebra I`, `Geometry`, `Algebra II`, `Precalculus`, `Calculus`, `Statistics and Data Analysis`, `Advanced Tracks`
+  - 최근 추가 카드: `복소수`, `복소수평면`, `수학적 모델링·수학 탐구`, `Polar Ideas`, `Sequences and Series`, `AP Statistics`
+- 현재 남은 확장 후보
+  - synthesis 확장: `나라별 curriculum hub`, `course-track hub`, `cross-country comparison synthesis`
+  - support cards: `예제 카드`, `오개념 카드`, `평가 패턴 synthesis`
+  - 추가 하위 개념: `복소수의 연산`, `행렬의 연산`, `연속함수의 성질`, `라디안`, `삼각함수 항등식`, `AP Calculus`, `IB Mathematics`
+
+### Folder Status Details
+
+- `docs/math-curriculum-research/`
+  - `README.md`, `korea.md`, `comparison.md`, `japan.md`, `china.md`, `us.md` 모두 source note가 있다.
+  - `korea/japan/china/us` 문서는 concept card의 `국가별 배치 스냅샷`과 `course-track note`에 직접 반영된다.
+- `docs/math-concept-encyclopedia/`
+  - `README.md`, `korea.md`, `japan.md`, `china.md`, `us.md` 모두 source note가 있다.
+  - `multilingual-glossary.md`, `formula-examples.md`, `unit-practice-book.md`, `comparative-problem-book.md`도 source note로 편입되어 alias, 수식, 예제, 문제 감각 레이어를 지원한다.
+
+### Recommended Next Expansion Order
+
+- 1차
+  - `나라별 curriculum hub`
+  - `course-track hub`
+  - `cross-country comparison synthesis`
+- 2차
+  - `예제 카드`
+  - `오개념 카드`
+  - `평가 패턴 synthesis`
+- 3차
+  - `복소수의 연산`
+  - `행렬의 연산`
+  - `연속함수의 성질`
+  - `라디안`
+  - `삼각함수 항등식`
+  - `AP Calculus`
+  - `IB Mathematics`
+
+## Connections
+
+- 폴더 설계의 원본 메모는 [../source-notes/math-curriculum-research-readme.md](../source-notes/math-curriculum-research-readme.md), [../source-notes/math-concept-encyclopedia-readme.md](../source-notes/math-concept-encyclopedia-readme.md)에 있다.
+- 현재 한국 기준 그래프 샘플은 [2026-04-06-math-curriculum-graph.md](./2026-04-06-math-curriculum-graph.md)와 하위 샘플 노트들에 있다.
+- 나라별 직접 요약은 [../source-notes/math-curriculum-research-japan.md](../source-notes/math-curriculum-research-japan.md), [../source-notes/math-curriculum-research-china.md](../source-notes/math-curriculum-research-china.md), [../source-notes/math-curriculum-research-us.md](../source-notes/math-curriculum-research-us.md), [../source-notes/math-concept-encyclopedia-japan.md](../source-notes/math-concept-encyclopedia-japan.md), [../source-notes/math-concept-encyclopedia-china.md](../source-notes/math-concept-encyclopedia-china.md), [../source-notes/math-concept-encyclopedia-us.md](../source-notes/math-concept-encyclopedia-us.md)에 있다.
+- 지속 개념 카드 구조는 [../syntheses/concept-card-model.md](../syntheses/concept-card-model.md), [../syntheses/concept-cards/prime-factorization.md](../syntheses/concept-cards/prime-factorization.md), [../syntheses/concept-cards/linear-function.md](../syntheses/concept-cards/linear-function.md), [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md), [../syntheses/concept-cards/differentiation.md](../syntheses/concept-cards/differentiation.md), [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md), [../syntheses/concept-cards/integrated-mathematics.md](../syntheses/concept-cards/integrated-mathematics.md)에서 본다.
+
+## Open Questions
+
+- 다음 우선순위를 `개념 카드 수 늘리기`와 `나라 비교 synthesis 만들기` 중 어디에 둘지 결정이 필요하다.
+- 미국처럼 `경로형` 교육과정을 별도 허브로 뺄지, 개념 카드 안의 `국가별 배치 스냅샷`으로 계속 처리할지 기준이 필요하다.
+- `formula-examples.md`, `unit-practice-book.md`, `comparative-problem-book.md`를 검색 카드 단위로 더 쪼갤지 문서형 자산으로 유지할지 후속 설계가 필요하다.
+
+## Sources
+
+- `docs/math-curriculum-research/README.md`
+- `docs/math-curriculum-research/korea.md`
+- `docs/math-curriculum-research/comparison.md`
+- `docs/math-curriculum-research/japan.md`
+- `docs/math-curriculum-research/china.md`
+- `docs/math-curriculum-research/us.md`
+- `docs/math-concept-encyclopedia/README.md`
+- `docs/math-concept-encyclopedia/korea.md`
+- `docs/math-concept-encyclopedia/japan.md`
+- `docs/math-concept-encyclopedia/china.md`
+- `docs/math-concept-encyclopedia/us.md`
+- `docs/math-concept-encyclopedia/multilingual-glossary.md`
+- `docs/math-concept-encyclopedia/formula-examples.md`
+- `docs/math-concept-encyclopedia/unit-practice-book.md`
+- `docs/math-concept-encyclopedia/comparative-problem-book.md`
