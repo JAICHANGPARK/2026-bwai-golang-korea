@@ -19,46 +19,75 @@ tags:
 
 ## Summary
 
-식의 계산은 문자식을 더하고 빼고 곱하면서 구조를 정리하는 개념이다. 방정식 풀이와 인수분해, 함수식 변형의 계산 기반이 되는 만큼 대수의 문법을 실제로 손에 익히는 단계다.
+식의 계산은 문자식을 전개하고, 동류항을 모으고, 인수로 묶어 구조를 정리하는 대수의 기본 문법이다. 방정식 풀이와 함수식 변형의 바닥에 깔리는 계산 체력이라고 보면 된다.
 
-## Key Points
+## Definition
 
-- 정의
-  - 문자식을 항의 구조에 따라 정리하고 변형하는 과정을 식의 계산이라 한다.
-- 핵심 개념
-  - 단항식
-  - 다항식
-  - 동류항 정리
-  - 분배법칙
-  - 괄호 전개
-- 대표 수식
+- 식의 계산은 문자를 포함한 식을 전개, 동류항 정리, 인수분해의 방향으로 다루는 과정이다.
+- 단항식, 다항식, 동류항, 계수, 차수의 개념을 함께 사용한다.
+
+## Key Ideas
+
+- 전개
+  - 괄호를 풀어 곱셈을 덧셈의 형태로 바꾼다.
+- 동류항 정리
+  - 변수와 차수가 같은 항끼리만 더하거나 뺄 수 있다.
+- 분배법칙
+  - 곱셈이 덧셈 위로 퍼질 때 식의 구조를 바꿀 수 있다.
+- 인수분해와 역전개
+  - 계산의 반대 방향으로 공통인자를 묶어 표현을 간결하게 만든다.
+- 표준형 정리
+  - 다음 단계의 방정식 풀이를 쉽게 하도록 식을 정돈한다.
+
+## Theorems and Properties
+
+- 분배법칙
   - $(a+b)c=ac+bc$
+  - $(a-b)c=ac-bc$
+- 동류항 결합
   - $ax+bx=(a+b)x$
-- 증명 스케치
-  - `증명 스케치 (추론)`:
-  - $(a+b)c$는 `a와 b의 합을 c번 반복한 양`으로 읽을 수 있다.
-  - 그래서 $ac$와 $bc$를 더한 것과 같아지고, 이것이 분배법칙의 핵심이다.
-- 대표 예제
-  - $(2x+3)-(-x+1)=2x+3+x-1=3x+2$이다.
-- 교육과정 배치
-  - 한국 대표 배치에서는 `중2` 초반의 핵심 단원이다.
-- 국가별 배치 스냅샷
-  - 한국: `중2`의 `식의 계산`이 다항식 조작의 출발점이다.
-  - 일본: `중2`의 `문자식의 사칙계산과 식의 변형`에 해당한다.
-  - 중국: `7~8학년`의 `정식` 덧셈·곱셈과 인수분해 전단계로 이어진다.
-  - 미국: Grade 7의 `Linear Expressions and Equations`, Algebra I의 expression manipulation으로 이어진다.
-- 표현과 문제 감각
-  - 다국어 용어: `polynomial`, `term`, `coefficient`, `多項式`, `多项式`
-  - 계산 자체보다 `식의 모양을 어떻게 정리하면 다음 단계가 쉬워지는가`가 중요하다.
+  - $x^m$과 $x^n$은 $m=n$일 때만 동류항이다.
+- 곱셈의 결합과 교환
+  - 순서와 묶음은 바뀌어도 값이 변하지 않아 식을 정리할 수 있다.
+- 대표 항등식
+  - $(a+b)^2=a^2+2ab+b^2$
+  - $(a-b)(a+b)=a^2-b^2$
+
+## Proof Sketch
+
+분배법칙은 `a와 b의 합을 c번 반복한다`는 뜻에서 나온다. 예를 들어 $(a+b)c$는 $(a+b)$를 $c$번 더한 것이므로, 결국 $ac$와 $bc$를 각각 $c$번 더한 뒤 합친 것과 같다. 동류항 결합도 같은 원리다. $x+x+x$는 $3x$로 쓸 수 있고, $ax+bx$는 `x`가 반복된 양이므로 $(a+b)x$로 정리된다.
+
+## Worked Examples
+
+- 예제 1
+  - $(2x+3)-(-x+1)$
+  - $=2x+3+x-1$
+  - $=3x+2$
+- 예제 2
+  - $2(3x-1)-x$
+  - $=6x-2-x$
+  - $=5x-2$
+- 예제 3
+  - $6x^2-9x$
+  - $=3x(2x-3)$
+  - 이 예제는 공통인자를 묶는 것이 전개와 반대 방향의 계산이라는 점을 보여 준다.
+
+## Common Pitfalls
+
+- 부호 오류
+  - $-(x-1)$을 $-x-1$로 쓰면 안 된다.
+- 동류항 오판
+  - $x$와 $x^2$는 동류항이 아니다.
+- 전개 누락
+  - 곱셈이 걸린 괄호를 한 항씩 분배하지 않으면 식이 틀어진다.
+- 인수분해를 너무 빨리 시도
+  - 먼저 전개와 정리를 끝내고 공통인자를 보는 편이 안전하다.
 
 ## Connections
 
-- 선수 개념은 [variables-and-expressions.md](./variables-and-expressions.md)다.
+- 선수 개념은 [variables-and-expressions.md](./variables-and-expressions.md)와 [integers-and-rational-numbers.md](./integers-and-rational-numbers.md)다.
 - 다음 개념으로는 [linear-equation.md](./linear-equation.md), [polynomials-and-factorization.md](./polynomials-and-factorization.md), [linear-function.md](./linear-function.md)가 이어진다.
-
-## Open Questions
-
-- `전개`와 `인수분해`를 계산 카드와 구조 카드로 더 분리할지 기준이 필요하다.
+- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 

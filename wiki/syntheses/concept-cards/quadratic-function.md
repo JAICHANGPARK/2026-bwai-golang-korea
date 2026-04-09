@@ -26,59 +26,77 @@ tags:
 
 ## Summary
 
-이차함수는 선형 관계를 넘어 처음으로 본격적인 비선형 변화를 다루는 함수 개념이다. 식의 구조, 그래프의 모양, 꼭짓점과 최대·최소를 함께 읽어야 해서 중학교 후반에서 고등학교 함수 해석으로 넘어가는 핵심 브리지 역할을 한다.
+이차함수는 선형 관계를 넘어 처음으로 본격적인 비선형 변화를 다루는 함수다. 식의 구조, 그래프의 모양, 꼭짓점과 최대·최소를 함께 읽어야 해서 중학교 후반에서 고등학교 함수 해석으로 넘어가는 핵심 브리지 역할을 한다.
 
-## Key Points
+## Definition
 
-- 정의
-  - 가장 대표적인 형태는 $y=ax^2+bx+c\;(a\neq 0)$이며, 그래프는 포물선이다.
-- 핵심 개념
-  - 포물선
-  - 꼭짓점
-  - 축
-  - 최대와 최소
-  - x절편
-  - 대칭성
-- 대표 수식
-  - $y=ax^2+bx+c=a(x-p)^2+q$
+- 이차함수는 $f(x)=ax^2+bx+c\;(a\neq 0)$ 꼴의 함수다.
+- 그래프는 포물선이며, $a$의 부호에 따라 위로 열리거나 아래로 열린다.
+
+## Key Ideas
+
+- 표준형
+  - $y=ax^2+bx+c$
+- 꼭짓점형
+  - $y=a(x-p)^2+q$
+  - 꼭짓점은 $(p,q)$이다.
+- 축의 방정식
   - $x=-\frac{b}{2a}$
-- 증명 스케치
-  - `증명 스케치 (추론)`:
-  - $y=ax^2+bx+c$를 완전제곱하면
-    $$
-    y=a\left(x+\frac{b}{2a}\right)^2+\left(c-\frac{b^2}{4a}\right)
-    $$
-    꼴이 된다.
-  - 제곱항은 항상 0 이상이므로, $a>0$이면 꼭짓점에서 최소값을, $a<0$이면 최대값을 가진다.
-  - 따라서 이차함수의 그래프는 꼭짓점을 중심으로 대칭이며, 꼭짓점형이 그래프 해석에 가장 직접적이다.
-- 대표 예제
-  - $y=x^2-4x+1$을 완전제곱하면
-    $$
-    y=(x-2)^2-3
-    $$
-    이므로 꼭짓점은 `(2,-3)`이고 축은 $x=2$다.
-- 교육과정 배치
-  - 한국 대표 배치에서는 `중3` 핵심 단원이고, 고등학교에서 함수 일반론과 최적화 감각으로 다시 확장된다.
-- 국가별 배치 스냅샷
-  - 한국: `중3`에서 `이차방정식`과 밀접하게 연결되어 다뤄진다.
-  - 일본: `중3`에서 `비례 -> 일차함수 -> 이차함수` 계통의 정점처럼 배치되고, 고등학교 `수학I`에서 다시 중요해진다.
-  - 중국: `9학년 1학기`에 도입되며, 구조적 식 변형과 그래프 해석이 함께 강조된다.
-  - 미국: 보통 `Algebra I`나 `Integrated Mathematics` 경로에서 처음 배우고, 이후 `Algebra II`와 `Calculus` 직관으로 이어진다.
-- 표현과 문제 감각
-  - 다국어 용어: `quadratic function`, `二次関数`, `二次函数`
-  - 비교 문제집 기준으로 한국은 꼭짓점 계산, 일본은 그래프 서술, 중국은 식 변형, 미국은 `vertex form` 변환이 자주 강조된다.
+- 최대·최소
+  - $a>0$이면 꼭짓점에서 최소값, $a<0$이면 최대값을 갖는다.
+- x절편과 방정식
+  - 이차함수의 x절편은 대응하는 이차방정식의 해와 같다.
+
+## Theorems and Properties
+
+- 완전제곱에 의한 꼭짓점형
+  - 모든 이차식은 완전제곱을 통해 꼭짓점형으로 바꿀 수 있다.
+- 축 대칭성
+  - 그래프는 축 $x=-\frac{b}{2a}$를 기준으로 좌우 대칭이다.
+- 꼭짓점 극값 정리
+  - 제곱항은 항상 0 이상이므로, 꼭짓점에서 최대 또는 최소가 결정된다.
+- 판별과 교점
+  - 방정식 $ax^2+bx+c=0$의 해의 개수는 그래프가 x축과 만나는 점의 개수와 일치한다.
+
+## Proof Sketch
+
+$y=ax^2+bx+c$를 완전제곱하면
+
+$$
+y=a\left(x+\frac{b}{2a}\right)^2+\left(c-\frac{b^2}{4a}\right)
+$$
+
+가 된다. 제곱항은 항상 $0$ 이상이므로, $a>0$이면 그 값이 가장 작아지는 지점이 꼭짓점이고, $a<0$이면 가장 커지는 지점이 꼭짓점이다. 따라서 축은 $x=-\frac{b}{2a}$가 되고, 꼭짓점형은 그래프의 모양을 바로 읽게 해 준다.
+
+## Worked Examples
+
+- 예제 1
+  - $y=x^2-4x+1$
+  - $y=(x-2)^2-3$
+  - 꼭짓점은 $(2,-3)$, 축은 $x=2$
+  - 최소값은 $-3$
+- 예제 2
+  - $y=-2x^2+8x-3$
+  - $y=-2(x-2)^2+5$
+  - 꼭짓점은 $(2,5)$, 축은 $x=2$
+  - 최대값은 $5$
+
+## Common Pitfalls
+
+- 축의 공식 착각
+  - $-\frac{b}{a}$가 아니라 $-\frac{b}{2a}$이다.
+- 꼭짓점과 x절편 혼동
+  - 꼭짓점은 그래프의 최고·최저점이고, x절편은 $y=0$일 때의 점이다.
+- 부호 실수
+  - $a<0$이면 포물선이 아래로 열린다.
+- 폭의 변화 오해
+  - $|a|$가 클수록 포물선은 더 좁아진다.
 
 ## Connections
 
-- 선수 개념은 [linear-function.md](./linear-function.md), `인수분해`, [quadratic-equation.md](./quadratic-equation.md)이다.
-- 다음 개념으로는 `최적화`, [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), `미분의 극값 해석`이 이어진다.
-- 학년 허브에서는 [middle-3-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/middle-3-hub.md), [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/high-1-hub.md)와 연결된다.
-- 계통 허브에서는 [functions-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/queries/math-curriculum-graph/functions-strand.md)를 본다.
-
-## Open Questions
-
-- `이차함수` 카드 안에 `이차방정식과 x절편의 관계`를 더 강하게 넣을지 별도 브리지 카드로 뺄지 기준이 필요하다.
-- `최대·최소`를 이 카드의 하위 설명으로 둘지 독립 개념 카드로 분리할지 후속 결정이 필요하다.
+- 선수 개념은 [linear-function.md](./linear-function.md), [polynomials-and-factorization.md](./polynomials-and-factorization.md), [quadratic-equation.md](./quadratic-equation.md)다.
+- 다음 개념으로는 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [derivative.md](./derivative.md), [continuity.md](./continuity.md)로 이어진다.
+- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 

@@ -19,47 +19,78 @@ tags:
 
 ## Summary
 
-벡터는 크기와 방향을 함께 가진 양을 다루는 개념이다. 도형 정보를 계산 가능한 대수 언어로 바꾸는 강력한 도구라서 기하, 물리, 컴퓨터 그래픽스까지 폭넓게 이어진다.
+벡터는 크기와 방향을 함께 가진 양을 다루는 개념이다. 도형 정보를 계산 가능한 대수 언어로 바꾸는 강력한 도구라서 기하, 물리, 컴퓨터 그래픽스까지 폭넓게 이어진다. 이 카드에서는 평면 벡터를 중심으로 다룬다.
 
-## Key Points
+## Definition
 
-- 정의
-  - 크기와 방향을 함께 가지는 양을 벡터라 한다.
-- 핵심 개념
-  - 방향
-  - 크기
-  - 성분
-  - 덧셈
-  - 스칼라배
-  - 내적
-- 대표 수식
+- 벡터는 크기와 방향을 함께 가지는 양이다.
+- 평면에서 벡터는 보통 성분쌍 $(a_1,a_2)$로 나타낸다.
+- 점은 위치를, 벡터는 이동과 방향을 나타낸다고 구분해서 읽는 것이 좋다.
+
+## Key Ideas
+
+- 성분 표현
   - $\vec a=(a_1,a_2)$
-  - $\vec a\cdot\vec b=|\vec a||\vec b|\cos\theta$
-- 증명 스케치
-  - `증명 스케치 (추론)`:
-  - 내적은 두 벡터가 얼마나 같은 방향을 보는지 수로 나타낸다.
-  - 성분으로 계산하면 길이와 각도 정보를 동시에 담을 수 있어 기하 계산이 가능해진다.
-- 대표 예제
-  - $\vec a=(2,1)$, $\vec b=(1,3)$이면 $\vec a\cdot\vec b=2\cdot 1+1\cdot 3=5$다.
-- 교육과정 배치
-  - 한국 대표 배치에서는 `기하`의 핵심 단원이다.
-- 국가별 배치 스냅샷
-  - 한국: `기하`에서 평면·공간벡터로 확장된다.
-  - 일본: `수학C`의 대표 축이다.
-  - 중국: `기하와 대수`, `공간벡터와 해석기하`에서 강하게 다뤄진다.
-  - 미국: K-12 일반 경로에서는 제한적이지만 Physics, Geometry, advanced track에서 자주 등장한다.
-- 표현과 문제 감각
-  - 다국어 용어: `vector`, `ベクトル`, `向量`
-  - 좌표쌍이면서 동시에 방향을 가진 대상으로 읽는 이중 시각이 중요하다.
+- 벡터의 길이
+  - $|\vec a|=\sqrt{a_1^2+a_2^2}$
+- 벡터의 덧셈
+  - 같은 성분끼리 더한다.
+- 스칼라배
+  - 각 성분에 같은 수를 곱한다.
+- 내적
+  - 두 벡터의 방향 관계를 수로 읽는다.
+
+## Theorems and Properties
+
+- 덧셈과 스칼라배의 성분 법칙
+  - $(a_1,a_2)+(b_1,b_2)=(a_1+b_1,a_2+b_2)$
+  - $k(a_1,a_2)=(ka_1,ka_2)$
+- 내적 공식
+  - $\vec a\cdot\vec b=a_1b_1+a_2b_2=|\vec a||\vec b|\cos\theta$
+- 직교 판정
+  - 두 벡터가 모두 0벡터가 아닐 때, $\vec a\cdot\vec b=0$이면 서로 수직이고, 서로 수직이면 내적은 0이다.
+- 자기 자신과의 내적
+  - $\vec a\cdot\vec a=|\vec a|^2$
+
+## Proof Sketch
+
+벡터 내적 공식은 피타고라스 정리와 코사인 법칙에서 자연스럽게 나온다. 두 벡터가 이루는 삼각형에 코사인 법칙을 적용하면
+
+$$
+|\vec a-\vec b|^2=|\vec a|^2+|\vec b|^2-2|\vec a||\vec b|\cos\theta
+$$
+
+가 된다. 한편 성분으로 전개하면 좌변은 좌표 차이의 제곱합으로도 계산된다. 이 두 표현을 비교하면 $\vec a\cdot\vec b=a_1b_1+a_2b_2$가 되고, 각이 $90^\circ$일 때는 $\cos\theta=0$이므로 내적이 0이 된다.
+
+## Worked Examples
+
+- 예제 1
+  - $\vec a=(2,1)$, $\vec b=(1,3)$이면
+  - $\vec a+\vec b=(3,4)$
+  - $2\vec a=(4,2)$
+- 예제 2
+  - $\vec a=(2,1)$, $\vec b=(1,3)$이면
+  - $\vec a\cdot\vec b=2\cdot 1+1\cdot 3=5$
+  - 두 벡터의 길이가 각각 $\sqrt5$, $\sqrt{10}$이므로
+    $\cos\theta=\frac{5}{\sqrt{50}}=\frac{1}{\sqrt2}$
+  - 따라서 두 벡터의 끼인각은 $45^\circ$다.
+
+## Common Pitfalls
+
+- 점과 벡터 혼동
+  - 점은 위치, 벡터는 방향이 있는 변위다.
+- 성분 계산 실수
+  - 덧셈과 스칼라배는 성분별로 해야 한다.
+- 내적을 벡터로 착각
+  - 내적의 결과는 스칼라다.
+- 수직 판정 오해
+  - $\vec a\cdot\vec b=0$은 두 벡터가 모두 0이 아닐 때 직교 판정으로 쓰는 것이 자연스럽다.
 
 ## Connections
 
-- 선수 개념은 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [pythagorean-theorem.md](./pythagorean-theorem.md)다.
+- 선수 개념은 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [pythagorean-theorem.md](./pythagorean-theorem.md), [similarity.md](./similarity.md)다.
 - 다음 개념으로는 [complex-plane.md](./complex-plane.md), [spatial-coordinates.md](./spatial-coordinates.md), [conic-sections.md](./conic-sections.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
-
-## Open Questions
-
-- `내적`과 `벡터 방정식`을 독립 카드로 뺄지 후속 검토가 필요하다.
+- 계통 허브로는 [../korea-curriculum-hub.md](../korea-curriculum-hub.md), [../japan-curriculum-hub.md](../japan-curriculum-hub.md), [../china-curriculum-hub.md](../china-curriculum-hub.md), [../us-curriculum-hub.md](../us-curriculum-hub.md), [../course-track-hub.md](../course-track-hub.md)를 본다.
 
 ## Sources
 
