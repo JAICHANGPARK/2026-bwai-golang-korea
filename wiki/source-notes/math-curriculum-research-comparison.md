@@ -2,7 +2,7 @@
 title: Source Note - Math Curriculum Research Comparison
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/comparison.md
 tags:
@@ -33,6 +33,9 @@ tags:
 - [../syntheses/cross-country-function-progression.md](../syntheses/cross-country-function-progression.md)
 - [../syntheses/cross-country-geometry-and-proof.md](../syntheses/cross-country-geometry-and-proof.md)
 - [../syntheses/cross-country-statistics-and-data.md](../syntheses/cross-country-statistics-and-data.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
+- [../syntheses/concept-cards/confidence-interval.md](../syntheses/concept-cards/confidence-interval.md)
+- [../syntheses/concept-cards/hypothesis-testing.md](../syntheses/concept-cards/hypothesis-testing.md)
 - [../syntheses/assessment-systems-comparison.md](../syntheses/assessment-systems-comparison.md)
 - [../syntheses/assessment-patterns.md](../syntheses/assessment-patterns.md)
 

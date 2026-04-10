@@ -2,7 +2,7 @@
 title: Source Note - Math Concept Encyclopedia Multilingual Glossary
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-concept-encyclopedia/multilingual-glossary.md
 tags:
@@ -47,11 +47,13 @@ tags:
 - [../syntheses/concept-cards/complex-division.md](../syntheses/concept-cards/complex-division.md)
 - [../syntheses/concept-cards/basic-geometry-and-construction.md](../syntheses/concept-cards/basic-geometry-and-construction.md)
 - [../syntheses/concept-cards/congruence.md](../syntheses/concept-cards/congruence.md)
+- [../syntheses/concept-cards/parallelogram.md](../syntheses/concept-cards/parallelogram.md)
 - [../syntheses/concept-cards/similarity.md](../syntheses/concept-cards/similarity.md)
 - [../syntheses/concept-cards/circle.md](../syntheses/concept-cards/circle.md)
 - [../syntheses/concept-cards/pythagorean-theorem.md](../syntheses/concept-cards/pythagorean-theorem.md)
 - [../syntheses/concept-cards/sets-and-propositions.md](../syntheses/concept-cards/sets-and-propositions.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/equation-of-a-circle.md](../syntheses/concept-cards/equation-of-a-circle.md)
 - [../syntheses/concept-cards/conic-sections.md](../syntheses/concept-cards/conic-sections.md)
 - [../syntheses/concept-cards/vectors.md](../syntheses/concept-cards/vectors.md)
 - [../syntheses/concept-cards/spatial-coordinates.md](../syntheses/concept-cards/spatial-coordinates.md)
@@ -70,6 +72,8 @@ tags:
 - [../syntheses/concept-cards/integration.md](../syntheses/concept-cards/integration.md)
 - [../syntheses/concept-cards/mathematical-induction.md](../syntheses/concept-cards/mathematical-induction.md)
 - [../syntheses/concept-cards/data-organization.md](../syntheses/concept-cards/data-organization.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
+- [../syntheses/concept-cards/standard-deviation.md](../syntheses/concept-cards/standard-deviation.md)
 - [../syntheses/concept-cards/correlation-and-scatter-plots.md](../syntheses/concept-cards/correlation-and-scatter-plots.md)
 - [../syntheses/concept-cards/conditional-probability.md](../syntheses/concept-cards/conditional-probability.md)
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)

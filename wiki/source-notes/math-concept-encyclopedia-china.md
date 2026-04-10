@@ -2,7 +2,7 @@
 title: Source Note - Math Concept Encyclopedia China
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-concept-encyclopedia/china.md
 tags:
@@ -40,6 +40,7 @@ tags:
 - [../syntheses/concept-cards/linear-function.md](../syntheses/concept-cards/linear-function.md)
 - [../syntheses/concept-cards/square-roots-and-real-numbers.md](../syntheses/concept-cards/square-roots-and-real-numbers.md)
 - [../syntheses/concept-cards/polynomials-and-factorization.md](../syntheses/concept-cards/polynomials-and-factorization.md)
+- [../syntheses/concept-cards/fractional-expressions.md](../syntheses/concept-cards/fractional-expressions.md)
 - [../syntheses/concept-cards/quadratic-equation.md](../syntheses/concept-cards/quadratic-equation.md)
 - [../syntheses/concept-cards/quadratic-function.md](../syntheses/concept-cards/quadratic-function.md)
 - [../syntheses/concept-cards/complex-numbers.md](../syntheses/concept-cards/complex-numbers.md)
@@ -47,14 +48,20 @@ tags:
 - [../syntheses/concept-cards/basic-geometry-and-construction.md](../syntheses/concept-cards/basic-geometry-and-construction.md)
 - [../syntheses/concept-cards/geometric-proof.md](../syntheses/concept-cards/geometric-proof.md)
 - [../syntheses/concept-cards/congruence.md](../syntheses/concept-cards/congruence.md)
+- [../syntheses/concept-cards/parallelogram.md](../syntheses/concept-cards/parallelogram.md)
 - [../syntheses/concept-cards/similarity.md](../syntheses/concept-cards/similarity.md)
 - [../syntheses/concept-cards/circle.md](../syntheses/concept-cards/circle.md)
 - [../syntheses/concept-cards/pythagorean-theorem.md](../syntheses/concept-cards/pythagorean-theorem.md)
 - [../syntheses/concept-cards/sets-and-propositions.md](../syntheses/concept-cards/sets-and-propositions.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/equation-of-a-circle.md](../syntheses/concept-cards/equation-of-a-circle.md)
 - [../syntheses/concept-cards/conic-sections.md](../syntheses/concept-cards/conic-sections.md)
+- [../syntheses/concept-cards/parabola.md](../syntheses/concept-cards/parabola.md)
+- [../syntheses/concept-cards/ellipse.md](../syntheses/concept-cards/ellipse.md)
+- [../syntheses/concept-cards/hyperbola.md](../syntheses/concept-cards/hyperbola.md)
 - [../syntheses/concept-cards/vectors.md](../syntheses/concept-cards/vectors.md)
 - [../syntheses/concept-cards/spatial-coordinates.md](../syntheses/concept-cards/spatial-coordinates.md)
+- [../syntheses/concept-cards/projection-and-orthographic-views.md](../syntheses/concept-cards/projection-and-orthographic-views.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
 - [../syntheses/concept-cards/continuity-properties.md](../syntheses/concept-cards/continuity-properties.md)
@@ -65,6 +72,7 @@ tags:
 - [../syntheses/concept-cards/derivative.md](../syntheses/concept-cards/derivative.md)
 - [../syntheses/concept-cards/integration.md](../syntheses/concept-cards/integration.md)
 - [../syntheses/concept-cards/data-organization.md](../syntheses/concept-cards/data-organization.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
 - [../syntheses/concept-cards/counting-principles.md](../syntheses/concept-cards/counting-principles.md)
 - [../syntheses/concept-cards/sampling.md](../syntheses/concept-cards/sampling.md)
 - [../syntheses/concept-cards/correlation-and-scatter-plots.md](../syntheses/concept-cards/correlation-and-scatter-plots.md)

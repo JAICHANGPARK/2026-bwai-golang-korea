@@ -2,7 +2,7 @@
 title: Remaining Curriculum Backlog Refresh
 type: query-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/comparison.md
   - docs/math-curriculum-research/korea.md
@@ -23,7 +23,7 @@ tags:
 
 ## Summary
 
-예전에 남아 있던 `대표 개념 카드`, `나라별 학년·과목 wrapper`, `지속형 curriculum hub`, `4개국 비교 synthesis`, `예제·오개념·평가 패턴 synthesis` 중심 backlog는 이번 배치로 사실상 완료 상태다. 이제 `docs/` 기반으로 직접 보이던 필수 확장 항목은 모두 persistent layer에 올라왔고, 남은 일은 더 세밀한 정리 카드와 proof density 보강 같은 `선택형 심화 작업` 쪽으로 이동했다.
+예전에 남아 있던 `대표 개념 카드`, `나라별 학년·과목 wrapper`, `지속형 curriculum hub`, `4개국 비교 synthesis`, `예제·오개념·평가 패턴 synthesis` 중심 backlog는 이미 사실상 완료 상태였고, 이번 배치에서 마지막으로 눈에 띄던 `세분화 누락 노드`까지 persistent layer에 편입했다. 이제 `docs/` 기반으로 직접 보이던 필수 확장 항목은 모두 올라왔고, 남은 일은 `더 잘게 쪼갤 세부 카드`, `증명·예제 밀도 보강`, `메타데이터 정규화` 같은 선택형 심화 작업이다.
 
 ## Key Points
 
@@ -46,9 +46,22 @@ tags:
   - `assessment synthesis`
   - `support synthesis`: 예제 패턴, 오개념 패턴, 평가 패턴
   - `세부 하위 카드`: `연속함수의 성질`, `AP Calculus`, `IB Mathematics`, `삼각함수의 그래프`, `복소수의 나눗셈`, `도함수의 그래프 해석`
+- 이번 배치에서 추가로 닫힌 `세분화 누락 노드`
+  - `분식`
+  - `평행사변형`
+  - `투영과 투상도`
+  - `분산`
+  - `표준편차`
+  - `신뢰구간`
+  - `가설검정`
+  - `직선의 방정식`
+  - `원의 방정식`
+  - `포물선`
+  - `타원`
+  - `쌍곡선`
 - 지금 실제로 남아 있는 선택형 심화 후보
   - `학년 허브`를 query sample에서 persistent synthesis로 승격
-  - `정의역·치역`, `직선의 방정식`, `원의 방정식`, `포물선`, `타원`, `쌍곡선` 같은 더 세분된 하위 카드
+  - `정의역·치역`, `좌표평면`, `상자그림`, `사분위범위`, `독립사건`, `연속확률변수`, `베이즈 정리` 같은 더 세분된 하위 카드
   - 앵커 카드의 `정석형 서술 밀도`와 증명 밀도 추가 보강
   - concept card frontmatter와 alias 메타데이터 표준화
 
@@ -58,7 +71,7 @@ tags:
   - `정석형 앵커 카드` 밀도 보강
   - `학년 허브`의 persistent 승격 여부 결정
 - 2차
-  - `정의역·치역`, `직선의 방정식`, `원의 방정식` 같은 하위 개념 분화
+  - `정의역·치역`, `좌표평면`, `상자그림`, `사분위범위` 같은 하위 개념 분화
   - `proof density`가 약한 카드의 증명 보강
 - 3차
   - `학생용/교사용` 난이도 뷰 분리

@@ -2,7 +2,7 @@
 title: Source Note - Math Curriculum Research China
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/china.md
 tags:
@@ -34,9 +34,12 @@ tags:
 - [../syntheses/concept-cards/linear-function.md](../syntheses/concept-cards/linear-function.md)
 - [../syntheses/concept-cards/quadratic-equation.md](../syntheses/concept-cards/quadratic-equation.md)
 - [../syntheses/concept-cards/quadratic-function.md](../syntheses/concept-cards/quadratic-function.md)
+- [../syntheses/concept-cards/fractional-expressions.md](../syntheses/concept-cards/fractional-expressions.md)
 - [../syntheses/concept-cards/complex-numbers.md](../syntheses/concept-cards/complex-numbers.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/parallelogram.md](../syntheses/concept-cards/parallelogram.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
+- [../syntheses/concept-cards/projection-and-orthographic-views.md](../syntheses/concept-cards/projection-and-orthographic-views.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
 - [../syntheses/concept-cards/counting-principles.md](../syntheses/concept-cards/counting-principles.md)
 - [../syntheses/concept-cards/conditional-probability.md](../syntheses/concept-cards/conditional-probability.md)

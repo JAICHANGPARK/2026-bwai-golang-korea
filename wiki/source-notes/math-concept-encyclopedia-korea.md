@@ -2,7 +2,7 @@
 title: Source Note - Math Concept Encyclopedia Korea
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-concept-encyclopedia/korea.md
 tags:
@@ -57,7 +57,12 @@ tags:
 - [../syntheses/concept-cards/pythagorean-theorem.md](../syntheses/concept-cards/pythagorean-theorem.md)
 - [../syntheses/concept-cards/sets-and-propositions.md](../syntheses/concept-cards/sets-and-propositions.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/equation-of-a-line.md](../syntheses/concept-cards/equation-of-a-line.md)
+- [../syntheses/concept-cards/equation-of-a-circle.md](../syntheses/concept-cards/equation-of-a-circle.md)
 - [../syntheses/concept-cards/conic-sections.md](../syntheses/concept-cards/conic-sections.md)
+- [../syntheses/concept-cards/parabola.md](../syntheses/concept-cards/parabola.md)
+- [../syntheses/concept-cards/ellipse.md](../syntheses/concept-cards/ellipse.md)
+- [../syntheses/concept-cards/hyperbola.md](../syntheses/concept-cards/hyperbola.md)
 - [../syntheses/concept-cards/vectors.md](../syntheses/concept-cards/vectors.md)
 - [../syntheses/concept-cards/spatial-coordinates.md](../syntheses/concept-cards/spatial-coordinates.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
@@ -76,6 +81,8 @@ tags:
 - [../syntheses/concept-cards/integration.md](../syntheses/concept-cards/integration.md)
 - [../syntheses/concept-cards/mathematical-induction.md](../syntheses/concept-cards/mathematical-induction.md)
 - [../syntheses/concept-cards/data-organization.md](../syntheses/concept-cards/data-organization.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
+- [../syntheses/concept-cards/standard-deviation.md](../syntheses/concept-cards/standard-deviation.md)
 - [../syntheses/concept-cards/counting-principles.md](../syntheses/concept-cards/counting-principles.md)
 - [../syntheses/concept-cards/sampling.md](../syntheses/concept-cards/sampling.md)
 - [../syntheses/concept-cards/correlation-and-scatter-plots.md](../syntheses/concept-cards/correlation-and-scatter-plots.md)
@@ -84,6 +91,8 @@ tags:
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
+- [../syntheses/concept-cards/confidence-interval.md](../syntheses/concept-cards/confidence-interval.md)
+- [../syntheses/concept-cards/hypothesis-testing.md](../syntheses/concept-cards/hypothesis-testing.md)
 - [../syntheses/concept-cards/practical-statistics.md](../syntheses/concept-cards/practical-statistics.md)
 - [../syntheses/concept-cards/common-math-1.md](../syntheses/concept-cards/common-math-1.md)
 - [../syntheses/concept-cards/common-math-2.md](../syntheses/concept-cards/common-math-2.md)

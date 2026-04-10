@@ -2,7 +2,7 @@
 title: Source Note - Math Concept Encyclopedia Comparative Problem Book
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-concept-encyclopedia/comparative-problem-book.md
 tags:
@@ -39,6 +39,7 @@ tags:
 - [../syntheses/concept-cards/conditional-probability.md](../syntheses/concept-cards/conditional-probability.md)
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
 - [../syntheses/concept-cards/complex-plane.md](../syntheses/concept-cards/complex-plane.md)

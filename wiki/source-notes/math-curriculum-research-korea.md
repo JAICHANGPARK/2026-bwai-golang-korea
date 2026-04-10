@@ -2,7 +2,7 @@
 title: Source Note - Math Curriculum Research Korea
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/korea.md
 tags:
@@ -39,6 +39,11 @@ tags:
 - [../syntheses/concept-cards/quadratic-equation.md](../syntheses/concept-cards/quadratic-equation.md)
 - [../syntheses/concept-cards/quadratic-function.md](../syntheses/concept-cards/quadratic-function.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/equation-of-a-line.md](../syntheses/concept-cards/equation-of-a-line.md)
+- [../syntheses/concept-cards/equation-of-a-circle.md](../syntheses/concept-cards/equation-of-a-circle.md)
+- [../syntheses/concept-cards/parabola.md](../syntheses/concept-cards/parabola.md)
+- [../syntheses/concept-cards/ellipse.md](../syntheses/concept-cards/ellipse.md)
+- [../syntheses/concept-cards/hyperbola.md](../syntheses/concept-cards/hyperbola.md)
 - [../syntheses/concept-cards/trigonometric-ratio.md](../syntheses/concept-cards/trigonometric-ratio.md)
 - [../syntheses/concept-cards/trigonometric-function.md](../syntheses/concept-cards/trigonometric-function.md)
 - [../syntheses/concept-cards/matrix.md](../syntheses/concept-cards/matrix.md)
@@ -49,6 +54,10 @@ tags:
 - [../syntheses/concept-cards/conditional-probability.md](../syntheses/concept-cards/conditional-probability.md)
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
+- [../syntheses/concept-cards/variance.md](../syntheses/concept-cards/variance.md)
+- [../syntheses/concept-cards/standard-deviation.md](../syntheses/concept-cards/standard-deviation.md)
+- [../syntheses/concept-cards/confidence-interval.md](../syntheses/concept-cards/confidence-interval.md)
+- [../syntheses/concept-cards/hypothesis-testing.md](../syntheses/concept-cards/hypothesis-testing.md)
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
 - [../syntheses/concept-cards/common-math-1.md](../syntheses/concept-cards/common-math-1.md)
 - [../syntheses/concept-cards/common-math-2.md](../syntheses/concept-cards/common-math-2.md)

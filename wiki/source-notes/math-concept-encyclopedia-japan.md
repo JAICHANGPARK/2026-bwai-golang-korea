@@ -2,7 +2,7 @@
 title: Source Note - Math Concept Encyclopedia Japan
 type: source-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-concept-encyclopedia/japan.md
 tags:
@@ -48,7 +48,9 @@ tags:
 - [../syntheses/concept-cards/circle.md](../syntheses/concept-cards/circle.md)
 - [../syntheses/concept-cards/pythagorean-theorem.md](../syntheses/concept-cards/pythagorean-theorem.md)
 - [../syntheses/concept-cards/equations-of-geometric-figures.md](../syntheses/concept-cards/equations-of-geometric-figures.md)
+- [../syntheses/concept-cards/equation-of-a-line.md](../syntheses/concept-cards/equation-of-a-line.md)
 - [../syntheses/concept-cards/conic-sections.md](../syntheses/concept-cards/conic-sections.md)
+- [../syntheses/concept-cards/parabola.md](../syntheses/concept-cards/parabola.md)
 - [../syntheses/concept-cards/vectors.md](../syntheses/concept-cards/vectors.md)
 - [../syntheses/concept-cards/complex-plane.md](../syntheses/concept-cards/complex-plane.md)
 - [../syntheses/concept-cards/spatial-coordinates.md](../syntheses/concept-cards/spatial-coordinates.md)
@@ -70,6 +72,8 @@ tags:
 - [../syntheses/concept-cards/random-variable.md](../syntheses/concept-cards/random-variable.md)
 - [../syntheses/concept-cards/probability-distribution.md](../syntheses/concept-cards/probability-distribution.md)
 - [../syntheses/concept-cards/statistical-inference.md](../syntheses/concept-cards/statistical-inference.md)
+- [../syntheses/concept-cards/confidence-interval.md](../syntheses/concept-cards/confidence-interval.md)
+- [../syntheses/concept-cards/hypothesis-testing.md](../syntheses/concept-cards/hypothesis-testing.md)
 - [../syntheses/concept-cards/practical-statistics.md](../syntheses/concept-cards/practical-statistics.md)
 - [../syntheses/concept-cards/regression.md](../syntheses/concept-cards/regression.md)
 - [../syntheses/concept-cards/japan-middle-1.md](../syntheses/concept-cards/japan-middle-1.md)

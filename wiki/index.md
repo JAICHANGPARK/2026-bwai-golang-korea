@@ -80,7 +80,7 @@ tags:
 
 ## Concept Syntheses
 
-현재 `wiki/syntheses/concept-cards/`는 `card_role: concept 67장`, `card_role: wrapper 40장`으로 나뉘며, wrapper 카드는 Summary 아래 `Course Wrapper` callout으로 구분한다. 2026-04-10 기준으로 함수·기하·확통·미적분의 핵심 앵커 카드뿐 아니라 남아 있던 concept 카드 전반에도 `Deep Dive`, `Worked Examples`, `Common Pitfalls`, `증명 스케치` 축의 보강이 들어가, 모든 concept 카드가 최소 두 가지 이상의 교재형 서술 요소를 갖도록 정리되어 있다.
+현재 `wiki/syntheses/concept-cards/`는 `card_role: concept 79장`, `card_role: wrapper 40장`, 총 `119장`으로 나뉘며, wrapper 카드는 Summary 아래 `Course Wrapper` callout으로 구분한다. 2026-04-10 기준으로 함수·기하·확통·미적분의 핵심 앵커 카드뿐 아니라 남아 있던 concept 카드 전반에도 `Deep Dive`, `Worked Examples`, `Common Pitfalls`, `증명 스케치` 축의 보강이 들어가, 모든 concept 카드가 최소 두 가지 이상의 교재형 서술 요소를 갖도록 정리되어 있다.
 
 ### Number And Algebra
 
@@ -95,6 +95,7 @@ tags:
 - [syntheses/concept-cards/matrix-operations.md](./syntheses/concept-cards/matrix-operations.md) - `행렬의 연산`을 성분별 덧셈과 행렬곱의 구조 중심으로 정리한다.
 - [syntheses/concept-cards/square-roots-and-real-numbers.md](./syntheses/concept-cards/square-roots-and-real-numbers.md) - `제곱근과 실수`를 무리수와 실수 체계 확장 중심으로 정리한다.
 - [syntheses/concept-cards/polynomials-and-factorization.md](./syntheses/concept-cards/polynomials-and-factorization.md) - `다항식과 인수분해`를 전개와 구조 인식 중심으로 정리한다.
+- [syntheses/concept-cards/fractional-expressions.md](./syntheses/concept-cards/fractional-expressions.md) - `분식`을 약분, 통분, 정의역 감각과 함께 정리한다.
 - [syntheses/concept-cards/quadratic-equation.md](./syntheses/concept-cards/quadratic-equation.md) - `이차방정식`을 근의 공식, 판별식, x절편 연결 중심으로 정리한다.
 - [syntheses/concept-cards/complex-numbers.md](./syntheses/concept-cards/complex-numbers.md) - `복소수`를 허수단위, 해의 확장, 복소평면 브리지 중심으로 정리한다.
 - [syntheses/concept-cards/complex-number-operations.md](./syntheses/concept-cards/complex-number-operations.md) - `복소수의 연산`을 $i^2=-1$ 규칙과 켤레복소수 감각 중심으로 정리한다.
@@ -132,18 +133,27 @@ tags:
 - [syntheses/concept-cards/geometric-proof.md](./syntheses/concept-cards/geometric-proof.md) - `평행선·다각형·합동의 논증`을 증명 구조 중심으로 정리한다.
 - [syntheses/concept-cards/congruence.md](./syntheses/concept-cards/congruence.md) - `합동`을 대응과 변환 기하 관점으로 정리한다.
 - [syntheses/concept-cards/similarity.md](./syntheses/concept-cards/similarity.md) - `닮음`을 비례식과 확대·축소 관계 중심으로 정리한다.
+- [syntheses/concept-cards/parallelogram.md](./syntheses/concept-cards/parallelogram.md) - `평행사변형`을 대변과 대각선의 성질, 증명 연결 중심으로 정리한다.
 - [syntheses/concept-cards/circle.md](./syntheses/concept-cards/circle.md) - `원`을 중심각, 원주각, 거리 조건 중심으로 정리한다.
 - [syntheses/concept-cards/pythagorean-theorem.md](./syntheses/concept-cards/pythagorean-theorem.md) - `피타고라스 정리`를 거리와 제곱 관계의 브리지로 정리한다.
 - [syntheses/concept-cards/sets-and-propositions.md](./syntheses/concept-cards/sets-and-propositions.md) - `집합과 명제`를 논리와 조건 구조의 언어로 정리한다.
 - [syntheses/concept-cards/equations-of-geometric-figures.md](./syntheses/concept-cards/equations-of-geometric-figures.md) - `도형의 방정식`을 거리 공식, 원의 방정식, 좌표기하 브리지 중심으로 정리한다.
+- [syntheses/concept-cards/equation-of-a-line.md](./syntheses/concept-cards/equation-of-a-line.md) - `직선의 방정식`을 점기울기형, 일반형, 교점 해석 중심으로 정리한다.
+- [syntheses/concept-cards/equation-of-a-circle.md](./syntheses/concept-cards/equation-of-a-circle.md) - `원의 방정식`을 중심-반지름 조건과 전개형 해석 중심으로 정리한다.
 - [syntheses/concept-cards/conic-sections.md](./syntheses/concept-cards/conic-sections.md) - `이차곡선`을 포물선·타원·쌍곡선의 거리 조건 중심으로 정리한다.
+- [syntheses/concept-cards/parabola.md](./syntheses/concept-cards/parabola.md) - `포물선`을 초점, 준선, 표준형 중심으로 정리한다.
+- [syntheses/concept-cards/ellipse.md](./syntheses/concept-cards/ellipse.md) - `타원`을 두 초점 거리합과 표준형 중심으로 정리한다.
+- [syntheses/concept-cards/hyperbola.md](./syntheses/concept-cards/hyperbola.md) - `쌍곡선`을 거리차 조건과 점근선 감각 중심으로 정리한다.
 - [syntheses/concept-cards/vectors.md](./syntheses/concept-cards/vectors.md) - `벡터`를 방향, 성분, 내적 중심으로 정리한다.
 - [syntheses/concept-cards/complex-plane.md](./syntheses/concept-cards/complex-plane.md) - `복소수평면`을 복소수와 벡터·좌표의 연결 브리지로 정리한다.
 - [syntheses/concept-cards/spatial-coordinates.md](./syntheses/concept-cards/spatial-coordinates.md) - `공간좌표`를 3차원 위치와 거리 계산 중심으로 정리한다.
+- [syntheses/concept-cards/projection-and-orthographic-views.md](./syntheses/concept-cards/projection-and-orthographic-views.md) - `투영과 투상도`를 3차원 시각화와 평면 표현의 브리지로 정리한다.
 
 ### Data And Probability
 
 - [syntheses/concept-cards/data-organization.md](./syntheses/concept-cards/data-organization.md) - `자료 정리`를 표, 그래프, 대표값 읽기 중심으로 정리한다.
+- [syntheses/concept-cards/variance.md](./syntheses/concept-cards/variance.md) - `분산`을 산포의 제곱 평균과 흩어짐 해석 중심으로 정리한다.
+- [syntheses/concept-cards/standard-deviation.md](./syntheses/concept-cards/standard-deviation.md) - `표준편차`를 분산의 제곱근과 단위 복원 감각 중심으로 정리한다.
 - [syntheses/concept-cards/counting-principles.md](./syntheses/concept-cards/counting-principles.md) - `경우의 수`를 세기 원리, 순열, 조합, 확률 연결 중심으로 정리한다.
 - [syntheses/concept-cards/sampling.md](./syntheses/concept-cards/sampling.md) - `표본조사`를 모집단, 표본, 대표성 중심으로 정리한다.
 - [syntheses/concept-cards/correlation-and-scatter-plots.md](./syntheses/concept-cards/correlation-and-scatter-plots.md) - `상관과 산점도`를 이변량 데이터 해석 중심으로 정리한다.
@@ -152,6 +162,8 @@ tags:
 - [syntheses/concept-cards/random-variable.md](./syntheses/concept-cards/random-variable.md) - `확률변수`를 기대값, 분산, 분포의 출발점으로 정리한다.
 - [syntheses/concept-cards/probability-distribution.md](./syntheses/concept-cards/probability-distribution.md) - `확률분포`를 확률변수, 기대값, 분산과 함께 정리한다.
 - [syntheses/concept-cards/statistical-inference.md](./syntheses/concept-cards/statistical-inference.md) - `통계적 추정`을 표본, 대표성, 추정 해석, 국가별 배치와 함께 정리한다.
+- [syntheses/concept-cards/confidence-interval.md](./syntheses/concept-cards/confidence-interval.md) - `신뢰구간`을 추정값의 범위 해석과 오차 감각 중심으로 정리한다.
+- [syntheses/concept-cards/hypothesis-testing.md](./syntheses/concept-cards/hypothesis-testing.md) - `가설검정`을 귀무가설, 대립가설, 판단 규칙 중심으로 정리한다.
 - [syntheses/concept-cards/normal-distribution.md](./syntheses/concept-cards/normal-distribution.md) - `정규분포`를 대표적인 분포 모델과 국가별 배치 중심으로 정리한다.
 - [syntheses/concept-cards/regression.md](./syntheses/concept-cards/regression.md) - `회귀`를 산점도, 추세선, 예측, 데이터 모델링 중심으로 정리한다.
 - [syntheses/concept-cards/practical-statistics.md](./syntheses/concept-cards/practical-statistics.md) - `실용 통계`를 데이터 설계, 시각화, 해석 실무 중심으로 정리한다.

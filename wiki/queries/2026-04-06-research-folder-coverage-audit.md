@@ -2,7 +2,7 @@
 title: Research Folder Coverage Audit
 type: query-note
 status: active
-updated: 2026-04-09
+updated: 2026-04-10
 source_docs:
   - docs/math-curriculum-research/README.md
   - docs/math-curriculum-research/korea.md
@@ -29,14 +29,14 @@ tags:
 
 ## Summary
 
-이번 턴 기준으로 `docs/math-curriculum-research/`와 `docs/math-concept-encyclopedia/`의 문서군은 모두 `source-note` 계층에 반영되었고, concept card layer도 `107개`까지 확장되었다. 이전 감사 노트에서 남겨 두었던 `세부 하위 개념 카드`, `나라별 wrapper 카드`, `나라별 curriculum hub`, `course-track hub`, `나라 비교 synthesis`, `예제·오개념·평가 패턴 synthesis`도 모두 persistent layer로 승격되었다. 이제 남은 과제는 `새 docs 기반 필수 반영`이 아니라 카드 밀도와 메타데이터를 다듬는 선택형 심화 작업이다.
+이번 턴 기준으로 `docs/math-curriculum-research/`와 `docs/math-concept-encyclopedia/`의 문서군은 모두 `source-note` 계층에 반영되었고, concept card layer도 `119개`까지 확장되었다. 이전 감사 노트에서 남겨 두었던 `세부 하위 개념 카드`, `나라별 wrapper 카드`, `나라별 curriculum hub`, `course-track hub`, `나라 비교 synthesis`, `예제·오개념·평가 패턴 synthesis`는 물론, 마지막으로 남아 있던 `세분화 누락 노드 12개`도 이번 배치에서 persistent layer로 승격되었다. 이제 남은 과제는 `새 docs 기반 필수 반영`이 아니라 카드 밀도와 메타데이터를 다듬는 선택형 심화 작업이다.
 
 ## Key Points
 
 - 전체 상태
   - `math-curriculum-research/`: source-note 계층 반영 완료
   - `math-concept-encyclopedia/`: source-note 계층 반영 완료
-  - `persistent concept layer`: 107개 카드에 국가별 배치 또는 course-track 정보 반영
+  - `persistent concept layer`: 119개 카드에 국가별 배치 또는 course-track 정보 반영
   - `persistent synthesis layer`: 국가 허브, 비교 synthesis, support synthesis 반영 완료
 - 현재 직접 반영된 문서
   - `docs/math-curriculum-research/README.md`
@@ -64,6 +64,7 @@ tags:
   - support synthesis: `example pattern`, `misconception map`, `assessment pattern`
   - 추가 하위 개념: `연속함수의 성질`, `삼각함수의 그래프`, `복소수의 나눗셈`, `도함수의 그래프 해석`, `AP Calculus`, `IB Mathematics`
   - 미국 중학교 wrapper: `Grade 6`, `Grade 7`, `Grade 8`
+  - finer gap cards: `분식`, `평행사변형`, `투영과 투상도`, `분산`, `표준편차`, `신뢰구간`, `가설검정`, `직선의 방정식`, `원의 방정식`, `포물선`, `타원`, `쌍곡선`
 
 ### Folder Status Details
 
