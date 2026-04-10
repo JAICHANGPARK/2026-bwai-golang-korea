@@ -75,7 +75,8 @@ tags:
 - 포물선의 준선과 초점을 뒤바꾸면 안 된다.
 - 타원과 쌍곡선의 표준형에서 분모의 위치를 헷갈리기 쉽다.
 - 원뿔 절단 설명만 기억하고 거리 조건을 놓치면 해석기하와의 연결이 약해진다.
-- ## Curriculum Context
+
+## Curriculum Context
 - 교육과정 배치
   - 한국 대표 배치에서는 `기하`의 핵심 구성요소다.
   - 이후 벡터, 공간좌표, 해석기하로 이어진다.
@@ -91,12 +92,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [quadratic-function.md](./quadratic-function.md)다.
-- 다음 개념으로는 [vectors.md](./vectors.md), [spatial-coordinates.md](./spatial-coordinates.md), `해석기하`가 이어진다.
+- 다음 개념으로는 [parabola.md](./parabola.md), [ellipse.md](./ellipse.md), [hyperbola.md](./hyperbola.md), [vectors.md](./vectors.md), [spatial-coordinates.md](./spatial-coordinates.md), `해석기하`가 이어진다.
 - 계통 허브에서는 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/geometry-strand.md)와 [korea-curriculum-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/korea-curriculum-hub.md)를 함께 본다.
 
 ## Open Questions
 
-- 포물선·타원·쌍곡선을 각각 독립 카드로 더 세분화할지 검토가 필요하다.
+- [parabola.md](./parabola.md), [ellipse.md](./ellipse.md), [hyperbola.md](./hyperbola.md)에 초점·준선·반사 성질을 얼마나 깊게 배분할지 검토가 필요하다.
 
 ## Sources
 

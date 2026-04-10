@@ -27,18 +27,20 @@ tags:
 - 정의
   - 고등학교 선택 과목으로, 조합론과 확률, 분포, 추정을 하나의 연속된 학습 경로로 묶는다.
 - Course Map
-  - 1단계: 경우의 수와 조건부확률
-  - 2단계: 확률변수와 확률분포
-  - 3단계: 기대값, 분산, 해석
-  - 4단계: 표본분포와 통계적 추정
+  - 1단계: [counting-principles.md](./counting-principles.md)와 [conditional-probability.md](./conditional-probability.md)
+  - 2단계: [random-variable.md](./random-variable.md)와 [probability-distribution.md](./probability-distribution.md)
+  - 3단계: 기대값, [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md)
+  - 4단계: [sampling.md](./sampling.md)과 [statistical-inference.md](./statistical-inference.md), 이후 심화 연결로 [confidence-interval.md](./confidence-interval.md), [hypothesis-testing.md](./hypothesis-testing.md)
 - 대표 개념
   - 독립사건
-  - 조건부확률
-  - 확률변수
-  - 확률분포
-  - 기대값과 분산
-  - 표본과 모집단
-  - 통계적 추정
+  - [conditional-probability.md](./conditional-probability.md)
+  - [random-variable.md](./random-variable.md)
+  - [probability-distribution.md](./probability-distribution.md)
+  - [variance.md](./variance.md)
+  - [standard-deviation.md](./standard-deviation.md)
+  - [sampling.md](./sampling.md)
+  - [statistical-inference.md](./statistical-inference.md)
+  - 심화 연결: [confidence-interval.md](./confidence-interval.md), [hypothesis-testing.md](./hypothesis-testing.md)
 - Course Logic
   - 이 과목은 `세기 -> 숫자화 -> 분포화 -> 추정`의 순서로 진행된다.
   - 먼저 경우의 수와 조건부확률로 사건을 세고, 다음에 확률변수로 값을 부여한 뒤, 분포를 만들고, 마지막에 표본을 통해 모집단을 추정한다.
@@ -73,7 +75,7 @@ tags:
 
 ## Connections
 
-- 핵심 카드로는 [counting-principles.md](./counting-principles.md), [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md), [probability-distribution.md](./probability-distribution.md), [statistical-inference.md](./statistical-inference.md)가 있다.
+- 핵심 카드로는 [counting-principles.md](./counting-principles.md), [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md), [probability-distribution.md](./probability-distribution.md), [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md), [confidence-interval.md](./confidence-interval.md), [hypothesis-testing.md](./hypothesis-testing.md), [statistical-inference.md](./statistical-inference.md)가 있다.
 - 다음 과목 카드로는 [practical-statistics.md](./practical-statistics.md), [statistics-and-data-analysis.md](./statistics-and-data-analysis.md)와 연결된다.
 - 학년 허브로는 [../high-2-hub.md](../high-2-hub.md), [../high-3-hub.md](../high-3-hub.md)를 함께 본다.
 - 계통 허브로는 [../statistics-and-probability-strand.md](../statistics-and-probability-strand.md)를 함께 본다.

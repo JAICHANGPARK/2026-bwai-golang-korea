@@ -33,7 +33,7 @@ tags:
   - [inverse-proportion.md](./inverse-proportion.md)
   - [similarity.md](./similarity.md)
   - [trigonometric-ratio.md](./trigonometric-ratio.md)
-  - [spatial-coordinates.md](./spatial-coordinates.md)
+  - [projection-and-orthographic-views.md](./projection-and-orthographic-views.md)
 - 교육과정 배치
   - 중국 중학의 마지막 함수·기하 브리지 학기다.
 
@@ -45,7 +45,7 @@ tags:
 
 ## Open Questions
 
-- `투영과 투상도`를 [spatial-coordinates.md](./spatial-coordinates.md)와 별도 시각화 카드로 더 분리할지 기준이 필요하다.
+- [projection-and-orthographic-views.md](./projection-and-orthographic-views.md)를 [spatial-coordinates.md](./spatial-coordinates.md) 전단계의 시각화 허브로 더 확장할지 기준이 필요하다.
 
 ## Sources
 

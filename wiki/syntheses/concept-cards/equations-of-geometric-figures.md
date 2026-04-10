@@ -123,13 +123,13 @@ tags:
 ## Connections
 
 - 선수 개념은 `좌표평면`, [linear-function.md](./linear-function.md), [quadratic-function.md](./quadratic-function.md)이다.
-- 다음 개념으로는 `기하`, [similarity.md](./similarity.md), [vectors.md](./vectors.md), `이차곡선`, `해석기하`가 이어진다.
+- 다음 개념으로는 [equation-of-a-line.md](./equation-of-a-line.md), [equation-of-a-circle.md](./equation-of-a-circle.md), [parabola.md](./parabola.md), [conic-sections.md](./conic-sections.md), [similarity.md](./similarity.md), [vectors.md](./vectors.md), `해석기하`가 이어진다.
 - 학년 허브에서는 [high-1-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-1-hub.md), [high-2-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/high-2-hub.md)와 연결된다.
 - 계통 허브에서는 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/geometry-strand.md)와 [korea-curriculum-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/korea-curriculum-hub.md)를 함께 본다.
 
 ## Open Questions
 
-- `직선의 방정식`, `원의 방정식`, `이차곡선`을 한 카드에 유지할지 더 잘게 분리할지 기준이 필요하다.
+- [equation-of-a-line.md](./equation-of-a-line.md), [equation-of-a-circle.md](./equation-of-a-circle.md), [conic-sections.md](./conic-sections.md)를 상위 카드에서 어느 정도까지만 요약할지 편집 기준이 필요하다.
 - `도형의 방정식` 카드와 `기하` 과목 카드를 어디서 나눌지 후속 설계가 필요하다.
 
 ## Sources

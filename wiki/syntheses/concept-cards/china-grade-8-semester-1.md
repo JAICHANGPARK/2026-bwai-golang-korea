@@ -33,6 +33,7 @@ tags:
   - [congruence.md](./congruence.md)
   - [geometric-transformations.md](./geometric-transformations.md)
   - [polynomials-and-factorization.md](./polynomials-and-factorization.md)
+  - [fractional-expressions.md](./fractional-expressions.md)
 - 교육과정 배치
   - 기하의 논증과 대수 구조 인식이 동시에 두꺼워지는 구간이다.
 
@@ -44,7 +45,7 @@ tags:
 
 ## Open Questions
 
-- `분식`을 [polynomials-and-factorization.md](./polynomials-and-factorization.md)에서 분리한 별도 카드로 만들지 기준이 필요하다.
+- [fractional-expressions.md](./fractional-expressions.md)와 [polynomials-and-factorization.md](./polynomials-and-factorization.md)의 경계를 어디까지 둘지, 특히 `유리함수` 전단계까지를 어떻게 설명할지 검토가 남아 있다.
 
 ## Sources
 

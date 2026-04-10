@@ -25,11 +25,11 @@ tags:
 - 시작 구간
   - [basic-geometry-and-construction.md](./concept-cards/basic-geometry-and-construction.md), [geometric-transformations.md](./concept-cards/geometric-transformations.md)
 - 논증 구간
-  - [geometric-proof.md](./concept-cards/geometric-proof.md), [congruence.md](./concept-cards/congruence.md), [similarity.md](./concept-cards/similarity.md)
+  - [geometric-proof.md](./concept-cards/geometric-proof.md), [congruence.md](./concept-cards/congruence.md), [parallelogram.md](./concept-cards/parallelogram.md), [similarity.md](./concept-cards/similarity.md)
 - 계산 구간
   - [pythagorean-theorem.md](./concept-cards/pythagorean-theorem.md), [trigonometric-ratio.md](./concept-cards/trigonometric-ratio.md)
 - 좌표 구간
-  - [equations-of-geometric-figures.md](./concept-cards/equations-of-geometric-figures.md), [conic-sections.md](./concept-cards/conic-sections.md), [vectors.md](./concept-cards/vectors.md), [spatial-coordinates.md](./concept-cards/spatial-coordinates.md)
+  - [equations-of-geometric-figures.md](./concept-cards/equations-of-geometric-figures.md), [equation-of-a-line.md](./concept-cards/equation-of-a-line.md), [equation-of-a-circle.md](./concept-cards/equation-of-a-circle.md), [conic-sections.md](./concept-cards/conic-sections.md), [parabola.md](./concept-cards/parabola.md), [ellipse.md](./concept-cards/ellipse.md), [hyperbola.md](./concept-cards/hyperbola.md), [vectors.md](./concept-cards/vectors.md), [spatial-coordinates.md](./concept-cards/spatial-coordinates.md), [projection-and-orthographic-views.md](./concept-cards/projection-and-orthographic-views.md)
 - 과목 허브
   - 한국은 [high-1-hub.md](./high-1-hub.md)의 좌표기하를 거쳐 [korean-geometry-course.md](./concept-cards/korean-geometry-course.md)에서 심화된다.
 - 자주 보이는 가로 연결

@@ -33,6 +33,7 @@ tags:
 - 대표 개념
   - [square-roots-and-real-numbers.md](./square-roots-and-real-numbers.md)
   - [pythagorean-theorem.md](./pythagorean-theorem.md)
+  - [parallelogram.md](./parallelogram.md)
   - [linear-function.md](./linear-function.md)
   - [data-organization.md](./data-organization.md)
   - [correlation-and-scatter-plots.md](./correlation-and-scatter-plots.md)
@@ -47,7 +48,7 @@ tags:
 
 ## Open Questions
 
-- `평행사변형`을 [geometric-proof.md](./geometric-proof.md)와 별도 카드로 연결할지 후속 설계가 필요하다.
+- [parallelogram.md](./parallelogram.md)에서 `직사각형`, `마름모`, `정사각형` 같은 하위 사각형 카드까지 더 세분화할지 검토가 남아 있다.
 
 ## Sources
 

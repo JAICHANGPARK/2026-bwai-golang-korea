@@ -76,7 +76,7 @@ tags:
 
 ## Connections
 
-- 선수 개념은 [probability-distribution.md](./probability-distribution.md), [random-variable.md](./random-variable.md), [statistical-inference.md](./statistical-inference.md)다.
+- 선수 개념은 [probability-distribution.md](./probability-distribution.md), [random-variable.md](./random-variable.md), [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md), [statistical-inference.md](./statistical-inference.md)다.
 - 다음 개념으로는 [regression.md](./regression.md), [practical-statistics.md](./practical-statistics.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
 - 계통 허브는 [statistics-and-probability-strand.md](../statistics-and-probability-strand.md)에서 다시 볼 수 있다.
 

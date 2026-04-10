@@ -127,14 +127,14 @@ tags:
 ## Connections
 
 - 선수 개념은 [counting-principles.md](./counting-principles.md), `확률`, [conditional-probability.md](./conditional-probability.md)다.
-- 바로 다음 개념은 [probability-distribution.md](./probability-distribution.md), [statistical-inference.md](./statistical-inference.md)다.
+- 바로 다음 개념은 [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md), [probability-distribution.md](./probability-distribution.md), [statistical-inference.md](./statistical-inference.md)다.
 - 과목 허브로는 [probability-and-statistics-course.md](./probability-and-statistics-course.md)와 연결된다.
 - 계통 허브로는 [../statistics-and-probability-strand.md](../statistics-and-probability-strand.md)를 함께 본다.
 
 ## Open Questions
 
-- `확률변수` 카드와 [probability-distribution.md](./probability-distribution.md)를 어느 정도까지 분리 유지할지 기준이 더 필요하다.
 - 연속확률변수와 이산확률변수를 같은 카드에서 다룰지 후속 분화가 필요하다.
+- `기대값`을 [variance.md](./variance.md)와 대칭되는 독립 카드로 승격할지 검토가 남아 있다.
 
 ## Sources
 

@@ -147,14 +147,14 @@ tags:
 ## Connections
 
 - 선수 개념은 [counting-principles.md](./counting-principles.md), `확률`, [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md)다.
-- 다음 개념으로는 [statistical-inference.md](./statistical-inference.md), `실용 통계`, `인공지능 수학`이 이어진다.
+- 다음 개념으로는 [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md), [normal-distribution.md](./normal-distribution.md), [statistical-inference.md](./statistical-inference.md), [practical-statistics.md](./practical-statistics.md)가 이어진다.
 - 과목 허브에서는 [probability-and-statistics-course.md](./probability-and-statistics-course.md)를 본다.
 - 계통 허브로는 [../statistics-and-probability-strand.md](../statistics-and-probability-strand.md)를 함께 본다.
 
 ## Open Questions
 
-- `확률분포` 카드 안에 `확률변수`, `기대값`, `분산`을 함께 둘지, 고교 심화에서는 각각 분리할지 기준이 필요하다.
 - 이산분포 중심으로 시작한 뒤 연속분포를 후속 카드로 둘지 구조 선택이 필요하다.
+- 대표적인 이산분포와 연속분포를 각각 독립 카드로 더 쪼갤지 기준이 필요하다.
 
 ## Sources
 

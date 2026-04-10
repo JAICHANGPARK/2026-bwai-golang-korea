@@ -95,7 +95,7 @@ tags:
 ## Connections
 
 - 선수 개념은 [basic-geometry-and-construction.md](./basic-geometry-and-construction.md), [congruence.md](./congruence.md)다.
-- 다음 개념으로는 [similarity.md](./similarity.md), [trigonometric-ratio.md](./trigonometric-ratio.md), [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [trigonometric-function.md](./trigonometric-function.md)가 이어진다.
+- 다음 개념으로는 [similarity.md](./similarity.md), [trigonometric-ratio.md](./trigonometric-ratio.md), [equation-of-a-circle.md](./equation-of-a-circle.md), [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [trigonometric-function.md](./trigonometric-function.md)가 이어진다.
 - 계통 허브에서는 [geometry-strand.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/geometry-strand.md)와 [korea-curriculum-hub.md](/Users/jaichang/Documents/GitHub/2026-bwai-golang-korea/wiki/syntheses/korea-curriculum-hub.md)를 함께 본다.
 
 ## Open Questions

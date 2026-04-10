@@ -32,7 +32,8 @@ tags:
   - 함수와 그래프
 - 대표 개념
   - 거리 공식
-  - 원의 방정식
+  - [equation-of-a-line.md](./equation-of-a-line.md)
+  - [equation-of-a-circle.md](./equation-of-a-circle.md)
   - 필요조건과 충분조건
   - 증가와 감소
 - 대표 수식
@@ -45,7 +46,7 @@ tags:
 
 ## Connections
 
-- 핵심 카드로는 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [sets-and-propositions.md](./sets-and-propositions.md), [function-foundations.md](./function-foundations.md), [linear-function.md](./linear-function.md)가 있다.
+- 핵심 카드로는 [equations-of-geometric-figures.md](./equations-of-geometric-figures.md), [equation-of-a-line.md](./equation-of-a-line.md), [equation-of-a-circle.md](./equation-of-a-circle.md), [sets-and-propositions.md](./sets-and-propositions.md), [function-foundations.md](./function-foundations.md), [linear-function.md](./linear-function.md)가 있다.
 - 다음 과목 카드로는 [korean-geometry-course.md](./korean-geometry-course.md), [calculus-1.md](./calculus-1.md)가 이어진다.
 
 ## Open Questions

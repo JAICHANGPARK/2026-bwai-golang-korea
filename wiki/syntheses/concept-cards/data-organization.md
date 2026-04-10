@@ -83,12 +83,12 @@ tags:
 ## Connections
 
 - 선수 개념은 [integers-and-rational-numbers.md](./integers-and-rational-numbers.md)다.
-- 다음 개념으로는 [sampling.md](./sampling.md), [correlation-and-scatter-plots.md](./correlation-and-scatter-plots.md), [statistical-inference.md](./statistical-inference.md)가 이어진다.
+- 다음 개념으로는 [variance.md](./variance.md), [standard-deviation.md](./standard-deviation.md), [sampling.md](./sampling.md), [correlation-and-scatter-plots.md](./correlation-and-scatter-plots.md), [statistical-inference.md](./statistical-inference.md)가 이어진다.
 - 계통 허브는 [statistics-and-probability-strand.md](../statistics-and-probability-strand.md)에서 다시 묶인다.
 
 ## Open Questions
 
-- `분산`과 `표준편차`를 별도 카드로 분리할지 후속 검토가 필요하다.
+- `상자그림`, `사분위범위` 같은 중등 자료 해석 카드를 [data-organization.md](./data-organization.md)에서 더 세분화할지 검토가 남아 있다.
 
 ## Sources
 

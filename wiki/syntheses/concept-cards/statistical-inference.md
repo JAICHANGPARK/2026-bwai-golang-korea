@@ -103,14 +103,14 @@ tags:
 ## Connections
 
 - 선수 개념은 [sampling.md](./sampling.md), [conditional-probability.md](./conditional-probability.md), [random-variable.md](./random-variable.md), [probability-distribution.md](./probability-distribution.md)다.
-- 다음 개념으로는 [regression.md](./regression.md), [practical-statistics.md](./practical-statistics.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
+- 다음 개념으로는 [confidence-interval.md](./confidence-interval.md), [hypothesis-testing.md](./hypothesis-testing.md), [regression.md](./regression.md), [practical-statistics.md](./practical-statistics.md), [mathematics-for-ai.md](./mathematics-for-ai.md)가 이어진다.
 - 학년 허브에서는 [../high-2-hub.md](../high-2-hub.md), [../high-3-hub.md](../high-3-hub.md)와 연결된다.
 - 계통 허브에서는 [../statistics-and-probability-strand.md](../statistics-and-probability-strand.md)와 [probability-and-statistics-course.md](./probability-and-statistics-course.md)를 본다.
 
 ## Open Questions
 
 - [regression.md](./regression.md)와 `상관계수`를 어떤 범위까지 같은 모델링 축으로 묶을지 추가 설계가 필요하다.
-- `신뢰구간`과 `가설검정` 수준까지 이 카드에서 다룰지, 후속 심화 카드로 뺄지 기준이 필요하다.
+- [confidence-interval.md](./confidence-interval.md)과 [hypothesis-testing.md](./hypothesis-testing.md)를 이 카드의 심화 절로 얼마나 다시 요약할지 편집 기준이 필요하다.
 
 ## Sources
 

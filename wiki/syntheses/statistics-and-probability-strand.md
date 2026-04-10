@@ -24,13 +24,13 @@ tags:
 ## Key Points
 
 - 시작 구간
-  - [data-organization.md](./concept-cards/data-organization.md), [correlation-and-scatter-plots.md](./concept-cards/correlation-and-scatter-plots.md)
+  - [data-organization.md](./concept-cards/data-organization.md), [variance.md](./concept-cards/variance.md), [standard-deviation.md](./concept-cards/standard-deviation.md), [correlation-and-scatter-plots.md](./concept-cards/correlation-and-scatter-plots.md)
 - 확률 입문
   - [counting-principles.md](./concept-cards/counting-principles.md), [conditional-probability.md](./concept-cards/conditional-probability.md)
 - 분포 중심 구간
   - [random-variable.md](./concept-cards/random-variable.md), [probability-distribution.md](./concept-cards/probability-distribution.md), [normal-distribution.md](./concept-cards/normal-distribution.md)
 - 추정과 모델링
-  - [statistical-inference.md](./concept-cards/statistical-inference.md), [regression.md](./concept-cards/regression.md), [practical-statistics.md](./concept-cards/practical-statistics.md)
+  - [statistical-inference.md](./concept-cards/statistical-inference.md), [confidence-interval.md](./concept-cards/confidence-interval.md), [hypothesis-testing.md](./concept-cards/hypothesis-testing.md), [regression.md](./concept-cards/regression.md), [practical-statistics.md](./concept-cards/practical-statistics.md)
 - 과목 허브
   - 한국은 [probability-and-statistics-course.md](./concept-cards/probability-and-statistics-course.md)가 중심이고, 이후 [practical-statistics.md](./concept-cards/practical-statistics.md), [mathematics-for-ai.md](./concept-cards/mathematics-for-ai.md)로 확장된다.
 - 자주 보이는 가로 연결
