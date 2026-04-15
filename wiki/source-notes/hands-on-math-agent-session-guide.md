@@ -2,7 +2,7 @@
 title: Source Note - Hands-On Math Agent Session Guide
 type: source-note
 status: active
-updated: 2026-04-06
+updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
 tags:
@@ -22,6 +22,7 @@ tags:
 - 이번 세션 범위에서는 `RAG`, 사용자 계정, 저장소, 교육과정 DB를 제외한다.
 - 참가자는 Solver와 Verifier를 분리해 보는 경험을 가져가야 한다.
 - 스트리밍 응답과 Markdown 렌더링 요구사항도 산출물 범위에 포함된다.
+- 공유 workspace에는 공개용 자산 패키지와 runnable starter kit을 분리해 두는 편이 낫다.
 
 ## Pages Updated
 

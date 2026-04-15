@@ -25,8 +25,8 @@
 
 ## 문서 성격
 
-- 이 폴더의 문서는 `참석자용`이다.
-- 진행자 운영 메모와 체크 포인트는 [hands-on-facilitator-checkpoints.md](../hands-on-facilitator-checkpoints.md)에서 따로 본다.
+- 이 폴더의 문서는 공유 workspace에서 바로 사용하는 설계 문서다.
+- 운영 메모와 내부 체크 포인트는 shared workspace 밖에서 관리하는 편이 낫다.
 
 ## 적용 범위
 

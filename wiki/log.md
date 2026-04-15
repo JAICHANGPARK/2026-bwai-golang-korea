@@ -2,10 +2,16 @@
 title: Wiki Log
 type: overview
 status: active
-updated: 2026-04-10
+updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
+  - docs/llm-wiki-usage-guide.md
+  - docs/antigravity-math-agent-step-by-step.md
+  - docs/gemini-cli-math-agent-step-by-step.md
+  - docs/antigravity-workspace-rules-draft.md
+  - docs/antigravity-workflow-usage-guide.md
+  - docs/workspace-distribution-guide.md
   - docs/math-agent-system-spec.md
   - docs/math-agent-knowledge-plan.md
   - docs/internal-knowledge-base-build.md
@@ -30,6 +36,36 @@ tags:
 ---
 
 # Wiki Log
+
+## [2026-04-15] ingest | shared workspace packaging guide
+- Sources: docs/workspace-distribution-guide.md, docs/hands-on-assets/README.md, docs/hands-on-math-agent-session-guide.md
+- Added: wiki/source-notes/workspace-distribution-guide.md
+- Updated: wiki/source-notes/hands-on-math-agent-session-guide.md, wiki/components/local-llm-wiki-ops.md, wiki/profiles/hands-on-profile.md, wiki/index.md, wiki/log.md
+- Notes: 공유 workspace 기준으로 public asset pack과 runnable starter kit을 분리하고, facilitator 전용 handout은 `docs/hands-on-assets/`에서 제외했다.
+
+## [2026-04-15] ingest | antigravity workspace rules and workflows
+- Sources: docs/antigravity-workspace-rules-draft.md, docs/antigravity-workflow-usage-guide.md
+- Added: wiki/source-notes/antigravity-workspace-rules-draft.md, wiki/source-notes/antigravity-workflow-usage-guide.md, wiki/components/antigravity-workspace-automation.md
+- Updated: wiki/components/local-llm-wiki-ops.md, wiki/profiles/hands-on-profile.md, wiki/index.md, wiki/log.md
+- Notes: Antigravity의 workspace-level `Rules` 초안과 `Workflows` 사용 가이드를 분리해 추가하고, slash-command처럼 쓸 workflow 파일들을 `.agent/workflows/`에 정리했다.
+
+## [2026-04-15] ingest | gemini cli math agent step by step
+- Sources: docs/gemini-cli-math-agent-step-by-step.md
+- Added: wiki/source-notes/gemini-cli-math-agent-step-by-step.md
+- Updated: wiki/components/local-llm-wiki-ops.md, wiki/profiles/hands-on-profile.md, wiki/index.md, wiki/log.md
+- Notes: Gemini CLI 사용자가 `AGENTS.md` 기반 context file과 단계별 프롬프트로 `Phase 1 -> Phase 2 -> Phase 3` 핸즈온을 진행하는 가이드를 편입했다.
+
+## [2026-04-15] ingest | antigravity math agent step by step
+- Sources: docs/antigravity-math-agent-step-by-step.md
+- Added: wiki/source-notes/antigravity-math-agent-step-by-step.md
+- Updated: wiki/components/local-llm-wiki-ops.md, wiki/profiles/hands-on-profile.md, wiki/index.md, wiki/log.md
+- Notes: Antigravity에서 스킬 두 개를 함께 쓰며 `Phase 1 -> Phase 2 -> Phase 3`로 진행하는 참가자용 단계별 프롬프트 가이드를 편입했다.
+
+## [2026-04-15] ingest | llm wiki usage guide
+- Sources: docs/llm-wiki-usage-guide.md
+- Added: wiki/source-notes/llm-wiki-usage-guide.md, wiki/components/local-llm-wiki-ops.md
+- Updated: wiki/profiles/hands-on-profile.md, wiki/index.md, wiki/log.md
+- Notes: clone 후 `Gemini CLI` 또는 `Antigravity`로 이 저장소를 wiki-first 방식으로 활용하는 운영 가이드를 편입했다.
 
 ## [2026-04-06] scaffold | initialize llm wiki
 - Sources: docs/hands-on-math-agent-session-guide.md, docs/prompt-pack/README.md, docs/math-agent-system-spec.md, docs/math-agent-knowledge-plan.md, docs/internal-knowledge-base-build.md

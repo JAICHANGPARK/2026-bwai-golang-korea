@@ -907,9 +907,9 @@ For this workshop app:
 
 ---
 
-## 19. 참가자에게 제공하면 좋은 패키지
+## 19. 공유 workspace에 넣으면 좋은 패키지
 
-핸즈온 전에 아래를 미리 제공하면 진행이 빨라진다.
+실습 전에 아래를 shared workspace에 정리해 두면 진입이 빨라진다.
 
 - 샘플 수학 문제 이미지 2~3장
 - 설계 워크시트
@@ -922,7 +922,11 @@ For this workshop app:
 
 권장 위치:
 
+- workspace 배포 기준: [workspace-distribution-guide.md](./workspace-distribution-guide.md)
 - 자산 안내 문서: [hands-on-assets/README.md](./hands-on-assets/README.md)
+- starter kit 안내 문서: [../starter-kits/README.md](../starter-kits/README.md)
+- 원페이지 요약: [math-agent-one-pager.md](./hands-on-assets/handouts/math-agent-one-pager.md)
+- 단계 카드: [math-agent-step-cards.md](./hands-on-assets/handouts/math-agent-step-cards.md)
 - 샘플 문제 이미지 1: [problem-01-linear-equation.svg](./hands-on-assets/sample-problems/problem-01-linear-equation.svg)
 - 샘플 문제 이미지 2: [problem-02-function-value.svg](./hands-on-assets/sample-problems/problem-02-function-value.svg)
 - 샘플 문제 이미지 3: [problem-03-quadratic-choice.svg](./hands-on-assets/sample-problems/problem-03-quadratic-choice.svg)

@@ -2,10 +2,16 @@
 title: Wiki Index
 type: overview
 status: active
-updated: 2026-04-10
+updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
+  - docs/llm-wiki-usage-guide.md
+  - docs/antigravity-math-agent-step-by-step.md
+  - docs/gemini-cli-math-agent-step-by-step.md
+  - docs/antigravity-workspace-rules-draft.md
+  - docs/antigravity-workflow-usage-guide.md
+  - docs/workspace-distribution-guide.md
   - docs/math-agent-system-spec.md
   - docs/math-agent-knowledge-plan.md
   - docs/internal-knowledge-base-build.md
@@ -40,7 +46,7 @@ tags:
 
 ## Profiles
 
-- [profiles/hands-on-profile.md](./profiles/hands-on-profile.md) - 1시간 워크숍 프로파일의 목표, 제약, 산출물을 정리한다. Sources: 2
+- [profiles/hands-on-profile.md](./profiles/hands-on-profile.md) - 1시간 워크숍 프로파일의 목표, 제약, 산출물과 공유 workspace 패키징 기준을 정리한다. Sources: 8
 - [profiles/product-expansion-profile.md](./profiles/product-expansion-profile.md) - 제품형 확장 프로파일의 기능 범위와 지식 인프라 요구를 정리한다. Sources: 5
 
 ## Components
@@ -49,6 +55,8 @@ tags:
 - [components/expert-verifier-agent.md](./components/expert-verifier-agent.md) - 엄격한 수학 검증과 승인 결정을 담당하는 에이전트의 역할을 정리한다. Sources: 3
 - [components/internal-knowledge-base.md](./components/internal-knowledge-base.md) - 내부 지식 계층의 층위, 타입, 활용 범위를 정리한다. Sources: 4
 - [components/prompt-pack.md](./components/prompt-pack.md) - 핸즈온용 프롬프트 팩의 사용 순서와 범위를 정리한다. Sources: 2
+- [components/local-llm-wiki-ops.md](./components/local-llm-wiki-ops.md) - clone 이후 `Gemini CLI`와 `Antigravity`로 이 저장소를 LLM Wiki 및 hands-on workspace로 운영하고, 공개용 자산과 starter kit을 어떻게 나눌지 정리한다. Sources: 6
+- [components/antigravity-workspace-automation.md](./components/antigravity-workspace-automation.md) - Antigravity에서 `Rules`, `Workflows`, `Skills`를 어떻게 나눠 구성할지 정리한다. Sources: 2
 
 ## Syntheses
 
@@ -220,6 +228,12 @@ tags:
 
 - [source-notes/hands-on-math-agent-session-guide.md](./source-notes/hands-on-math-agent-session-guide.md) - 핸즈온 세션 가이드의 목적과 운영 포인트 요약
 - [source-notes/prompt-pack-readme.md](./source-notes/prompt-pack-readme.md) - 프롬프트 팩의 사용 범위와 순서 요약
+- [source-notes/llm-wiki-usage-guide.md](./source-notes/llm-wiki-usage-guide.md) - clone 이후 `Gemini CLI`와 `Antigravity`에서 위키를 운영하는 흐름 요약
+- [source-notes/gemini-cli-math-agent-step-by-step.md](./source-notes/gemini-cli-math-agent-step-by-step.md) - Gemini CLI에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약
+- [source-notes/antigravity-math-agent-step-by-step.md](./source-notes/antigravity-math-agent-step-by-step.md) - Antigravity에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약
+- [source-notes/antigravity-workspace-rules-draft.md](./source-notes/antigravity-workspace-rules-draft.md) - Antigravity workspace rules에 붙여넣을 수 있는 규칙 초안 요약
+- [source-notes/antigravity-workflow-usage-guide.md](./source-notes/antigravity-workflow-usage-guide.md) - Antigravity workflow를 어떤 역할 분리와 순서로 쓰는 것이 적절한지 요약
+- [source-notes/workspace-distribution-guide.md](./source-notes/workspace-distribution-guide.md) - 공유 workspace에서 공개용 자산, starter kit, facilitator 전용 메모를 어떻게 분리할지 요약
 - [source-notes/math-agent-system-spec.md](./source-notes/math-agent-system-spec.md) - 멀티 에이전트 시스템 명세의 핵심 구조 요약
 - [source-notes/math-agent-knowledge-plan.md](./source-notes/math-agent-knowledge-plan.md) - 지식 데이터 수집 방향과 교육과정 비교 요약
 - [source-notes/internal-knowledge-base-build.md](./source-notes/internal-knowledge-base-build.md) - 내부 지식베이스 구축 규칙과 타입 정의 요약
