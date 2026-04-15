@@ -48,7 +48,35 @@ Important rules:
 Write the system prompt in English.
 ```
 
+## 3-3. Wiki Enricher 시스템 프롬프트 생성 프롬프트 `선택`
+
+기본 two-agent 구조가 안정적으로 동작한 뒤, `난이도`, `핵심 개념`, `관련 교육과정`, `연관 학습 주제`를 `LLM Wiki`에서 보강하고 싶을 때 사용한다.
+
+```text
+Please write a high-quality system prompt for a Wiki Knowledge Enricher agent for a Korean math explanation system built with ADK.
+
+The enricher should:
+- run only after the solver result is approved by the verifier
+- read the minimum relevant wiki pages
+- build a structured learning_context
+- identify:
+  - difficulty
+  - core concepts
+  - related curriculum placement
+  - follow-up topics
+  - wiki basis pages
+
+Important rules:
+- do not use wiki content to guess the math answer
+- do not run before verification approval
+- if wiki evidence is weak, mark the mapping as tentative
+- keep the result structured and compact
+
+Write the system prompt in English.
+```
+
 ## 기대 산출물
 
 - Solver 시스템 프롬프트 1개
 - Verifier 시스템 프롬프트 1개
+- 선택 시 Wiki Enricher 시스템 프롬프트 1개

@@ -6,6 +6,7 @@ updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
+  - docs/prompt-pack/02a-wiki-enricher-extension.md
   - docs/llm-wiki-usage-guide.md
   - docs/antigravity-math-agent-step-by-step.md
   - docs/gemini-cli-math-agent-step-by-step.md
@@ -41,12 +42,12 @@ tags:
 
 ## Overviews
 
-- [README.md](./README.md) - 위키의 목적, 범위, 빠른 진입점을 설명한다.
+- [README.md](./README.md) - `Build with AI Golang Korea 2026` 핸즈온 workspace의 목적, 범위, 빠른 진입점을 설명한다.
 - [overview/project-map.md](./overview/project-map.md) - 저장소 전체를 `핸즈온`과 `제품 확장` 두 축으로 정리한 지도 페이지다.
 
 ## Profiles
 
-- [profiles/hands-on-profile.md](./profiles/hands-on-profile.md) - 1시간 워크숍 프로파일의 목표, 제약, 산출물과 공유 workspace 패키징 기준을 정리한다. Sources: 8
+- [profiles/hands-on-profile.md](./profiles/hands-on-profile.md) - 1시간 워크숍 프로파일의 목표, 제약, 산출물과 shared workspace 패키징 기준, optional wiki enrichment 확장을 정리한다. Sources: 9
 - [profiles/product-expansion-profile.md](./profiles/product-expansion-profile.md) - 제품형 확장 프로파일의 기능 범위와 지식 인프라 요구를 정리한다. Sources: 5
 
 ## Components
@@ -54,7 +55,8 @@ tags:
 - [components/solver-explainer-agent.md](./components/solver-explainer-agent.md) - 문제 풀이와 학생용 설명을 담당하는 에이전트의 역할을 정리한다. Sources: 3
 - [components/expert-verifier-agent.md](./components/expert-verifier-agent.md) - 엄격한 수학 검증과 승인 결정을 담당하는 에이전트의 역할을 정리한다. Sources: 3
 - [components/internal-knowledge-base.md](./components/internal-knowledge-base.md) - 내부 지식 계층의 층위, 타입, 활용 범위를 정리한다. Sources: 4
-- [components/prompt-pack.md](./components/prompt-pack.md) - 핸즈온용 프롬프트 팩의 사용 순서와 범위를 정리한다. Sources: 2
+- [components/prompt-pack.md](./components/prompt-pack.md) - 핸즈온용 프롬프트 팩의 사용 순서와 범위를 정리한다. Sources: 3
+- [components/wiki-enricher-agent.md](./components/wiki-enricher-agent.md) - reviewer 승인 후 `LLM Wiki`를 읽어 난이도, 개념, 교육과정, 연관 학습 주제를 보강하는 확장 에이전트 역할을 정리한다. Sources: 2
 - [components/local-llm-wiki-ops.md](./components/local-llm-wiki-ops.md) - clone 이후 `Gemini CLI`와 `Antigravity`로 이 저장소를 LLM Wiki 및 hands-on workspace로 운영하고, 공개용 자산과 starter kit을 어떻게 나눌지 정리한다. Sources: 6
 - [components/antigravity-workspace-automation.md](./components/antigravity-workspace-automation.md) - Antigravity에서 `Rules`, `Workflows`, `Skills`를 어떻게 나눠 구성할지 정리한다. Sources: 2
 
@@ -228,6 +230,7 @@ tags:
 
 - [source-notes/hands-on-math-agent-session-guide.md](./source-notes/hands-on-math-agent-session-guide.md) - 핸즈온 세션 가이드의 목적과 운영 포인트 요약
 - [source-notes/prompt-pack-readme.md](./source-notes/prompt-pack-readme.md) - 프롬프트 팩의 사용 범위와 순서 요약
+- [source-notes/prompt-pack-wiki-enricher-extension.md](./source-notes/prompt-pack-wiki-enricher-extension.md) - `wiki enricher` 확장 에이전트와 `learning_context` 흐름 요약
 - [source-notes/llm-wiki-usage-guide.md](./source-notes/llm-wiki-usage-guide.md) - clone 이후 `Gemini CLI`와 `Antigravity`에서 위키를 운영하는 흐름 요약
 - [source-notes/gemini-cli-math-agent-step-by-step.md](./source-notes/gemini-cli-math-agent-step-by-step.md) - Gemini CLI에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약
 - [source-notes/antigravity-math-agent-step-by-step.md](./source-notes/antigravity-math-agent-step-by-step.md) - Antigravity에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약

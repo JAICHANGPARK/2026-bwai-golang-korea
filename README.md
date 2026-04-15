@@ -1,6 +1,10 @@
 # 2026-bwai-golang-korea
 
-중고등학생 대상 `수학 문제 해설 에이전트`를 두 축으로 정리한 문서 중심 저장소다.
+이 저장소는 `Build with AI Golang Korea 2026` 이벤트의 `수학 문제 해설 에이전트` 핸즈온 세션 자료를 중심으로 정리한 workspace다.
+
+행사에서는 참가자가 `AI Studio -> Build -> Antigravity` 흐름으로 수학 해설 에이전트를 설계하고, 터미널 프로토타입과 화면 프로토타입까지 직접 만들어보는 것을 목표로 한다. 이 저장소에는 그 흐름을 바로 따라갈 수 있는 가이드, 프롬프트 팩, handout, starter kit, workspace automation 초안이 함께 들어 있다.
+
+같은 workspace 안에는 행사 이후를 위한 다음 단계 문서도 같이 정리해 둔다.
 
 - `hands-on profile`: 1시간 안에 `AI Studio -> Build -> Antigravity` 흐름으로 설계와 프로토타이핑을 경험하는 워크숍 트랙
 - `product expansion profile`: 멀티 에이전트, 내부 지식베이스, 교육과정 매핑, RAG 확장까지 포함하는 제품형 기획 트랙
@@ -22,6 +26,8 @@
 ## 시작 경로
 
 ### 1. 핸즈온 트랙부터 볼 때
+
+행사 핸즈온 흐름으로 바로 들어가려면 아래 순서가 가장 자연스럽다.
 
 - [`docs/hands-on-math-agent-session-guide.md`](./docs/hands-on-math-agent-session-guide.md)
 - [`docs/prompt-pack/README.md`](./docs/prompt-pack/README.md)
@@ -71,7 +77,7 @@
 | 지식 검색 | 사용하지 않음 | `RAG`, `File Search`, 내부 지식베이스 고려 |
 | 세션 초점 | 프롬프트 설계, 출력 계약, 앱 생성 재사용 | 데이터 설계, 검색 계층, 운영 구조 |
 
-두 축을 섞어 읽지 않는 것이 중요하다. 핸즈온 문서는 의도적으로 단순하게 설계되어 있고, 제품형 문서는 그 다음 단계를 다룬다.
+행사에서는 보통 `hands-on profile`을 먼저 사용하고, `product expansion profile`은 확장 아이디어나 후속 작업 문서처럼 읽으면 된다. 두 축을 섞지 않고 보는 편이 이해하기 쉽다.
 
 ## 추천 읽기 순서
 
@@ -112,4 +118,4 @@ scripts/wiki-lint.sh
 - `내부 지식 계층`
 - `핸즈온 프로파일`과 `제품 확장 프로파일`의 경계
 
-즉, 이 저장소는 단순한 워크숍 자료 모음이 아니라, 워크숍용 명세와 제품형 지식 인프라 설계를 같은 맥락 안에서 분리해 관리하는 개인용 LLM Wiki다.
+즉, 이 저장소는 `Build with AI Golang Korea 2026` 핸즈온 자료를 중심에 두고, 그 위에 제품형 확장 문서와 위키 지식 계층을 함께 쌓아 가는 workspace다.

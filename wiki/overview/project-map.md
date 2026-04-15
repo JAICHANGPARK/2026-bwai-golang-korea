@@ -2,7 +2,7 @@
 title: Project Map
 type: overview
 status: active
-updated: 2026-04-06
+updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
@@ -20,10 +20,15 @@ tags:
 
 ## Summary
 
-이 프로젝트는 `중고등학생 대상 수학 문제 해설 시스템`을 두 개의 운영 축으로 다룬다. 하나는 1시간 내에 설계와 앱 생성을 경험하게 하는 `hands-on profile`, 다른 하나는 실제 서비스 확장을 염두에 둔 `product expansion profile`이다.
+이 프로젝트는 `Build with AI Golang Korea 2026` 이벤트의 `중고등학생 대상 수학 문제 해설 시스템` 핸즈온 workspace를 중심으로 두 개의 운영 축을 다룬다. 하나는 1시간 내에 설계와 앱 생성을 경험하게 하는 `hands-on profile`, 다른 하나는 실제 서비스 확장을 염두에 둔 `product expansion profile`이다.
 
 ## Key Points
 
+- 이 workspace의 1차 목적은 행사 핸즈온 자료를 제공하는 것이다.
+  - prompt pack
+  - step-by-step guide
+  - shared assets
+  - starter kits
 - 공통 코어는 같다.
   - `Solver/Explainer Agent`
   - `Expert Verifier Agent`

@@ -33,3 +33,7 @@ Make the distinction very clear.
 - Solver는 문제를 읽고 풀이 초안을 만든다.
 - Verifier는 정답과 논리를 재검토한다.
 - 두 에이전트가 서로 역할을 침범하지 않는다.
+
+## 선택 확장: Wiki Enricher
+
+기본형이 안정적으로 동작한 뒤에는 `검토 승인 후 학습 정보 보강`용 에이전트를 따로 둘 수 있다. 이 확장 트랙은 [02a-wiki-enricher-extension.md](./02a-wiki-enricher-extension.md)에서 이어서 정리한다.

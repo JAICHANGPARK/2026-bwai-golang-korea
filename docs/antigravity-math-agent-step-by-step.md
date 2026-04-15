@@ -2,7 +2,7 @@
 
 이 문서는 `Antigravity`에서 이 저장소를 열고, 단계별 프롬프트로 `수학 해설 에이전트 프로토타입`을 차근차근 만드는 흐름을 안내한다.
 
-처음에는 어디서부터 시작해야 할지 조금 막막할 수 있는데, 이 문서대로 `Phase 1 -> Phase 2 -> Phase 3` 순서로만 가면 된다. 한 번에 완성형 앱을 만들려고 하기보다, 먼저 돌아가는 흐름을 만들고 점점 붙여 나간다고 생각하면 편하다.
+처음에는 어디서부터 시작해야 할지 조금 막막할 수 있는데, 이 문서대로 `Phase 1 -> Phase 2 -> Phase 3` 순서로만 가면 된다. 한 번에 완성형 앱을 만들려고 하기보다, 먼저 돌아가는 흐름을 만들고 점점 붙여 나간다고 생각하면 편하다. 기본형이 안정적으로 돌아가면 마지막에 `wiki enricher` 확장을 선택해서 붙일 수도 있다.
 
 핵심은 아래 두 스킬을 같이 쓰는 것이다.
 
@@ -19,11 +19,15 @@
 
 ## 1. 목표
 
-이 문서를 따라가면 아래 3가지를 순서대로 만들게 된다.
+이 문서를 따라가면 아래 3가지를 기본 흐름으로 만들게 된다.
 
 1. 터미널에서 실행 가능한 단일 수학 해설 에이전트
 2. subagent 오케스트레이션이 보이는 터미널 프로토타입
 3. 텍스트와 이미지 입력을 받을 수 있는 화면 프로토타입
+
+선택 확장:
+
+4. `LLM Wiki`를 읽어 난이도, 핵심 개념, 교육과정, 연관 학습 주제를 보강하는 `wiki enricher`
 
 ## 2. 시작 전에 알아둘 규칙
 
@@ -34,6 +38,7 @@
 - `RAG`, DB, 로그인, 개인화는 기본 범위에서 제외함
 - 먼저 `터미널 실행 경로`를 만든 뒤 화면으로 확장함
 - `review`가 승인하기 전에는 최종 해설을 확정하지 않음
+- 학습 메타데이터가 필요하면 `review approved 이후`에만 `wiki enrichment`를 붙임
 
 ## 3. Antigravity에서 처음 보내는 프롬프트
 
@@ -253,7 +258,53 @@ Do not add new major features.
 Do not add RAG, auth, persistence, or extra product scope.
 ```
 
-## 8. 최종 확인 체크리스트
+## 8. 선택 확장: Wiki Enricher
+
+기본 `solver + reviewer + UI` 흐름이 안정적으로 돌아간 뒤에만 이 확장을 붙이는 편이 좋다. 이 단계에서는 정답을 맞히는 구조를 바꾸지 않고, `LLM Wiki`를 읽어 학습 정보만 보강한다.
+
+### 권장 프롬프트
+
+```text
+Use the llm-wiki-workspace skill and the math-agent-hands-on-starter skill.
+
+Keep the current approved solution flow as-is.
+Add an optional wiki enricher step after review approval.
+
+Requirements:
+- Run the wiki enrichment step only after the review status is approved.
+- Read wiki/index.md first.
+- Read only the minimum relevant wiki pages.
+- Build a compact learning_context with:
+  - difficulty
+  - core concepts
+  - related curriculum placement
+  - follow-up topics
+  - wiki basis pages
+- Do not use wiki content to guess the math answer.
+- If wiki evidence is weak, mark the mapping as tentative.
+- Show the learning metadata in a separate learning info card in the UI.
+```
+
+### 이 확장에서 확인할 것
+
+- `review approved 이후`에만 실행되는가
+- `learning_context`가 별도 구조로 보이는가
+- 난이도, 개념, 교육과정, 연관 주제가 분리되어 나오는가
+- wiki 근거가 약할 때 추정이라고 표시하는가
+- 정답 풀이와 학습 정보가 서로 섞이지 않는가
+
+### 확장이 끝났을 때 보내는 확인 프롬프트
+
+```text
+Summarize the wiki enricher extension briefly.
+Show me:
+- where the wiki enrichment step runs
+- what learning_context contains
+- which wiki pages were used for one example
+- how the UI shows the learning info separately from the solution
+```
+
+## 9. 최종 확인 체크리스트
 
 마지막에는 아래 정도만 확인되면 데모하기에 충분하다.
 
@@ -261,6 +312,7 @@ Do not add RAG, auth, persistence, or extra product scope.
 - 조금 까다로운 텍스트 문제 1개
 - 이미지 문제 1개
 - 실패 또는 fallback 사례 1개
+- 선택 확장을 붙였다면 learning info 사례 1개
 
 확인할 화면 상태:
 
@@ -270,7 +322,12 @@ Do not add RAG, auth, persistence, or extra product scope.
 - approved result
 - fallback or failure
 
-## 9. 막혔을 때 쓰는 프롬프트
+선택 확장을 붙였다면 추가로:
+
+- learning info card
+- tentative curriculum mapping state
+
+## 10. 막혔을 때 쓰는 프롬프트
 
 ### 구현 범위가 너무 커졌을 때
 
@@ -307,7 +364,16 @@ Add a clearer fallback for image parsing uncertainty.
 If the image is unreadable or ambiguous, ask for a clearer upload instead of pretending success.
 ```
 
-## 10. 가장 짧은 버전
+### wiki enrichment가 정답 풀이와 섞일 때
+
+```text
+Separate the wiki enrichment step from the math solving step.
+The app must solve and review first.
+Only after approved review, build a separate learning_context from the wiki.
+Do not use wiki content to guess the answer.
+```
+
+## 11. 가장 짧은 버전
 
 진짜 짧게 시작하려면 아래 3개만 순서대로 넣어도 된다.
 
@@ -334,4 +400,12 @@ Keep it terminal-runnable.
 Use the math-agent-hands-on-starter skill.
 Phase 2 works now.
 Move to Phase 3 and build a backend plus UI prototype with text input, image upload, status states, result card, and failure card.
+```
+
+4. 선택 확장
+
+```text
+Use the llm-wiki-workspace skill.
+Keep the approved solution flow.
+Add a wiki enricher step after review approval and show the result in a separate learning info card.
 ```

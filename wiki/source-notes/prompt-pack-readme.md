@@ -2,7 +2,7 @@
 title: Source Note - Prompt Pack README
 type: source-note
 status: active
-updated: 2026-04-06
+updated: 2026-04-15
 source_docs:
   - docs/prompt-pack/README.md
 tags:
@@ -18,10 +18,11 @@ tags:
 
 ## Notable Claims
 
-- prompt pack은 참가자용 문서다.
+- prompt pack은 shared workspace에서 바로 쓰는 설계 문서다.
 - 메인 모델은 `gemini-3-flash-preview`다.
-- 사용 원칙은 `RAG 없음`, `두 에이전트만 사용`, `설계 결과 재사용`이다.
-- prompt pack은 `user flow -> agent design -> system prompts -> UI -> schema -> failure -> integration -> build` 순으로 진행된다.
+- 사용 원칙은 `RAG 없음`, `기본은 두 에이전트`, `설계 결과 재사용`이다.
+- 필요하면 `review approved 이후 wiki enrichment`를 확장 트랙으로 붙일 수 있다.
+- prompt pack은 `user flow -> agent design -> optional wiki enricher extension -> system prompts -> UI -> schema -> failure -> integration -> build` 순으로 진행된다.
 
 ## Pages Updated
 

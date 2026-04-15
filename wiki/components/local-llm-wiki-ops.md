@@ -32,13 +32,14 @@ tags:
 - `Gemini CLI` 경로
   - 프로젝트 `.gemini/settings.json`에서 `AGENTS.md`를 context file로 지정한다.
   - 첫 세션에서 `README.md`, `wiki/README.md`, `wiki/index.md`를 명시적으로 읽게 하는 프롬프트가 유용하다.
-  - `Phase 1 -> Phase 2 -> Phase 3`를 프롬프트로 고정하는 편이 안정적이다.
+  - `Phase 1 -> Phase 2 -> Phase 3`를 프롬프트로 고정하는 편이 안정적이고, 필요하면 그 뒤에 `wiki enricher` 확장을 붙일 수 있다.
 - `Antigravity` 경로
   - workspace skill로 `raw sources + persistent wiki` 규칙을 고정한다.
   - workspace `Rules`로 항상 적용되는 제약을 고정할 수 있다.
   - workspace `Workflows`로 `Phase 1 -> Phase 2 -> Phase 3` 순서를 재사용할 수 있다.
   - `math-agent-hands-on-starter` 스킬로 `Phase 1 -> Phase 2 -> Phase 3` 빌드 순서를 고정한다.
   - 질의, ingest, lint 모두 같은 규칙 위에서 수행한다.
+  - 학습 메타데이터가 필요하면 `review approved 이후 wiki enrichment`를 선택 확장으로 붙일 수 있다.
 - `query -> ingest -> lint` 순서로 사용하는 것이 자연스럽다.
   - 프로토타입 구현은 `terminal single agent -> subagents -> backend + UI` 순서가 자연스럽다.
 - 공유 workspace 패키징도 분리하는 편이 안정적이다.

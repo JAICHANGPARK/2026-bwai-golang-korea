@@ -6,6 +6,7 @@ updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
+  - docs/prompt-pack/02a-wiki-enricher-extension.md
   - docs/llm-wiki-usage-guide.md
   - docs/antigravity-math-agent-step-by-step.md
   - docs/gemini-cli-math-agent-step-by-step.md
@@ -36,6 +37,22 @@ tags:
 ---
 
 # Wiki Log
+
+## [2026-04-15] refine | step by step wiki enricher extension
+- Sources: docs/antigravity-math-agent-step-by-step.md, docs/gemini-cli-math-agent-step-by-step.md
+- Updated: wiki/source-notes/antigravity-math-agent-step-by-step.md, wiki/source-notes/gemini-cli-math-agent-step-by-step.md, wiki/components/local-llm-wiki-ops.md, wiki/log.md
+- Notes: 두 step-by-step 문서에도 `review approved 이후`에만 `LLM Wiki`를 읽는 `wiki enricher` 선택 확장 단계를 추가해 prompt pack과 hands-on 흐름이 어긋나지 않게 맞췄다.
+
+## [2026-04-15] ingest | wiki enricher extension for prompt pack
+- Sources: docs/prompt-pack/02a-wiki-enricher-extension.md, docs/prompt-pack/README.md, docs/prompt-pack/02-agent-design.md, docs/prompt-pack/03-system-prompts.md, docs/prompt-pack/06-integration-spec.md
+- Added: wiki/source-notes/prompt-pack-wiki-enricher-extension.md, wiki/components/wiki-enricher-agent.md
+- Updated: wiki/components/prompt-pack.md, wiki/components/internal-knowledge-base.md, wiki/profiles/hands-on-profile.md, wiki/source-notes/prompt-pack-readme.md, wiki/index.md, wiki/log.md
+- Notes: 기본 two-agent 흐름은 유지하되, reviewer 승인 이후 `LLM Wiki`를 읽어 `learning_context`를 만드는 `wiki enricher` 확장 에이전트와 ADK orchestration 흐름을 prompt pack에 추가했다.
+
+## [2026-04-15] refine | readme event positioning
+- Sources: README.md
+- Updated: wiki/overview/project-map.md, wiki/index.md, wiki/log.md
+- Notes: 저장소의 최상위 정체성을 `Build with AI Golang Korea 2026` 핸즈온 세션 workspace로 명확히 드러내도록 README와 관련 overview 문구를 보정했다.
 
 ## [2026-04-15] ingest | shared workspace packaging guide
 - Sources: docs/workspace-distribution-guide.md, docs/hands-on-assets/README.md, docs/hands-on-math-agent-session-guide.md

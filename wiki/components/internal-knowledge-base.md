@@ -27,6 +27,7 @@ tags:
   - 성취기준 연결
   - 오답 포인트 제안
   - 복습 주제 추천
+  - `learning_context` 같은 구조화 메타데이터 생성
 - 금지해야 할 사용
   - 유사 문항 검색으로 정답을 대체
   - 검색 결과를 그대로 정답처럼 복사
@@ -48,6 +49,8 @@ tags:
   - `CourseCard`
   - `StrategyCard`
   - `ErrorPatternCard`
+  - `ProblemMeta`
+  - `CurriculumMapping`
 
 ## Connections
 
@@ -55,6 +58,7 @@ tags:
 - 제품형 시스템의 상위 맥락은 [../profiles/product-expansion-profile.md](../profiles/product-expansion-profile.md)에 있다.
 - 원문 요약은 [../source-notes/internal-knowledge-base-build.md](../source-notes/internal-knowledge-base-build.md)를 본다.
 - 개념 문서 구조안은 [../syntheses/concept-card-model.md](../syntheses/concept-card-model.md)에 있다.
+- 핸즈온 확장 에이전트 관점에서는 [wiki-enricher-agent.md](./wiki-enricher-agent.md)가 이 지식 계층을 읽어 `learning_context`를 만든다.
 
 ## Open Questions
 

@@ -20,12 +20,19 @@ The prompt should include:
 - two-agent architecture
 - Solver role
 - Verifier role
+- optional post-verification wiki enrichment step for learning metadata
 - structured JSON outputs
 - a final explanation generation step after verification approval
+- if the wiki enrichment step is used, define a learning_context object for:
+  - difficulty
+  - concepts
+  - curriculum mapping
+  - related topics
 - a rule that the final explanation is streamed only after approved verification
 - a rule that revised means retry or hold, not immediate final display
 - simple Korean UI requirements
 - separate cards for solver, verifier, and final answer
+- if the wiki enrichment step is used, add a learning info card
 - streaming response requirement for the final user-facing explanation
 - Markdown rendering requirement for the final approved explanation
 - status handling for loading, streaming, verifying, completed, clarification needed
@@ -38,3 +45,4 @@ Keep it concise but implementation-ready.
 ## 기대 산출물
 
 - 하나의 통합 구현 명세 프롬프트
+- 선택 시 `wiki enrichment -> learning_context -> final explanation` 흐름까지 포함된 통합 명세

@@ -5,15 +5,19 @@
 `Antigravity`와 달리 `Gemini CLI`에서는 workspace skill을 직접 쓰지 않는다.  
 대신 이 저장소의 `.gemini/settings.json`이 `AGENTS.md`를 project context file로 읽게 하므로, `AGENTS.md + README + wiki/index.md`를 기반으로 진행한다.
 
-처음에는 그냥 긴 세션에서 하나씩 이어 붙인다고 생각하면 된다. 먼저 터미널에서 돌고, 그 다음 subagent로 나누고, 마지막에 화면을 붙이는 흐름이다.
+처음에는 그냥 긴 세션에서 하나씩 이어 붙인다고 생각하면 된다. 먼저 터미널에서 돌고, 그 다음 subagent로 나누고, 마지막에 화면을 붙이는 흐름이다. 기본형이 안정적으로 돌아가면 마지막에 `wiki enricher` 확장을 선택해서 붙일 수도 있다.
 
 ## 1. 목표
 
-이 문서를 따라가면 아래 3가지를 순서대로 만들게 된다.
+이 문서를 따라가면 아래 3가지를 기본 흐름으로 만들게 된다.
 
 1. 터미널에서 실행 가능한 단일 수학 해설 에이전트
 2. subagent 오케스트레이션이 보이는 터미널 프로토타입
 3. 텍스트와 이미지 입력을 받을 수 있는 화면 프로토타입
+
+선택 확장:
+
+4. `LLM Wiki`를 읽어 난이도, 핵심 개념, 교육과정, 연관 학습 주제를 보강하는 `wiki enricher`
 
 ## 2. 시작 전에 알아둘 규칙
 
@@ -24,6 +28,7 @@
 - `RAG`, DB, 로그인, 개인화는 기본 범위에서 제외함
 - 먼저 `터미널 실행 경로`를 만든 뒤 화면으로 확장함
 - `review`가 승인하기 전에는 최종 해설을 확정하지 않음
+- 학습 메타데이터가 필요하면 `review approved 이후`에만 `wiki enrichment`를 붙임
 
 ## 3. 설치와 실행
 
@@ -243,7 +248,51 @@ Show me:
 - one fallback path
 ```
 
-## 8. 마지막 다듬기 프롬프트
+## 8. 선택 확장: Wiki Enricher
+
+기본 `solver + reviewer + UI` 흐름이 안정적으로 돌아간 뒤에만 이 확장을 붙이는 편이 좋다. 여기서는 정답 풀이를 바꾸지 않고, `LLM Wiki`를 읽어 학습 정보만 보강한다.
+
+### 권장 프롬프트
+
+```text
+Keep the current approved solution flow as-is.
+Add an optional wiki enricher step after review approval.
+
+Requirements:
+- Run the wiki enrichment step only after the review status is approved.
+- Read wiki/index.md first.
+- Read only the minimum relevant wiki pages.
+- Build a compact learning_context with:
+  - difficulty
+  - core concepts
+  - related curriculum placement
+  - follow-up topics
+  - wiki basis pages
+- Do not use wiki content to guess the math answer.
+- If wiki evidence is weak, mark the mapping as tentative.
+- Show the learning metadata in a separate learning info card in the UI.
+```
+
+### 이 확장에서 확인할 것
+
+- `review approved 이후`에만 실행되는가
+- `learning_context`가 별도 구조로 보이는가
+- 난이도, 개념, 교육과정, 연관 주제가 분리되어 나오는가
+- wiki 근거가 약할 때 추정이라고 표시하는가
+- 정답 풀이와 학습 정보가 서로 섞이지 않는가
+
+### 확장이 끝났을 때 보내는 확인 프롬프트
+
+```text
+Summarize the wiki enricher extension briefly.
+Show me:
+- where the wiki enrichment step runs
+- what learning_context contains
+- which wiki pages were used for one example
+- how the UI shows the learning info separately from the solution
+```
+
+## 9. 마지막 다듬기 프롬프트
 
 기본 기능이 안정적으로 돌아간 뒤에만 이 단계를 넣는 편이 좋다.
 
@@ -260,12 +309,13 @@ Do not add new major features.
 Do not add RAG, auth, persistence, or extra product scope.
 ```
 
-## 9. 최종 확인 체크리스트
+## 10. 최종 확인 체크리스트
 
 - 정상 텍스트 문제 1개
 - 조금 까다로운 텍스트 문제 1개
 - 이미지 문제 1개
 - 실패 또는 fallback 사례 1개
+- 선택 확장을 붙였다면 learning info 사례 1개
 
 확인할 화면 상태:
 
@@ -275,7 +325,12 @@ Do not add RAG, auth, persistence, or extra product scope.
 - approved result
 - fallback or failure
 
-## 10. 막혔을 때 쓰는 프롬프트
+선택 확장을 붙였다면 추가로:
+
+- learning info card
+- tentative curriculum mapping state
+
+## 11. 막혔을 때 쓰는 프롬프트
 
 ### 구현 범위가 너무 커졌을 때
 
@@ -312,7 +367,16 @@ Add a clearer fallback for image parsing uncertainty.
 If the image is unreadable or ambiguous, ask for a clearer upload instead of pretending success.
 ```
 
-## 11. Gemini CLI에서 추가로 유용한 점
+### wiki enrichment가 정답 풀이와 섞일 때
+
+```text
+Separate the wiki enrichment step from the math solving step.
+The app must solve and review first.
+Only after approved review, build a separate learning_context from the wiki.
+Do not use wiki content to guess the answer.
+```
+
+## 12. Gemini CLI에서 추가로 유용한 점
 
 - `Antigravity`의 skill 이름을 직접 쓸 필요는 없다.
 - 대신 `AGENTS.md`와 현재 phase를 프롬프트에서 명확히 고정하는 것이 중요하다.
@@ -329,7 +393,7 @@ Show:
 - current blockers
 ```
 
-## 12. 가장 짧은 버전
+## 13. 가장 짧은 버전
 
 1. 첫 시작
 
@@ -351,4 +415,11 @@ Keep it terminal-runnable.
 ```text
 Phase 2 works now.
 Move to Phase 3 and build a backend plus UI prototype with text input, image upload, status states, result card, and failure card.
+```
+
+4. 선택 확장
+
+```text
+Keep the approved solution flow.
+Add a wiki enricher step after review approval and show the result in a separate learning info card.
 ```

@@ -16,7 +16,7 @@ tags:
 
 ## Source Summary
 
-이 문서는 Antigravity에서 이 저장소를 열고 `llm-wiki-workspace`와 `math-agent-hands-on-starter` 스킬을 사용해 `Phase 1 -> Phase 2 -> Phase 3` 순서로 수학 해설 에이전트 프로토타입을 만드는 단계별 프롬프트 흐름을 정리한다.
+이 문서는 Antigravity에서 이 저장소를 열고 `llm-wiki-workspace`와 `math-agent-hands-on-starter` 스킬을 사용해 `Phase 1 -> Phase 2 -> Phase 3` 순서로 수학 해설 에이전트 프로토타입을 만들고, 필요하면 `wiki enricher` 확장을 추가하는 단계별 프롬프트 흐름을 정리한다.
 
 ## Notable Claims
 
@@ -24,6 +24,7 @@ tags:
 - 구현 순서는 `터미널 단일 에이전트 -> 터미널 subagent orchestration -> backend + UI`가 적절하다.
 - 각 phase마다 바로 복붙 가능한 프롬프트와 종료 확인 프롬프트를 분리해 두면 진행이 안정적이다.
 - 가장 중요한 제약은 `RAG 없음`, `Phase 건너뛰지 않음`, `review 승인 전 최종 해설 금지`다.
+- 필요하면 `review approved 이후`에만 `LLM Wiki`를 읽어 `learning_context`를 만드는 `wiki enricher` 확장을 추가할 수 있다.
 - 마지막에는 정상 텍스트, 까다로운 텍스트, 이미지, fallback 사례까지 점검하는 흐름이 권장된다.
 
 ## Pages Updated

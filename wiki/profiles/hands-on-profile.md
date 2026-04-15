@@ -6,6 +6,7 @@ updated: 2026-04-15
 source_docs:
   - docs/hands-on-math-agent-session-guide.md
   - docs/prompt-pack/README.md
+  - docs/prompt-pack/02a-wiki-enricher-extension.md
   - docs/llm-wiki-usage-guide.md
   - docs/antigravity-math-agent-step-by-step.md
   - docs/gemini-cli-math-agent-step-by-step.md
@@ -34,9 +35,13 @@ tags:
   - 스트리밍 및 Markdown UX
 - 제약은 명확하다.
   - `RAG 사용 안 함`
-  - `두 에이전트만 사용`
+  - `기본은 두 에이전트`
   - `메인 모델은 gemini-3-flash-preview`
   - `검증 승인 후에만 최종 설명 표시`
+- 기본형이 안정적으로 동작하면 선택 확장을 붙일 수 있다.
+  - `wiki enricher`
+  - `review approved 이후`에만 실행
+  - `난이도`, `핵심 개념`, `교육과정`, `연관 학습 주제` 보강
 - 세션 산출물은 프롬프트 팩과 통합 명세 프롬프트로 이어진다.
 - 세션 이후의 로컬 활용 경로도 만들 수 있다.
   - 저장소 clone
@@ -83,3 +88,4 @@ tags:
 - `docs/antigravity-workspace-rules-draft.md`
 - `docs/antigravity-workflow-usage-guide.md`
 - `docs/workspace-distribution-guide.md`
+- `docs/prompt-pack/02a-wiki-enricher-extension.md`
