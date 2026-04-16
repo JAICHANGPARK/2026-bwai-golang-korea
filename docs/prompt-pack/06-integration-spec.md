@@ -21,6 +21,7 @@ The prompt should include:
 - Solver role
 - Verifier role
 - optional post-verification wiki enrichment step for learning metadata
+- if the wiki enrichment step is used, define a local wiki lookup helper or context builder instead of relying on prompt-only file reading
 - structured JSON outputs
 - a final explanation generation step after verification approval
 - if the wiki enrichment step is used, define a learning_context object for:

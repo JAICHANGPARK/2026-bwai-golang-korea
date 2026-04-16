@@ -39,6 +39,9 @@ tags:
   - `curriculum_candidates`
   - `related_topics`
   - `wiki_basis_pages`
+- 구현 힌트
+  - 실제 `ADK` 앱에서는 prompt만으로 workspace wiki를 읽지 말고, 로컬 lookup helper가 `wiki/index.md`와 관련 page를 검색해 compact evidence bundle을 만들도록 두는 편이 안정적이다.
+  - starter kit 기준 helper 경로는 `starter-kits/adk-python/shared/wiki_lookup_tool.py`, `starter-kits/adk-go/shared/wiki_lookup_tool.go`다.
 
 ## Connections
 
@@ -46,6 +49,7 @@ tags:
 - 승인 여부는 [expert-verifier-agent.md](./expert-verifier-agent.md)가 결정한다.
 - 이 에이전트가 만든 결과는 `learning_context`로 final explainer에 넘어간다.
 - 지식 계층의 역할 정의는 [internal-knowledge-base.md](./internal-knowledge-base.md)에 있다.
+- prompt pack의 확장 지침은 [../source-notes/prompt-pack-wiki-enricher-extension.md](../source-notes/prompt-pack-wiki-enricher-extension.md)에 요약되어 있다.
 
 ## Open Questions
 

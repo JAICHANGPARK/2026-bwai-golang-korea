@@ -56,8 +56,8 @@ tags:
 - [components/expert-verifier-agent.md](./components/expert-verifier-agent.md) - 엄격한 수학 검증과 승인 결정을 담당하는 에이전트의 역할을 정리한다. Sources: 3
 - [components/internal-knowledge-base.md](./components/internal-knowledge-base.md) - 내부 지식 계층의 층위, 타입, 활용 범위를 정리한다. Sources: 4
 - [components/prompt-pack.md](./components/prompt-pack.md) - 핸즈온용 프롬프트 팩의 사용 순서와 범위를 정리한다. Sources: 3
-- [components/wiki-enricher-agent.md](./components/wiki-enricher-agent.md) - reviewer 승인 후 `LLM Wiki`를 읽어 난이도, 개념, 교육과정, 연관 학습 주제를 보강하는 확장 에이전트 역할을 정리한다. Sources: 2
-- [components/local-llm-wiki-ops.md](./components/local-llm-wiki-ops.md) - clone 이후 `Gemini CLI`와 `Antigravity`로 이 저장소를 LLM Wiki 및 hands-on workspace로 운영하고, 공개용 자산과 starter kit을 어떻게 나눌지 정리한다. Sources: 6
+- [components/wiki-enricher-agent.md](./components/wiki-enricher-agent.md) - reviewer 승인 후 `LLM Wiki`를 읽어 난이도, 개념, 교육과정, 연관 학습 주제를 보강하는 확장 에이전트 역할과 starter kit용 local lookup helper 연결 지점을 정리한다. Sources: 2
+- [components/local-llm-wiki-ops.md](./components/local-llm-wiki-ops.md) - clone 이후 `Gemini CLI`와 `Antigravity`로 이 저장소를 LLM Wiki 및 hands-on workspace로 운영하고, 실제 ADK 앱으로 이어질 때 local wiki lookup helper를 어디에 붙일지까지 정리한다. Sources: 6
 - [components/antigravity-workspace-automation.md](./components/antigravity-workspace-automation.md) - Antigravity에서 `Rules`, `Workflows`, `Skills`를 어떻게 나눠 구성할지 정리한다. Sources: 2
 
 ## Syntheses

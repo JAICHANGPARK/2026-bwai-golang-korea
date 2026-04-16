@@ -15,7 +15,8 @@ phase-2-subagents/
 │   └── agents/
 │       ├── problem_interpreter.go
 │       ├── solver.go
-│       └── reviewer.go
+│       ├── reviewer.go
+│       └── wiki_enricher.go   # optional
 └── testdata/
     └── smoke_subagents.md
 ```
@@ -25,3 +26,15 @@ phase-2-subagents/
 - 문제 해석, 풀이, 검토 단계가 분리된다.
 - 검토 실패 시 재시도 또는 fallback 메시지를 보여준다.
 - 터미널에서 단계별 intermediate result를 확인할 수 있다.
+
+## Optional Wiki Lookup
+
+`reviewer`가 승인한 뒤에만 `starter-kits/adk-go/shared/wiki_lookup_tool.go`를 호출해 관련 wiki page 후보를 가져온다.
+
+이 단계의 역할은 아래로 제한하는 편이 좋다.
+
+- 입력: `problemText`, `conceptCandidates`, `approvedSolutionSummary`
+- 검색: `wiki/index.md`와 관련 wiki page 최소 조회
+- 출력: `query_keywords`, `matches`, `index_excerpt`
+
+Phase 2에서는 이 결과를 터미널에 구조화해서 출력해도 충분하다.

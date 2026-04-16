@@ -80,7 +80,34 @@ flowchart TD
 
 즉, 정답은 solver와 reviewer가 만들고, `교육과정/난이도/개념`은 wiki enricher가 보강한다.
 
-## 3. 참석자용 프롬프트 지시문
+## 3. Wiki Lookup 인터페이스
+
+실제 `ADK` 앱 에이전트에서는 prompt만으로 workspace wiki를 읽는 대신, 로컬 file lookup helper나 tool을 두는 편이 맞다.
+
+핸즈온에서는 아래 수준으로 고정하면 충분하다.
+
+- 입력
+  - `problem_text`
+  - `concept_candidates`
+  - `approved_solution_summary`
+  - `target_profile`
+- 검색
+  - `wiki/index.md` 먼저 조회
+  - 관련 wiki page 최소 조회
+- 출력
+  - `query_keywords`
+  - `index_excerpt`
+  - `matches`
+  - `usage_notes`
+
+starter kit에는 아래 helper 골격이 들어간다.
+
+- Python: `starter-kits/adk-python/shared/wiki_lookup_tool.py`
+- Go: `starter-kits/adk-go/shared/wiki_lookup_tool.go`
+
+이 helper의 출력은 최종 답변이 아니라, `Wiki Knowledge Enricher`가 `learning_context`를 만들기 위한 compact evidence seed다.
+
+## 4. 참석자용 프롬프트 지시문
 
 아래 문장은 `wiki enricher` 에이전트 prompt나 orchestrator instruction에 그대로 넣어도 된다.
 
@@ -119,3 +146,4 @@ If learning_context is weak, say that the mapping is tentative.
 - `Wiki Knowledge Enricher` 역할 정의
 - `approved -> wiki enrichment -> final explanation` 흐름
 - `learning_context`를 만드는 prompt instruction 초안
+- wiki lookup helper/tool 인터페이스

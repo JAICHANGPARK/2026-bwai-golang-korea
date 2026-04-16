@@ -43,6 +43,11 @@ tags:
 - Updated: wiki/source-notes/antigravity-math-agent-step-by-step.md, wiki/source-notes/gemini-cli-math-agent-step-by-step.md, wiki/components/local-llm-wiki-ops.md, wiki/log.md
 - Notes: 두 step guide의 `wiki enricher` 확장에 prompt-only file reading 대신 local `wiki lookup helper`나 `context builder`를 실제 ADK 앱 코드에 넣어야 한다는 점을 명시했다.
 
+## [2026-04-15] scaffold | adk wiki lookup helper starter kit
+- Sources: docs/prompt-pack/02a-wiki-enricher-extension.md, docs/prompt-pack/06-integration-spec.md, starter-kits/README.md, starter-kits/adk-python/README.md, starter-kits/adk-go/README.md
+- Updated: wiki/source-notes/prompt-pack-wiki-enricher-extension.md, wiki/components/wiki-enricher-agent.md, wiki/index.md, wiki/log.md
+- Notes: 실제 ADK 앱에서는 prompt-only file reading 대신 local wiki lookup helper가 필요하다는 점을 starter kit과 prompt pack에 반영하고, Python/Go용 shared helper 골격을 추가했다.
+
 ## [2026-04-15] refine | step by step wiki enricher extension
 - Sources: docs/antigravity-math-agent-step-by-step.md, docs/gemini-cli-math-agent-step-by-step.md
 - Updated: wiki/source-notes/antigravity-math-agent-step-by-step.md, wiki/source-notes/gemini-cli-math-agent-step-by-step.md, wiki/components/local-llm-wiki-ops.md, wiki/log.md

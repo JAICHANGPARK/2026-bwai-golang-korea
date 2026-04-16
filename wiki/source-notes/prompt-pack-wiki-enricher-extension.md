@@ -23,6 +23,7 @@ tags:
 - `reviewer approved 이후`에만 실행하는 것이 핵심 원칙이다.
 - `ADK`에서는 `approved_solution`과 `learning_context`를 분리해 final explainer에 주입하는 구조가 자연스럽다.
 - 참가자용 prompt instruction에는 `wiki/index.md -> 관련 페이지 최소 조회 -> learning_context 생성` 흐름을 명시하는 편이 안정적이다.
+- 실제 앱 구현에서는 prompt-only file reading 대신 로컬 `wiki lookup helper`나 `context builder`를 두고, 그 결과를 `Wiki Knowledge Enricher`가 구조화하는 편이 안정적이다.
 
 ## Pages Updated
 
@@ -33,6 +34,7 @@ tags:
 ## Open Questions
 
 - 핸즈온 본 세션에 `wiki enricher`를 기본 트랙으로 넣을지, 확장 트랙으로만 둘지는 아직 선택 여지가 있다.
+- starter kit의 helper를 바로 `ADK tool`로 감쌀지, orchestrator 내부 helper로만 둘지는 구현 팀 선택에 달려 있다.
 
 ## Raw Source
 
