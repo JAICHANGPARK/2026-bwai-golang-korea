@@ -232,8 +232,8 @@ tags:
 - [source-notes/prompt-pack-readme.md](./source-notes/prompt-pack-readme.md) - 프롬프트 팩의 사용 범위와 순서 요약
 - [source-notes/prompt-pack-wiki-enricher-extension.md](./source-notes/prompt-pack-wiki-enricher-extension.md) - `wiki enricher` 확장 에이전트와 `learning_context` 흐름 요약
 - [source-notes/llm-wiki-usage-guide.md](./source-notes/llm-wiki-usage-guide.md) - clone 이후 `Gemini CLI`와 `Antigravity`에서 위키를 운영하는 흐름 요약
-- [source-notes/gemini-cli-math-agent-step-by-step.md](./source-notes/gemini-cli-math-agent-step-by-step.md) - Gemini CLI에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약
-- [source-notes/antigravity-math-agent-step-by-step.md](./source-notes/antigravity-math-agent-step-by-step.md) - Antigravity에서 수학 해설 프로토타입을 단계별로 만드는 프롬프트 흐름 요약
+- [source-notes/gemini-cli-math-agent-step-by-step.md](./source-notes/gemini-cli-math-agent-step-by-step.md) - Gemini CLI에서 수학 해설 프로토타입을 단계별로 만들고, 필요하면 local wiki lookup helper를 붙이는 흐름 요약
+- [source-notes/antigravity-math-agent-step-by-step.md](./source-notes/antigravity-math-agent-step-by-step.md) - Antigravity에서 수학 해설 프로토타입을 단계별로 만들고, 필요하면 local wiki lookup helper를 붙이는 흐름 요약
 - [source-notes/antigravity-workspace-rules-draft.md](./source-notes/antigravity-workspace-rules-draft.md) - Antigravity workspace rules에 붙여넣을 수 있는 규칙 초안 요약
 - [source-notes/antigravity-workflow-usage-guide.md](./source-notes/antigravity-workflow-usage-guide.md) - Antigravity workflow를 어떤 역할 분리와 순서로 쓰는 것이 적절한지 요약
 - [source-notes/workspace-distribution-guide.md](./source-notes/workspace-distribution-guide.md) - 공유 workspace에서 공개용 자산, starter kit, facilitator 전용 메모를 어떻게 분리할지 요약

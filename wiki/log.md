@@ -38,6 +38,11 @@ tags:
 
 # Wiki Log
 
+## [2026-04-15] refine | step guides mention local wiki lookup helper
+- Sources: docs/antigravity-math-agent-step-by-step.md, docs/gemini-cli-math-agent-step-by-step.md
+- Updated: wiki/source-notes/antigravity-math-agent-step-by-step.md, wiki/source-notes/gemini-cli-math-agent-step-by-step.md, wiki/components/local-llm-wiki-ops.md, wiki/log.md
+- Notes: 두 step guide의 `wiki enricher` 확장에 prompt-only file reading 대신 local `wiki lookup helper`나 `context builder`를 실제 ADK 앱 코드에 넣어야 한다는 점을 명시했다.
+
 ## [2026-04-15] refine | step by step wiki enricher extension
 - Sources: docs/antigravity-math-agent-step-by-step.md, docs/gemini-cli-math-agent-step-by-step.md
 - Updated: wiki/source-notes/antigravity-math-agent-step-by-step.md, wiki/source-notes/gemini-cli-math-agent-step-by-step.md, wiki/components/local-llm-wiki-ops.md, wiki/log.md

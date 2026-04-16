@@ -25,6 +25,7 @@ tags:
 - 구현 순서는 `터미널 단일 에이전트 -> 터미널 subagent orchestration -> backend + UI`가 적절하다.
 - 각 phase마다 바로 복붙 가능한 프롬프트와 종료 확인 프롬프트를 분리해 두면 진행이 안정적이다.
 - 필요하면 `review approved 이후`에만 `LLM Wiki`를 읽어 `learning_context`를 만드는 `wiki enricher` 확장을 추가할 수 있다.
+- 실제 `ADK` 앱에서는 `wiki enricher` 단계에 local `wiki lookup helper`나 `context builder`를 코드로 붙이는 것이 권장된다.
 - `Gemini CLI`에서는 중간중간 상태 요약 프롬프트를 넣어 컨텍스트를 정리하는 것이 특히 유용하다.
 
 ## Pages Updated
@@ -37,6 +38,7 @@ tags:
 
 - `Gemini CLI`와 `Antigravity` 중 어느 쪽을 기본 예시로 둘지 선택이 필요하다.
 - `adk-go` 선택 트랙까지 같은 문서에 직접 포함할지는 아직 열려 있다.
+- helper를 `ADK tool`로 감쌀지, orchestrator 내부 helper로 둘지는 팀 구현 스타일에 따라 달라질 수 있다.
 
 ## Raw Source
 

@@ -29,6 +29,7 @@
 - 먼저 `터미널 실행 경로`를 만든 뒤 화면으로 확장함
 - `review`가 승인하기 전에는 최종 해설을 확정하지 않음
 - 학습 메타데이터가 필요하면 `review approved 이후`에만 `wiki enrichment`를 붙임
+- 실제 `ADK` 앱에서는 prompt만으로 workspace wiki를 읽지 말고, local `wiki lookup helper`나 `context builder`를 코드로 둠
 
 ## 3. 설치와 실행
 
@@ -252,6 +253,11 @@ Show me:
 
 기본 `solver + reviewer + UI` 흐름이 안정적으로 돌아간 뒤에만 이 확장을 붙이는 편이 좋다. 여기서는 정답 풀이를 바꾸지 않고, `LLM Wiki`를 읽어 학습 정보만 보강한다.
 
+실제 `ADK` 앱에서는 여기서 prompt만 길게 쓰는 것보다, local helper를 하나 두고 그 helper가 `wiki/index.md`와 관련 문서를 찾게 하는 편이 더 안정적이다. 이 저장소에서는 아래 경로를 기준으로 생각하면 된다.
+
+- Python: `starter-kits/adk-python/shared/wiki_lookup_tool.py`
+- Go: `starter-kits/adk-go/shared/wiki_lookup_tool.go`
+
 ### 권장 프롬프트
 
 ```text
@@ -260,8 +266,19 @@ Add an optional wiki enricher step after review approval.
 
 Requirements:
 - Run the wiki enrichment step only after the review status is approved.
-- Read wiki/index.md first.
-- Read only the minimum relevant wiki pages.
+- For a real ADK app, add a local wiki lookup helper or context builder instead of relying on prompt-only file reading.
+- Use the local helper to read wiki/index.md first.
+- Use the local helper to search only the minimum relevant wiki pages.
+- The helper should take:
+  - problem_text
+  - concept_candidates
+  - approved_solution_summary
+  - target_profile
+- The helper should return:
+  - query_keywords
+  - index_excerpt
+  - matches
+  - usage_notes
 - Build a compact learning_context with:
   - difficulty
   - core concepts
@@ -276,6 +293,8 @@ Requirements:
 ### 이 확장에서 확인할 것
 
 - `review approved 이후`에만 실행되는가
+- 실제 앱 코드에 local wiki lookup helper가 들어가는가
+- helper 출력과 `learning_context`가 구분되는가
 - `learning_context`가 별도 구조로 보이는가
 - 난이도, 개념, 교육과정, 연관 주제가 분리되어 나오는가
 - wiki 근거가 약할 때 추정이라고 표시하는가
@@ -287,6 +306,7 @@ Requirements:
 Summarize the wiki enricher extension briefly.
 Show me:
 - where the wiki enrichment step runs
+- where the local wiki lookup helper runs
 - what learning_context contains
 - which wiki pages were used for one example
 - how the UI shows the learning info separately from the solution
@@ -372,7 +392,7 @@ If the image is unreadable or ambiguous, ask for a clearer upload instead of pre
 ```text
 Separate the wiki enrichment step from the math solving step.
 The app must solve and review first.
-Only after approved review, build a separate learning_context from the wiki.
+Only after approved review, use a local wiki lookup helper to gather wiki evidence and then build a separate learning_context from it.
 Do not use wiki content to guess the answer.
 ```
 
@@ -421,5 +441,6 @@ Move to Phase 3 and build a backend plus UI prototype with text input, image upl
 
 ```text
 Keep the approved solution flow.
-Add a wiki enricher step after review approval and show the result in a separate learning info card.
+Add a wiki enricher step after review approval.
+Use a local wiki lookup helper for the real ADK app, then show the result in a separate learning info card.
 ```
