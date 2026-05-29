@@ -2,7 +2,7 @@
 
 이 저장소는 `Build with AI Golang Korea 2026` 이벤트의 `수학 문제 해설 에이전트` 핸즈온 세션 자료를 중심으로 정리한 workspace다.
 
-행사에서는 참가자가 `AI Studio -> Build -> Antigravity` 흐름으로 수학 해설 에이전트를 설계하고, 터미널 프로토타입과 화면 프로토타입까지 직접 만들어보는 것을 목표로 한다. 이 저장소에는 그 흐름을 바로 따라갈 수 있는 가이드, 프롬프트 팩, handout, starter kit, workspace automation 초안이 함께 들어 있다.
+행사에서는 `AI Studio -> Build -> Antigravity` 흐름으로 수학 해설 에이전트를 설계하고, 터미널 프로토타입과 화면 프로토타입까지 직접 만들어보는 것을 목표로 한다. 이 저장소에는 그 흐름을 바로 따라갈 수 있는 가이드, 프롬프트 팩, handout, starter kit, workspace automation 초안이 함께 들어 있다.
 
 같은 workspace 안에는 행사 이후를 위한 다음 단계 문서도 같이 정리해 둔다.
 
